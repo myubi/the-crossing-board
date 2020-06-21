@@ -9,7 +9,7 @@ cache:
 
 pages:
   script:
-    - make build-prod
+    - npm run build
     - mv out public
   artifacts:
     paths:
