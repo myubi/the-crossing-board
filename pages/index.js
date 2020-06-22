@@ -6,7 +6,7 @@ export default function Home() {
       <Head>
         <title>The Crossing Board</title>
         <link rel="icon" href="/favicon.ico" />
-        <link href="https://fonts.googleapis.com/css2?family=Solway&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Solway:wght@400;700&display=swap" rel="stylesheet" />
       </Head>
 
       <main>
@@ -18,9 +18,12 @@ export default function Home() {
         </h1>
         <div>
           <p>Follow us at:</p>
-          <p><a href="https://www.instagram.com/crossingboard/" target="_blank">crossingboard</a></p>
-          <p><a href="https://youtube.com/thecrossingboard" target="_blank">thecrossingboard</a></p>  
-          <p><a href="https://pinterest.com/thecrossingboard" target="_blank">thecrossingboard</a></p>  
+          <div className="social-icons">
+            <a href="https://instagram.com/thecrossingboard" target="_blank"><img className="social-icon" src="/instagram.png" /></a>
+            <a href="https://twitter.com/crossingboard" target="_blank"><img className="social-icon" src="/twitter.png" /></a>
+            <a href="https://youtube.com/thecrossingboard" target="_blank"><img className="social-icon" src="/youtube.png" /></a> 
+            <a href="https://pinterest.com/thecrossingboard" target="_blank"><img className="social-icon" src="/pinterest.png" /></a>
+          </div>
         </div>
       </main>
 
@@ -50,6 +53,7 @@ export default function Home() {
         .title {
           font-size: 2em;
           text-transform: uppercase;
+          font-weight: bold;
         }
         a {
           color: #DEB88D;
@@ -57,11 +61,38 @@ export default function Home() {
         }
         
         a:hover {
-          color: #D19740;
+          opacity: 0.8;
         }
 
         .logo {
           max-width: 300px;
+        }
+        
+        .social-icons {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          width: 340px;
+        
+        }
+        
+        p {
+          text-transform: uppercase;
+        }
+        
+        @media (max-width: 340px) { 
+          .social-icons {
+            width: 80vw;
+            justify-content: center;
+          }
+          .social-icon {
+            margin: 5px;
+          }    
+        }
+        
+        .social-icon {
+          max-width: 70px;
         }
 
       `}</style>
