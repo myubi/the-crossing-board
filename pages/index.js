@@ -21,7 +21,7 @@ export default function Home() {
           <div className="social-icons">
             <a href="https://instagram.com/thecrossingboard" target="_blank"><img className="social-icon" src="/instagram.png" /></a>
             <a href="https://twitter.com/crossingboard" target="_blank"><img className="social-icon" src="/twitter.png" /></a>
-            <a href="https://youtube.com/thecrossingboard" target="_blank"><img className="social-icon" src="/youtube.png" /></a> 
+            <a href="https://www.youtube.com/channel/UCOdDruGmf_Sr3f4ol9dG3NQ" target="_blank"><img className="social-icon" src="/youtube.png" /></a> 
             <a href="https://pinterest.com/thecrossingboard" target="_blank"><img className="social-icon" src="/pinterest.png" /></a>
           </div>
         </div>
