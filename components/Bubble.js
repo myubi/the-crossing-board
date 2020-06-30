@@ -132,14 +132,27 @@ export default function Bubble(props) {
               }
             }
             
-            @media (max-width: 768px) {
+            @media (max-width: 812px) {
               .dialogue {
                 min-width: 80vw;
-                min-height: 60vh;
+                min-height: 70vh;
               }
               
               .dialogue-text {
-                padding: 1.5em 3em;
+                padding: 1.5em 1.8em;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                font-size: 0.85em;
+              }
+              
+              .dialogue-blob-top {
+                border-radius: 100% 100% 30% 30% / 150% 150% 150% 150%;
+              }
+
+              .dialogue-blob-bottom {
+                border-radius: 5% 5% 100% 100% / 100% 100% 100% 100%;
               }
             }
 
