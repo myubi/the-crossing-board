@@ -8,6 +8,13 @@
 			"bio":"Alice (she/her): currently an LPC and masters student, my role is to make sure that our projects are safe for everyone to enjoy and respect copyright & IP laws. I like knitting, theatre and animals "
 		},
 		{
+			"name":"Bea",
+			"role":"Project Management Director",
+			"picture": "../images/profiles/placeholder-profile.png",
+			"twitter":"beatrizcrossing",
+			"bio":"Hi everyone! I'm bea, one the executives. I love chicken nuggets and bluebear! Stay safe!"
+		},
+		{
 			"name":"Bre",
 			"role":"DIY Artist",
 			"picture": "../images/profiles/placeholder-profile.png",
