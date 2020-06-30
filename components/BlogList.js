@@ -39,10 +39,6 @@ const BlogList = (props) => {
             text-decoration: none;
             color: #165940;
           }
-
-          a:hover {
-            opacity: 1;
-          }
           
           .notice-board {
             margin-top: 50px;
@@ -54,6 +50,17 @@ const BlogList = (props) => {
             max-width: 500px;
             padding: 20px;
             position: relative;
+          }
+          
+          a:hover > .content-thumb { 
+            animation: pulse 1.5s infinite;
+            animation-timing-function: linear;   
+          }
+
+          @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1);}
+            100% { transform: scale(1); }
           }
 
           h3 {
@@ -77,8 +84,10 @@ const BlogList = (props) => {
             border-radius: 100%;
             box-shadow: 1px 3px 8px 0px #737373
           }
-          @media (min-width: 768px) {
-
+          @media (max-width: 768px) {
+            .content-thumb {
+              margin: 0 20px;
+            }
           }
           @media (min-width: 1280px) {
 

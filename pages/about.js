@@ -47,7 +47,7 @@ export default function Info(props) {
         max-width: 80vw;
       }
       .passport-sides {
-        background-image: url('../passport-bg-01.jpg');
+        background-image: url('../images/passport-bg-01.jpg');
         color: rgba(55, 110, 85, 0.56);
         padding: 15px;
       }
@@ -94,7 +94,7 @@ export default function Info(props) {
         max-width: 600px;
         border-radius: 30px;
         margin: 20px;
-        background-image: url('../passport-bg-02.jpg');
+        background-image: url('../images/passport-bg-02.jpg');
         color: #165940;
         display: flex;
         flex-direction: column;
@@ -103,6 +103,11 @@ export default function Info(props) {
       
       .passport-wrapper a {
         color: #165940;
+        transition: all .2s ease-in-out;
+      }
+      
+      .passport-wrapper a:hover {
+        color: #82b75a;
       }
       
       .contents-wrapper {
@@ -142,18 +147,6 @@ export default function Info(props) {
         padding-right: 10px;
       }
       
-      .profile-name {
-        
-      }
-      
-      .profile-role {
-        
-      }
-      
-      .profile-twitter {
-        
-      }
-      
       .profile-bio {
         position: relative;
         background: #fefce7;
@@ -176,16 +169,32 @@ export default function Info(props) {
       	margin-left: -.8em;
       }
       
-      @media (min-width: 768px) {
-        .info_blurb {
-          padding: 2rem;
+      @media (max-width: 768px) {
+        .contents-wrapper {
+          flex-direction: column;
         }
-      }
-      
-      @media (min-width: 1440px) {
-        .info_blurb {
-          padding: 3rem;
+        .about-wrapper {
+          max-width: 85vw;
         }
+        
+        .profile-bio {
+          margin-top: 20px;
+        }
+        
+        .profile-bio:after {
+        	content: '';
+        	position: absolute;
+        	top: 0;
+        	left: 50%;
+        	width: 0;
+        	height: 0;
+        	border: 20px solid transparent;
+        	border-bottom-color: #fefce7;
+        	border-top: 0;
+        	margin-left: -20px;
+        	margin-top: -20px;
+        }
+        
       }
     `}</style>
   </Layout>

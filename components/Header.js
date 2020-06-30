@@ -1,11 +1,26 @@
 import Link from "next/link";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import Popup from "reactjs-popup";
+
+import MobileMenu from './MobileMenu';
+import Hamburger from './Hamburger';
 
 export default function Header(props) {
+  const contentStyle = {
+    background: "none",
+    width: "80%",
+    height: "60%",
+    border: "none"
+  };
+  
+  const overlayStyle = {
+    background: "rgba(252, 248, 227, 0.95)"
+  };
+  
   return (
     <header className="header">
       <nav
-        className="nav"
+        className="nav-desktop"
         role="navigation"
         aria-label="main navigation"
       >
@@ -18,15 +33,33 @@ export default function Header(props) {
           <Link href="/">
             <a>News</a>
           </Link>
-          <img className="nav-logo" src="../logo2.png" alt="The Crossing Board" />
+          <img className="nav-logo" src="../images/logo2.png" alt="The Crossing Board" />
 					<Link href="/about">
 						<a>About</a>
 					</Link>
           </div>
       </nav>
+      
+      <div className="mobile-logo">
+        <img className="nav-logo" src="../images/logo2.png" alt="The Crossing Board" />
+      </div>
+      
+      <Popup
+        modal
+        overlayStyle={overlayStyle}
+        closeOnDocumentClick={false}
+        contentStyle={contentStyle}
+        trigger={open => <Hamburger open={open} />}
+        >
+          {close => <MobileMenu close={close} />}
+      </Popup>
       <style jsx>
         {`
-          nav {
+          header {
+            position: relative;
+            min-height: 20px;
+          }
+          .nav-desktop {
             position: relative;
             z-index: 1;
           }
@@ -86,23 +119,43 @@ export default function Header(props) {
             transform: rotateZ(20deg);
           }
           
-          .nav a {
+          .nav-desktop a {
             color: #c88d5e;
             font-size: 20px;
             font-weight: bold;
             text-decoration: none;
             padding: 15px 30px;
             margin: 10px;
+            background-color: rgba(200, 141, 94, 0);
+            transition: all .2s ease-in-out;
+            border-radius: 50px 40px 50px 40px;
           }
           
-          .nav a:hover {
+          .nav-desktop a:hover {
             color: #fef0d2;
             background-color: #c88d5e;
-            border-radius: 50px 40px 50px 40px;
+            transform: scale(1.1);
+
           }
                     
           .nav-logo {
             max-width: 200px;
+          }
+          
+          .mobile-logo {
+            display: none;
+          }
+          
+          @media (max-width: 768px) {
+            .nav-desktop {
+              display: none;
+            }
+            .mobile-logo {
+              display: block;
+            }
+            header {
+              width: 100%;
+            }
           }
         `}
       </style>

@@ -17,9 +17,11 @@
     "raw-loader": "^3.0.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",
+    "react-hamburgers": "^1.0.0",
     "react-icons": "^3.10.0",
     "react-lazy-load-image-component": "^1.5.0",
     "react-markdown": "^4.1.0",
+    "reactjs-popup": "^1.5.0",
     "serve": "^11.3.2"
   }
 }

@@ -1,4 +1,4 @@
-export default function Buuble(props) {
+export default function Bubble(props) {
     return (
       <div>
 
@@ -129,6 +129,17 @@ export default function Buuble(props) {
                 transform: perspective(2rem) rotateX(1deg) rotateZ(-6deg) translateX(20%)
                   translateY(-45%) scale(1);
                 opacity: 1;
+              }
+            }
+            
+            @media (max-width: 768px) {
+              .dialogue {
+                min-width: 80vw;
+                min-height: 60vh;
+              }
+              
+              .dialogue-text {
+                padding: 1.5em 3em;
               }
             }
 

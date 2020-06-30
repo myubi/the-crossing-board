@@ -5,10 +5,10 @@ export default function Footer(props) {
     <footer className="footer">
       <div>
         <div className="social-icons">
-          <a href="https://instagram.com/thecrossingboard" target="_blank"><img className="social-icon" src="/instagram.png" /></a>
-          <a href="https://twitter.com/crossingboard" target="_blank"><img className="social-icon" src="/twitter.png" /></a>
-          <a href="https://www.youtube.com/channel/UCOdDruGmf_Sr3f4ol9dG3NQ" target="_blank"><img className="social-icon" src="/youtube.png" /></a> 
-          <a href="https://pinterest.com/thecrossingboard" target="_blank"><img className="social-icon" src="/pinterest.png" /></a>
+          <a href="https://instagram.com/thecrossingboard" target="_blank"><img className="social-icon" src="/images/instagram.png" /></a>
+          <a href="https://twitter.com/crossingboard" target="_blank"><img className="social-icon" src="/images/twitter.png" /></a>
+          <a href="https://www.youtube.com/channel/UCOdDruGmf_Sr3f4ol9dG3NQ" target="_blank"><img className="social-icon" src="/images/youtube.png" /></a> 
+          <a href="https://pinterest.com/thecrossingboard" target="_blank"><img className="social-icon" src="/images/pinterest.png" /></a>
         </div>
       </div>
       <Bubble title="Tom Nook"> 
@@ -30,6 +30,17 @@ export default function Footer(props) {
             flex-wrap: wrap;
             width: 340px;
           
+          }
+          
+          .social-icons a:hover{ 
+            animation: pulse 1s infinite;
+            animation-timing-function: linear;   
+          }
+
+          @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1);}
+            100% { transform: scale(1); }
           }
           
           @media (max-width: 340px) { 
