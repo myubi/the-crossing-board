@@ -22,6 +22,7 @@ export default function Footer(props) {
             flex-direction: column;
             align-items: center;
             margin-top: 20px;
+            margin-bottom: 20px;
           }
           .social-icons {
             display: flex;

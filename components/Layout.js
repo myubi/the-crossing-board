@@ -28,6 +28,8 @@ export default function Layout(props) {
           color: #DFD0CA;
           text-align: center;
           position: relative;
+          min-height: 100vh;
+          justify-content: space-around;
         }
       `}
     </style>
