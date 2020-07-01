@@ -3,10 +3,13 @@ import matter from "gray-matter";
 import ReactMarkdown from "react-markdown";
 import Head from 'next/head';
 import { TiHeartFullOutline, TiStarFullOutline, TiSocialTwitter } from "react-icons/ti";
+import { FaCrown } from "react-icons/fa";
 
 export default function Info(props) {
-  const aboutFrontmatter = props.data
-  const aboutBody = props.content
+  const aboutFrontmatter = props.data;
+  const aboutBody = props.content;
+  const memberOfTheMonth = props.profiles.find(member => member['member-of-the-month']);
+  const otherMembers = props.profiles.filter(member => !member['member-of-the-month'])
   
   return (
     <div>
@@ -17,8 +20,28 @@ export default function Info(props) {
     <div className="about-wrapper">
       <ReactMarkdown source={aboutBody} />
     </div>
+    <div className="member-of-the-month">
+      <div className="member-of-the-month-text">Member of the Month</div>
+      <div className="member-of-the-month-crown"><FaCrown /></div>
+      <div className="passport-wrapper motm-passport">
+        <div className="passport-sides passport-top">
+          <span>PASSPORT</span>
+        </div>
+        <div className="contents-wrapper">
+          <div className="profile-picture"><img src={memberOfTheMonth.picture} alt={memberOfTheMonth.name} /></div>
+          <div className="text-wrapper">
+            <div className="profile profile-name"><TiHeartFullOutline /><span>{memberOfTheMonth.name}</span></div>
+            <div className="profile profile-role"><TiStarFullOutline /><span>{memberOfTheMonth.role}</span></div>
+            <div className="profile profile-twitter"><TiSocialTwitter /><span><a href={`https://twitter.com/${memberOfTheMonth.twitter}`} target="_blank">{memberOfTheMonth.twitter}</a></span></div>
+            <div className="profile profile-bio">{memberOfTheMonth.bio}</div>
+          </div>
+        </div>
+        <div className="passport-sides passport-bottom">&lt; &lt; &lt; &lt; &lt; &lt; &lt; &lt; &lt; &lt; &lt; &lt; &lt; &lt;</div>
+      </div>
+    </div>
+    <div className="divider" />
     <div className="profiles-wrapper">
-      {props.profiles.map(profile => (
+      {otherMembers.map(profile => (
         <div className="passport-wrapper">
           <div className="passport-sides passport-top">
             <span>PASSPORT</span>
@@ -99,6 +122,29 @@ export default function Info(props) {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+      }
+      
+      .motm-passport {
+        margin: 0 auto 30px;
+      }
+      
+      .member-of-the-month-text {
+        font-size: 1.5em;
+        font-weight: bold;
+        margin-bottom: 5px;
+        color: #fcf8e3;
+      }
+      
+      .member-of-the-month-crown {
+        font-size: 2em;
+        line-height: 0.4em;
+        color: #84b95b;
+      }
+      
+      .divider {
+        border-bottom: 5px solid #4a583d9c;
+        max-width: 400px;
+        margin: 0 auto;
       }
       
       .passport-wrapper a {
