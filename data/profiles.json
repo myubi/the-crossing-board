@@ -2,6 +2,7 @@
 	"profiles": [
 		{
 			"name":"Alice",
+			"member-of-the-month":false,
 			"role":"Legal Advisor",
 			"picture": "../images/profiles/placeholder-profile.png",
 			"twitter":"sweetmelba_",
@@ -9,6 +10,7 @@
 		},
 		{
 			"name":"Bea",
+			"member-of-the-month":false,
 			"role":"Project Management Director",
 			"picture": "../images/profiles/placeholder-profile.png",
 			"twitter":"beatrizcrossing",
@@ -16,6 +18,7 @@
 		},
 		{
 			"name":"Bre",
+			"member-of-the-month":false,
 			"role":"DIY Artist",
 			"picture": "../images/profiles/placeholder-profile.png",
 			"twitter":"artbitchbreana",
@@ -23,6 +26,7 @@
 		},
 		{
 			"name":"Charlie",
+			"member-of-the-month":false,
 			"role":"Marketing Executive",
 			"picture": "../images/profiles/placeholder-profile.png",
 			"twitter":"ac_solstice",
@@ -30,6 +34,7 @@
 		},
 		{
 			"name":"Charlize",
+			"member-of-the-month":false,
 			"role":"Social Media Assistant",
 			"picture": "../images/profiles/placeholder-profile.png",
 			"twitter":"celestialfrappe",
@@ -37,6 +42,7 @@
 		},
 		{
 			"name":"Chloe",
+			"member-of-the-month":false,
 			"role":"Writer",
 			"picture": "../images/profiles/placeholder-profile.png",
 			"twitter":"chloscrossing",
@@ -44,6 +50,7 @@
 		},
 		{
 			"name":"Cristine",
+			"member-of-the-month":false,
 			"role":"DIY Creator",
 			"picture": "../images/profiles/placeholder-profile.png",
 			"twitter":"chrismacnh",
@@ -51,6 +58,7 @@
 		},
 		{
 			"name":"Jackie",
+			"member-of-the-month":false,
 			"role":"Voice Over / Editing",
 			"picture": "../images/profiles/placeholder-profile.png",
 			"twitter":"jackieisbad",
@@ -58,6 +66,7 @@
 		},
 		{
 			"name":"Jazlynn",
+			"member-of-the-month":false,
 			"role":"DIY Creator",
 			"picture": "../images/profiles/placeholder-profile.png",
 			"twitter":"peachiejaz",
@@ -65,6 +74,7 @@
 		},
 		{
 			"name":"Jemima",
+			"member-of-the-month":false,
 			"role":"CEO",
 			"picture": "../images/profiles/placeholder-profile.png",
 			"twitter":"s_o_f_t_c_o_r_e",
@@ -72,6 +82,7 @@
 		},
 		{
 			"name":"Makeda",
+			"member-of-the-month":false,
 			"role":"Illustrator",
 			"picture": "../images/profiles/placeholder-profile.png",
 			"twitter":"acnhmooshi",
@@ -79,6 +90,7 @@
 		},
 		{
 			"name":"Melissa",
+			"member-of-the-month":false,
 			"role":"Illustrator",
 			"picture": "../images/profiles/placeholder-profile.png",
 			"twitter":"melissaa_ac",
@@ -86,6 +98,7 @@
 		},
 		{
 			"name":"Nuria",
+			"member-of-the-month":false,
 			"role":"Illustrator",
 			"picture": "../images/profiles/placeholder-profile.png",
 			"twitter":"cocohoneycove",
@@ -93,6 +106,7 @@
 		},
 		{
 			"name":"Savanna",
+			"member-of-the-month":false,
 			"role":"Social Media Assistant",
 			"picture": "../images/profiles/placeholder-profile.png",
 			"twitter":"aquamarinesav",
@@ -100,6 +114,7 @@
 		},
 		{
 			"name":"Taiba",
+			"member-of-the-month":false,
 			"role":"Brand and Content Creator",
 			"picture": "../images/profiles/placeholder-profile.png",
 			"twitter":"taibas_ACNH",
@@ -107,6 +122,7 @@
 		},
 		{
 			"name":"Taty",
+			"member-of-the-month":true,
 			"role":"Web Developer",
 			"picture": "../images/profiles/placeholder-profile.png",
 			"twitter":"myubinomori",
