@@ -167,7 +167,10 @@ export default function Info(props) {
         background-color: #fefce7;
         border-radius: 20px;
         max-width: 150px;
-        margin: 30px
+        margin: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
       
       .profile-picture img {
