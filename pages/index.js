@@ -9,9 +9,7 @@ const Home = (props) => (
       <title>The Crossing Board</title>
     </Head>
     <Layout>
-      <section>
         <BlogList allBlogs={props.allBlogs}/>
-      </section>
     </Layout>
   </div>
 )
