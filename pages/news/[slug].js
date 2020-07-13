@@ -23,10 +23,10 @@ export default function BlogTemplate(props) {
     <div className="article-wrapper">
     <article className="blog">
      
-        <h3>{reformatDate(frontmatter.date)}</h3>
+        <h3 className="date">{reformatDate(frontmatter.date)}</h3>
         <div>
-        <h1>{frontmatter.title}</h1>
-        <ReactMarkdown source={markdownBody} />
+        <h1 className="title">{frontmatter.title}</h1>
+        <ReactMarkdown source={markdownBody} escapeHtml={false} />
         </div>
         <h1 className="article-author">
         {frontmatter.author}
@@ -39,22 +39,44 @@ export default function BlogTemplate(props) {
       {`
         .article-wrapper {
           background-color: #fdf8e3;
-          margin: 20px 30px;
+          margin: 20px 10%;
           border-radius: 10px;
           text-align: left;
           padding: 20px;
           color: #667756;
         }
-        h3 {
+        .date {
           margin-top: 0;
           margin-bottom: 1rem;
           text-align: left;
           border-bottom: 2px dashed #D19740;
           color: #946e49;
         }
+        .title {
+          font-size: 1.7em;
+        }
         .article-author {
           text-align: right;
           color: #946e49;
+        }
+        
+        .blog  :global(img) {
+          max-width: 100%;
+          margin: 0 auto;
+          border-radius: 40px;
+          border: 5px solid;
+        }
+        
+        .blog :global(a) {
+          color: #946e49;
+          border-bottom: 2px dashed #D19740;
+          text-decoration: none;
+        }
+        
+        .blog :global(.image-credit) {
+          text-align: center;
+          margin: 0;
+          paddding: 0;
         }
       `}
       

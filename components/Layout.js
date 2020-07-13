@@ -18,6 +18,9 @@ export default function Layout(props) {
       <Footer />
     <style jsx>
       {`
+        section {
+          width: 100%;
+        }
         .container {
           padding-top: 10px;
           display: flex;

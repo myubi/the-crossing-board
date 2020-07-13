@@ -23,7 +23,7 @@ const BlogList = (props) => {
             <a>
               <div className="content-thumb">
                 <div className="pin" />
-                <h3> {reformatDate(post.document.data.date)}</h3>
+                <h3> {reformatDate(post.document.data.date)} - {post.document.data.title}</h3>
                 <p>
                   <ReactMarkdown source={truncateSummary(post.document.content)} />
                 </p>
@@ -42,6 +42,8 @@ const BlogList = (props) => {
           
           .notice-board {
             margin-top: 50px;
+            display: flex;
+            justify-content: space-evenly;
           }
           
           .content-thumb {
@@ -84,9 +86,21 @@ const BlogList = (props) => {
             border-radius: 100%;
             box-shadow: 1px 3px 8px 0px #737373
           }
+          
+          .notice-board :global(img) {
+            max-width: 100%;
+            margin: 0 auto;
+            border-radius: 40px;
+            border: 5px solid;
+          }
+          
           @media (max-width: 768px) {
             .content-thumb {
-              margin: 0 20px;
+              margin: 20px;
+            }
+            
+            .notice-board {
+              flex-wrap: wrap;
             }
           }
           @media (min-width: 1280px) {
