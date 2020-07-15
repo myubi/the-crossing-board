@@ -11,7 +11,8 @@ module.exports = ({
    exportPathMap: async function() {
     const routes = {
       '/': { page : '/'},
-      "/about": { page: "/about"}
+      "/about": { page: "/about"},
+      "/magazine": { page: "/magazine"}
     }
     //get all .md files in the posts dir
     const blogs = glob.sync('posts/**/*.md')
