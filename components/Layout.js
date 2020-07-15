@@ -34,6 +34,7 @@ export default function Layout(props) {
           min-height: 100vh;
           justify-content: space-around;
         }
+        
       `}
     </style>
     <style jsx global>{`

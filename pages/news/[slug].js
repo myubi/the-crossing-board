@@ -67,16 +67,16 @@ export default function BlogTemplate(props) {
           border: 5px solid;
         }
         
-        .blog :global(a) {
-          color: #946e49;
-          border-bottom: 2px dashed #D19740;
-          text-decoration: none;
-        }
-        
         .blog :global(.image-credit) {
           text-align: center;
           margin: 0;
           paddding: 0;
+        }
+        
+        .blog :global(a) {
+          color: #946e49;
+          border-bottom: 2px dashed #D19740;
+          text-decoration: none;
         }
       `}
       

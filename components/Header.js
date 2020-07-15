@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import Popup from "reactjs-popup";
+import { useRouter } from "next/router";
 
 import MobileMenu from './MobileMenu';
 import Hamburger from './Hamburger';
@@ -17,6 +18,8 @@ export default function Header(props) {
     background: "rgba(252, 248, 227, 0.95)"
   };
   
+  const router = useRouter();
+  
   return (
     <header className="header">
       <nav
@@ -30,12 +33,15 @@ export default function Header(props) {
             </div>
           </div>
           <div className="nav-wrapper">
-          <Link href="/">
-            <a>News</a>
-          </Link>
           <img className="nav-logo" src="../images/logo2.png" alt="The Crossing Board" />
+          <Link href="/">
+            <a className={router.pathname == "/" ? "active" : ""}>News</a>
+          </Link>
+          <Link href="/magazine">
+            <a className={router.pathname == "/magazine" ? "active" : ""}>Magazine</a>
+          </Link>
 					<Link href="/about">
-						<a>About</a>
+						<a className={router.pathname == "/about" ? "active" : ""}>About</a>
 					</Link>
           </div>
       </nav>
@@ -129,9 +135,10 @@ export default function Header(props) {
             background-color: rgba(200, 141, 94, 0);
             transition: all .2s ease-in-out;
             border-radius: 50px 40px 50px 40px;
-          }
+            border-bottom: none;
+          } 
           
-          .nav-desktop a:hover {
+          .nav-desktop a:hover, .nav-desktop a.active {
             color: #fef0d2;
             background-color: #c88d5e;
             transform: scale(1.1);
