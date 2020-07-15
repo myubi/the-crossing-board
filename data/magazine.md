@@ -9,4 +9,5 @@ title: Magazine
 - Pre-Orders start on the July 15th but official release date is July 20th.
 - Orders bought between 15th of July and 19th of August will get the July edition. From 20th of August until the 19th of next month, it will be the August Edition. The same applies for ever month forward.
 - We will send them in batches, and you will be notified once they have been dispatched. It can take longer for your order to arrive if we have to wait for a new batch to be produced. 
+- If the loading icon below don't disappear, please refresh the page or click the loading icon, you will be redirected to Gumroad.
 - Have any questions? Ask them over on our [Twitter](https://twitter.com/crossingboard)!

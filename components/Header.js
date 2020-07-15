@@ -34,13 +34,13 @@ export default function Header(props) {
           </div>
           <div className="nav-wrapper">
           <img className="nav-logo" src="../images/logo2.png" alt="The Crossing Board" />
-          <Link href="/">
+          <Link href="/" prefetch={false}>
             <a className={router.pathname == "/" ? "active" : ""}>News</a>
           </Link>
-          <Link href="/magazine">
+          <Link href="/magazine" prefetch={false}>
             <a className={router.pathname == "/magazine" ? "active" : ""}>Magazine</a>
           </Link>
-					<Link href="/about">
+					<Link href="/about" prefetch={false}>
 						<a className={router.pathname == "/about" ? "active" : ""}>About</a>
 					</Link>
           </div>

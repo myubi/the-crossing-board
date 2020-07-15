@@ -7,19 +7,19 @@ import Layout from "../components/Layout";
 export default function Magazine (props) {
   const frontmatter = props.data;
   const body = props.content;
-  
+
   return(
       <div>
       <Head>
         <title>The Crossing Board - Magazine</title>
-        <script src="https://gumroad.com/js/gumroad-embed.js"></script>
+        <script src="https://gumroad.com/js/gumroad-embed.js" defer></script>
       </Head>
       <Layout>
       <div className="wrapper">
       <div className="magazine-faq">
         <ReactMarkdown source={body} />
       </div>
-      <div className="gumroad"class="gumroad-product-embed" data-gumroad-product-id="cwDdq"><a className="gumroad-link" href="https://gumroad.com/l/cwDdq"><img src="/images/loading.svg" alt="Loading" /></a></div>
+      <div className="gumroad-product-embed" data-gumroad-product-id="cwDdq"><a className="gumroad-link" href="https://gumroad.com/l/cwDdq"><img src="/images/loading.svg" alt="Loading" /></a></div>
       <style jsx>
         {`
           .wrapper {
@@ -30,7 +30,7 @@ export default function Magazine (props) {
             color: #667756;
             text-align: center;
           }
-          .gumroad {
+          .gumroad-product-embed {
             text-align: center;
           }
           .gumroad-link {
