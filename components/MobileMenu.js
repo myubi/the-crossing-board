@@ -2,10 +2,13 @@ import Link from "next/link";
 
 export default ({ close }) => (
   <div className="nav-wrapper-mobile">
-    <Link href="/" onClick={close}>
+    <Link href="/" onClick={close} prefetch={false}>
       <a>News</a>
     </Link>
-    <Link href="/about" onClick={close}>
+    <Link href="/magazine" onClick={close} prefetch={false}>
+      <a>Magazine</a>
+    </Link>
+    <Link href="/about" onClick={close} prefetch={false}>
       <a>About</a>
     </Link>
     <style jsx>
