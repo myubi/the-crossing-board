@@ -5,12 +5,6 @@ import ReactMarkdown from "react-markdown";
 import Layout from "../components/Layout";
 
 export default class Magazine extends React.Component {
-  componentDidMount () {
-    if(window !== undefined) {
-    const GumroadEmbedManager = window.GumroadEmbedManager
-      window.GumroadEmbed = new GumroadEmbedManager;
-    }
-  }
 
   render() {
     const { frontmatter, markdownBody } = this.props;
