@@ -5,11 +5,11 @@ import Head from 'next/head';
 import { TiHeartFullOutline, TiStarFullOutline, TiSocialTwitter } from "react-icons/ti";
 import { FaCrown } from "react-icons/fa";
 
-export default function Info(props) {
-  const aboutFrontmatter = props.data;
-  const aboutBody = props.content;
-  const memberOfTheMonth = props.profiles.find(member => member['member-of-the-month']);
-  const otherMembers = props.profiles.filter(member => !member['member-of-the-month'])
+export default function Info({frontmatter, markdownBody, profiles}) {
+  const aboutFrontmatter = frontmatter;
+  const aboutBody = markdownBody;
+  const memberOfTheMonth = profiles.find(member => member['member-of-the-month']);
+  const otherMembers = profiles.filter(member => !member['member-of-the-month'])
   
   return (
     <div>
@@ -250,14 +250,16 @@ export default function Info(props) {
   );
 }
 
-
-Info.getInitialProps = async function() {
-  const content = await import(`../data/about.md`)
-  const data = matter(content.default)
-  const profiles = await import(`../data/profiles.json`)
+export async function getStaticProps() {
+  const content = await import(`../data/about.md`);
+  const data = matter(content.default);
+    const profiles = await import(`../data/profiles.json`);
 
   return {
-    ...data,
-    ...profiles
+    props: {
+      frontmatter: data.data,
+      markdownBody: data.content,
+      ...profiles
+    },
   }
 }

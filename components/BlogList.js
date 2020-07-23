@@ -1,7 +1,8 @@
 import Link from "next/link";
 import ReactMarkdown from "react-markdown";
+import YouTube from 'react-youtube';
 
-const BlogList = (props) => {
+const BlogList = ({ allBlogs }) => {
 
   function truncateSummary(content) {
     return content.slice(0, 200).trimEnd() + "...";
@@ -11,11 +12,20 @@ const BlogList = (props) => {
     const date = new Date(fullDate)
     return date.toDateString().slice(4);
   }
+  
+  const sortedByDate = allBlogs.sort((a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date));
 
   return (
     <>
+      <div className="content-thumb magazine">
+      <div className="pin" />
+        <YouTube
+          videoId="d-mZqoURg7Q"   
+          className="youtube-wrapper"             
+        />
+      </div>
       <div className="notice-board">
-        {props.allBlogs.map(post => (
+        {sortedByDate.map(post => (
           <Link
             key={post.slug}
             href={{ pathname: `/news/${post.slug}` }}
@@ -23,9 +33,9 @@ const BlogList = (props) => {
             <a>
               <div className="content-thumb">
                 <div className="pin" />
-                <h3> {reformatDate(post.document.data.date)} - {post.document.data.title}</h3>
+                <h3> {reformatDate(post.frontmatter.date)} - {post.frontmatter.title}</h3>
                 <p>
-                  <ReactMarkdown source={truncateSummary(post.document.content)} />
+                  <ReactMarkdown source={truncateSummary(post.markdownBody)} escapeHtml={false} />
                 </p>
               </div>
             </a>
@@ -44,6 +54,7 @@ const BlogList = (props) => {
             margin-top: 50px;
             display: flex;
             justify-content: space-evenly;
+            flex-wrap: wrap;
           }
           
           .content-thumb {
@@ -52,6 +63,16 @@ const BlogList = (props) => {
             max-width: 500px;
             padding: 20px;
             position: relative;
+            margin: 10px;
+          }
+          
+          .magazine {
+            margin: 20px auto 0;
+            max-width: 640px;
+          }
+          
+          :global(.youtube-wrapper) {
+            max-width: 100%;
           }
           
           a:hover > .content-thumb { 

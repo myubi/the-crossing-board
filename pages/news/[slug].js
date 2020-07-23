@@ -3,23 +3,22 @@ import matter from "gray-matter";
 import ReactMarkdown from "react-markdown";
 import HyvorTalk from 'hyvor-talk-react';
 import Head from 'next/head';
+import glob from 'glob';
 
 import Layout from '../../components/Layout'
 
-export default function BlogTemplate(props) {
+export default function BlogTemplate({frontmatter, markdownBody}) {
   function reformatDate(fullDate) {
     const date = new Date(fullDate)
     return date.toDateString().slice(4);
   }
-  const markdownBody = props.content
-  const frontmatter = props.data
 
   return (
     <div>
     <Head>
       <title>The Crossing Board - {frontmatter.title}</title>
     </Head>
-    <Layout pathname='info' bgColor={frontmatter.background_color} siteTitle={props.title}>
+    <Layout pathname='info'>
     <div className="article-wrapper">
     <article className="blog">
      
@@ -61,10 +60,14 @@ export default function BlogTemplate(props) {
         }
         
         .blog  :global(img) {
-          max-width: 100%;
+          max-width: 50%;
           margin: 0 auto;
           border-radius: 40px;
           border: 5px solid;
+        }
+        
+        .blog :global(.image-center) {
+          text-align: center;
         }
         
         .blog :global(.image-credit) {
@@ -88,11 +91,33 @@ export default function BlogTemplate(props) {
 
 }
 
-BlogTemplate.getInitialProps = async function(ctx) {
-  const { slug } = ctx.query
+export async function getStaticPaths() {
+
+  const blogs = glob.sync('posts/**/*.md')
+
+  const blogSlugs = blogs.map(file =>
+    file
+      .split('/')[1]
+      .replace(/ /g, '-')
+      .slice(0, -3)
+      .trim()
+  )
+
+  const paths = blogSlugs.map(slug => `/news/${slug}`);
+  
+  return { paths, fallback: false }
+}
+
+
+export async function getStaticProps({ ...ctx }) {
+  const { slug } = ctx.params;
   const content = await import(`../../posts/${slug}.md`)
   const data = matter(content.default);
+
   return {
-    ...data
+    props: {
+      frontmatter: data.data,
+      markdownBody: data.content
+    },
   }
 }
