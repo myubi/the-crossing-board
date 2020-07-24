@@ -12,14 +12,17 @@ export default class Magazine extends React.Component {
         <div>
         <Head>
           <title>The Crossing Board - Magazine</title>
-          <script src="https://gumroad.com/js/gumroad-embed.js" defer></script>
         </Head>
         <Layout>
         <div className="wrapper">
         <div className="magazine-faq">
           <ReactMarkdown source={markdownBody} />
         </div>
-        <div className="gumroad-product-embed" data-gumroad-product-id="cwDdq"><a className="gumroad-link" href="https://gumroad.com/l/cwDdq"><img src="/images/loading.svg" alt="Loading" /></a></div>
+        <div className="closed-wrapper">
+        <span className="closed-text">
+        Hi there! Thanks for stopping by. If you’re looking to subscribe for the next issue of The Crossing Board, please come back on the 5th of August when subscriptions reopen! See you very soon :)
+        </span>
+        </div>
         <style jsx>
           {`
             .wrapper {
@@ -29,6 +32,18 @@ export default class Magazine extends React.Component {
               padding: 20px;
               color: #667756;
               text-align: center;
+            }
+            .closed-wrapper {
+              max-width: 80%;
+              margin: 0 auto;
+            }
+            .closed-text {
+              background-color: #667756;
+              color: #fcf8e3;
+              padding: 10px;
+              line-height: 2;
+              box-shadow: 8px 0px 1px #657755, -8px 0px 1px #657755;
+              
             }
             .gumroad-product-embed {
               text-align: center;
