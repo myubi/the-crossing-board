@@ -20,7 +20,7 @@ export default class Magazine extends React.Component {
         </div>
         <div className="closed-wrapper">
         <span className="closed-text">
-        Hi there! Thanks for stopping by. If you’re looking to subscribe for the next issue of The Crossing Board, please come back on the 5th of August when subscriptions reopen! See you very soon :)
+        Hi there! Thanks for stopping by. If you’re looking to subscribe for the next issue of The Crossing Board, please come back on the 1st of August when subscriptions reopen! See you very soon :)
         </span>
         </div>
         <style jsx>
