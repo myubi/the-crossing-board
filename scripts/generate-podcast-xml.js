@@ -13,7 +13,12 @@ const glob = require('glob');
       .trim()
   );
   
+<<<<<<< HEAD
   const podcastXML = `<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/" version="2.0">
+=======
+  const podcastXML = `
+        <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/" version="2.0">
+>>>>>>> c73d1df02ee17bfb1ef0941d0dd8bd92a31a6820
         <channel>
             <title>Fireside Chat</title>
             <link>https://www.thecrossingboard.com</link>
@@ -78,7 +83,12 @@ const glob = require('glob');
                     `;
               })}
             </channel>
+<<<<<<< HEAD
         </rss>`;
+=======
+        </rss>
+    `;
+>>>>>>> c73d1df02ee17bfb1ef0941d0dd8bd92a31a6820
 
   fs.writeFileSync('public/podcast.xml', podcastXML);
 })();
