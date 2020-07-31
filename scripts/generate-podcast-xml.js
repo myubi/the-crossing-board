@@ -13,8 +13,7 @@ const glob = require('glob');
       .trim()
   );
   
-  const podcastXML = `
-        <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/" version="2.0">
+  const podcastXML = `<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/" version="2.0">
         <channel>
             <title>Fireside Chat</title>
             <link>https://www.thecrossingboard.com</link>
@@ -79,8 +78,7 @@ const glob = require('glob');
                     `;
               })}
             </channel>
-        </rss>
-    `;
+        </rss>`;
 
   fs.writeFileSync('public/podcast.xml', podcastXML);
 })();
