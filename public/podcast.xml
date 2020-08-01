@@ -3,7 +3,7 @@
             <title>Fireside Chat</title>
             <link>https://www.thecrossingboard.com</link>
             <image>
-                <url>https://thecrossingboard.com/images/FridayFiresideChat.jpg</url>
+                <url>https://thecrossingboard.com/images/FridayFiresideChat.png</url>
                 <title>Fireside Chat</title>
                 <link>https://www.thecrossingboard.com</link>
             </image>
@@ -27,7 +27,7 @@
             <itunes:keywords>
                 animal crossing,video games, nintendo
             </itunes:keywords>
-            <itunes:image href="https://thecrossingboard.com/images/FridayFiresideChat.jpg"/>
+            <itunes:image href="https://thecrossingboard.com/images/FridayFiresideChat.png"/>
             <rawvoice:rating>TV-G</rawvoice:rating>
             <rawvoice:frequency>Weekly</rawvoice:frequency>
             <itunes:category text="Video Games"/>
@@ -39,19 +39,19 @@
                         <link>
                             https://thecrossingboard.com/podcasts/FiresideChat1.mp3
                         </link>
-                        <pubDate>Fri, 31 Jul 2020 10:00:00 UTC</pubDate>
+                        <pubDate>Fri, 3 Jul 2020 10:00:00 UTC</pubDate>
                         <description>
-                            Friday Fireside Chats is a weekly podcast where we discuss anything and everything related to Animal Crossing! 
+                            Episode one of the Friday Fireside Chat! We discuss the new summer update, updates coming in the future, and other miscellaneous topics!
                         </description>
-                        <enclosure url="https://thecrossingboard.com/podcasts/FiresideChat1.mp3" length="36715125" type="audio/mpeg"/>
+                        <enclosure url="https://thecrossingboard.com/podcasts/FiresideChat1.mp3" length="11711225" type="audio/mpeg"/>
                         <guid>
                             https://thecrossingboard.com/podcasts/FiresideChat1.mp3
                         </guid>
-                        <itunes:duration>19:07</itunes:duration>
+                        <itunes:duration>16:03</itunes:duration>
                         <itunes:summary>
-                            Friday Fireside Chats is a weekly podcast where we discuss anything and everything related to Animal Crossing! 
+                            Episode one of the Friday Fireside Chat! We discuss the new summer update, updates coming in the future, and other miscellaneous topics!
                         </itunes:summary>
-                        <itunes:image href="https://thecrossingboard.com/images/FridayFiresideChat.jpg"/>
+                        <itunes:image href="https://thecrossingboard.com/images/FridayFiresideChat.png"/>
                         <itunes:keywords>
                             animal crossing, video games, nintendo
                         </itunes:keywords>
@@ -64,19 +64,19 @@
                         <link>
                             https://thecrossingboard.com/podcasts/FiresideChat2.mp3
                         </link>
-                        <pubDate>Fri, 31 Jul 2020 10:00:00 UTC</pubDate>
+                        <pubDate>Fri, 10 Jul 2020 10:00:00 UTC</pubDate>
                         <description>
-                            Friday Fireside Chats is a weekly podcast where we discuss anything and everything related to Animal Crossing! 
+                            We discuss some of the most underrated villagers in Animal Crossing New Horizons.
                         </description>
-                        <enclosure url="https://thecrossingboard.com/podcasts/FiresideChat2.mp3" length="36715125" type="audio/mpeg"/>
+                        <enclosure url="https://thecrossingboard.com/podcasts/FiresideChat2.mp3" length="22109590" type="audio/mpeg"/>
                         <guid>
                             https://thecrossingboard.com/podcasts/FiresideChat2.mp3
                         </guid>
-                        <itunes:duration>19:07</itunes:duration>
+                        <itunes:duration>37:30</itunes:duration>
                         <itunes:summary>
-                            Friday Fireside Chats is a weekly podcast where we discuss anything and everything related to Animal Crossing! 
+                            We discuss some of the most underrated villagers in Animal Crossing New Horizons.
                         </itunes:summary>
-                        <itunes:image href="https://thecrossingboard.com/images/FridayFiresideChat.jpg"/>
+                        <itunes:image href="https://thecrossingboard.com/images/FridayFiresideChat.png"/>
                         <itunes:keywords>
                             animal crossing, video games, nintendo
                         </itunes:keywords>
@@ -89,19 +89,19 @@
                         <link>
                             https://thecrossingboard.com/podcasts/FiresideChat3.mp3
                         </link>
-                        <pubDate>Fri, 31 Jul 2020 10:00:00 UTC</pubDate>
+                        <pubDate>Fri, 17 Jul 2020 10:00:00 UTC</pubDate>
                         <description>
-                            Friday Fireside Chats is a weekly podcast where we discuss anything and everything related to Animal Crossing! 
+                            Today Jackie and Jemima discuss the new villagers in New Horizons as well as their thoughts and favorites!
                         </description>
-                        <enclosure url="https://thecrossingboard.com/podcasts/FiresideChat3.mp3" length="36715125" type="audio/mpeg"/>
+                        <enclosure url="https://thecrossingboard.com/podcasts/FiresideChat3.mp3" length="20207627" type="audio/mpeg"/>
                         <guid>
                             https://thecrossingboard.com/podcasts/FiresideChat3.mp3
                         </guid>
-                        <itunes:duration>19:07</itunes:duration>
+                        <itunes:duration>14:02</itunes:duration>
                         <itunes:summary>
-                            Friday Fireside Chats is a weekly podcast where we discuss anything and everything related to Animal Crossing! 
+                            Today Jackie and Jemima discuss the new villagers in New Horizons as well as their thoughts and favorites!
                         </itunes:summary>
-                        <itunes:image href="https://thecrossingboard.com/images/FridayFiresideChat.jpg"/>
+                        <itunes:image href="https://thecrossingboard.com/images/FridayFiresideChat.png"/>
                         <itunes:keywords>
                             animal crossing, video games, nintendo
                         </itunes:keywords>
