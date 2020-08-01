@@ -1,0 +1,28 @@
+{
+	"items": [
+		{
+			"name": "Fireside Chat 1",
+			"filename": "FiresideChat1.mp3",
+			"duration": "16:03",
+			"filesize": "11711225",
+			"timestamp": "Fri, 3 Jul 2020 10:00:00 UTC",
+			"description": "Episode one of the Friday Fireside Chat! We discuss the new summer update, updates coming in the future, and other miscellaneous topics!"
+		},
+		{
+			"name": "Fireside Chat 2",
+			"filename": "FiresideChat2.mp3",
+			"duration": "37:30",
+			"filesize": "22109590",
+			"timestamp": "Fri, 10 Jul 2020 10:00:00 UTC",
+			"description": "We discuss some of the most underrated villagers in Animal Crossing New Horizons."
+		},
+		{
+			"name": "Fireside Chat 3",
+			"filename": "FiresideChat3.mp3",
+			"duration": "14:02",
+			"filesize": "20207627",
+			"timestamp": "Fri, 17 Jul 2020 10:00:00 UTC",
+			"description": "Today Jackie and Jemima discuss the new villagers in New Horizons as well as their thoughts and favorites!"
+		}
+	]
+}
