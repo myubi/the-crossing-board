@@ -12,16 +12,15 @@ export default class Magazine extends React.Component {
         <div>
         <Head>
           <title>The Crossing Board - Magazine</title>
+          <script src="https://gumroad.com/js/gumroad.js"></script>
         </Head>
         <Layout>
         <div className="wrapper">
         <div className="magazine-faq">
           <ReactMarkdown source={markdownBody} />
         </div>
-        <div className="closed-wrapper">
-        <span className="closed-text">
-        Hi there! Thanks for stopping by. If you’re looking to subscribe for the next issue of The Crossing Board, please come back on the 1st of August when subscriptions reopen! See you very soon :)
-        </span>
+        <div className="gumroad-button-wrapper">
+          <a href="https://gum.co/cwDdq">Subscribe!</a>
         </div>
         <style jsx>
           {`
@@ -44,6 +43,34 @@ export default class Magazine extends React.Component {
               line-height: 2;
               box-shadow: 8px 0px 1px #657755, -8px 0px 1px #657755;
               
+            }
+            .gumroad-button-wrapper {
+              max-width: 300px;
+              background: #c98c5d;
+              padding: 20px;
+              border-radius: 50px;
+              margin: 60px auto;
+              position: relative;
+            }
+            .gumroad-button-wrapper::before {
+              position: absolute;
+              top: -40px;
+              left: 20px;
+              content: " ";
+              background-image: url('/images/magazine_july.jpg');
+              width: 100px;
+              height: 200px;
+              background-size: contain;
+              background-repeat: no-repeat;
+            }
+            .gumroad-button-wrapper a {
+              text-decoration: none;
+              padding-left: 80px;
+              text-transform: uppercase;
+              font-family: 'Solway',serif;
+              color: #fcf8e3;
+              font-weight: bold;
+              font-size: 1.2em;
             }
             .gumroad-product-embed {
               text-align: center;
