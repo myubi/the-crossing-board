@@ -2,7 +2,7 @@
 title: Magazine
 
 ---
-- The magazine contains around 20 pages of all sorts of content based on Animal Crossing, from articles to activities. A small gift is included. 
+- Receive your very own fan-based Animal Crossing magazine filled with activities, inspiration, and much more! ...much more!
 - The base price of the magazine is £2.99 but shipping varies depending on your country. Please select the correct tier for your country.
 - You can cancel your membership anytime. You will receive your magazine for the months you payed.
 - Payment is taken immediately from your account and you will be charged again in a month from the day you subscribe.
