@@ -42,7 +42,7 @@
 		},
 		{
 			"name":"Charlize",
-			"member-of-the-month":false,
+			"member-of-the-month":true,
 			"role":"Social Media Assistant",
 			"picture": "../images/profiles/placeholder-profile.png",
 			"twitter":"celestialfrappe",
@@ -138,7 +138,7 @@
 		},
 		{
 			"name":"Taty",
-			"member-of-the-month":true,
+			"member-of-the-month":false,
 			"role":"Web Developer",
 			"picture": "../images/profiles/myubinomori.png",
 			"twitter":"myubinomori",
