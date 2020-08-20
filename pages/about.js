@@ -3,13 +3,14 @@ import matter from "gray-matter";
 import ReactMarkdown from "react-markdown";
 import Head from 'next/head';
 import { TiHeartFullOutline, TiStarFullOutline, TiSocialTwitter } from "react-icons/ti";
-import { FaCrown } from "react-icons/fa";
+import { FaCrown, FaLeaf } from "react-icons/fa";
 
 export default function Info({frontmatter, markdownBody, profiles}) {
   const aboutFrontmatter = frontmatter;
   const aboutBody = markdownBody;
   const memberOfTheMonth = profiles.find(member => member['member-of-the-month']);
-  const otherMembers = profiles.filter(member => !member['member-of-the-month'])
+  const otherMembers = profiles.filter(member => !member['member-of-the-month'] && member.role !== "Founder");
+  const jemima = profiles.find(member => member.role === 'Founder');
   
   return (
     <div>
@@ -21,6 +22,26 @@ export default function Info({frontmatter, markdownBody, profiles}) {
     <div className="about-wrapper">
       <ReactMarkdown source={aboutBody} />
     </div>
+    <div className="founder">
+      <div className="member-of-the-month-text">Founder</div>
+      <div className="member-of-the-month-crown"><FaLeaf /></div>
+      <div className="passport-wrapper motm-passport">
+        <div className="passport-sides passport-top">
+          <span>PASSPORT</span>
+        </div>
+        <div className="contents-wrapper">
+          <div className="profile-picture"><img src={jemima.picture} alt={jemima.name} /></div>
+          <div className="text-wrapper">
+            <div className="profile profile-name"><TiHeartFullOutline /><span>{jemima.name}</span></div>
+            <div className="profile profile-role"><TiStarFullOutline /><span>jemima[@]thecrossingboard.com</span></div>
+            <div className="profile profile-twitter"><TiSocialTwitter /><span><a href={`https://twitter.com/${jemima.twitter}`} target="_blank">{jemima.twitter}</a></span></div>
+            <div className="profile profile-bio">{jemima.bio}</div>
+          </div>
+        </div>
+        <div className="passport-sides passport-bottom">&lt; &lt; &lt; &lt; &lt; &lt; &lt; &lt; &lt; &lt; &lt; &lt; &lt; &lt;</div>
+      </div>
+    </div>
+    <div className="divider" />
     <div className="member-of-the-month">
       <div className="member-of-the-month-text">Member of the Month</div>
       <div className="member-of-the-month-crown"><FaCrown /></div>
@@ -69,7 +90,7 @@ export default function Info({frontmatter, markdownBody, profiles}) {
         border-radius: 10px;
         padding: 20px;
         color: #667756;
-        max-width: 80vw;
+        max-width: 60vw;
       }
       .passport-sides {
         background-image: url('../images/passport-bg-01.jpg');
@@ -128,6 +149,10 @@ export default function Info({frontmatter, markdownBody, profiles}) {
       
       .motm-passport {
         margin: 0 auto 30px;
+      }
+      
+      .member-of-the-month {
+        margin-top: 10px;
       }
       
       .member-of-the-month-text {

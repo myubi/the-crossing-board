@@ -6,4 +6,4 @@ Welcome to The Crossing Board; a fan-based project created by enthusiastic volun
 
 If you have any queries, please consult our Contact Page!
 
-We are affiliated with: [Crossing Channel](https://crossingchannel.com/)
+We are affiliated with: [AC Islands (run by Crossing Channel)](http://acislands.com/)
