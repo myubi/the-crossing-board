@@ -17,6 +17,7 @@ export default function Info({frontmatter, markdownBody, profiles}) {
       <title>The Crossing Board - About</title>
     </Head>
     <Layout>
+    <div className="about-section">
     <div className="about-wrapper">
       <ReactMarkdown source={aboutBody} />
     </div>
@@ -59,6 +60,7 @@ export default function Info({frontmatter, markdownBody, profiles}) {
         </div>
         
       ))}
+    </div>
     </div>
     <style jsx>{`
       .about-wrapper {
@@ -147,12 +149,12 @@ export default function Info({frontmatter, markdownBody, profiles}) {
         margin: 0 auto;
       }
       
-      .passport-wrapper a {
+      .about-section :global(a) {
         color: #165940;
         transition: all .2s ease-in-out;
       }
       
-      .passport-wrapper a:hover {
+      .about-section :global(a:hover) {
         color: #82b75a;
       }
       

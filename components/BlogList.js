@@ -60,7 +60,7 @@ const BlogList = ({ allBlogs }) => {
           .content-thumb {
             background-color: #fdf8e3;
             border: 10px solid #165940;
-            max-width: 500px;
+            max-width: 320px;
             padding: 20px;
             position: relative;
             margin: 10px;
@@ -113,6 +113,11 @@ const BlogList = ({ allBlogs }) => {
             margin: 0 auto;
             border-radius: 40px;
             border: 5px solid;
+          }
+          
+          .notice-board  :global(.no-border) {
+            border: none;
+            border-radius: none;
           }
           
           @media (max-width: 768px) {

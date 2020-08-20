@@ -66,6 +66,11 @@ export default function BlogTemplate({frontmatter, markdownBody}) {
           border: 5px solid;
         }
         
+        .blog  :global(.no-border) {
+          border: none;
+          border-radius: none;
+        }
+        
         .blog :global(.image-center) {
           text-align: center;
         }
