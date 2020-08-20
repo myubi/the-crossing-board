@@ -27,23 +27,23 @@ Optional:
 
 ## Method
 
-Preheat oven to 170°C.
+1. Preheat oven to 170°C.
 
-Smash your biscuits into a fine crumb. You can do this with a food processor if you have one, or you can put them in a bag and bash them with a rolling pin. 
+2. Smash your biscuits into a fine crumb. You can do this with a food processor if you have one, or you can put them in a bag and bash them with a rolling pin. 
 
-Add butter and mix until well combined. Mixture should resemble wet sand (yum)!
+3. Add butter and mix until well combined. Mixture should resemble wet sand (yum)!
 
-Press your crumbs into a pie dish or loose-based tart tin that’s around 22cm. The trick is to press as firmly as you can so that it’s able to form a nice sturdy bottom. 
+4. Press your crumbs into a pie dish or loose-based tart tin that’s around 22cm. The trick is to press as firmly as you can so that it’s able to form a nice sturdy bottom. 
 
-Bake in the oven for 10 minutes then remove to cool completely. During this time you can zest squeeze your limes and take a moment to appreciate how delicious your kitchen smells. When zesting your limes try to only zest the dark green part of the skin, the white part will probably taste too bitter! 
+5. Bake in the oven for 10 minutes then remove to cool completely. During this time you can zest squeeze your limes and take a moment to appreciate how delicious your kitchen smells. When zesting your limes try to only zest the dark green part of the skin, the white part will probably taste too bitter! 
 
-While your bottom is baking, add egg yolks and lime zest to a medium bowl and whisk until lighter in colour (around 2 minutes with electric beaters) scraping down the sides of the bowl as you go. 
+6. While your bottom is baking, add egg yolks and lime zest to a medium bowl and whisk until lighter in colour (around 2 minutes with electric beaters) scraping down the sides of the bowl as you go. 
 
-Add condensed milk and whisk on high for a further 4 minutes or until slightly thickened. Then add the lime juice a little bit at a time and whisk until incorporated. 
+7. Add condensed milk and whisk on high for a further 4 minutes or until slightly thickened. Then add the lime juice a little bit at a time and whisk until incorporated. 
 
-Pour mixture into your base and pop back into the oven for around 15 minutes. Mixture should be mostly set but will solidify completely when left in the fridge for at least 3 hours.
+8. Pour mixture into your base and pop back into the oven for around 15 minutes. Mixture should be mostly set but will solidify completely when left in the fridge for at least 3 hours.
 
-Serve with a great big dollop of your favourite whipped cream. You can even make your own by whipping double cream with icing sugar until you have stiff peaks. Spoon onto a big slice of pie and enjoy!
+9. Serve with a great big dollop of your favourite whipped cream. You can even make your own by whipping double cream with icing sugar until you have stiff peaks. Spoon onto a big slice of pie and enjoy!
 
 We hope you enjoy this Animal Crossing spin on a classic dessert! If you make this recipe please tag us in your pictures at [@thecrossingboard](https://instagram.com/thecrossingboard) on Instagram and [@CrossingBoard](https://twitter.com/crossingboard) on Twitter - it would make our day! 
 
