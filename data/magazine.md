@@ -11,4 +11,4 @@ We hope you enjoy your incoming delivery from all of us here at The Crossing Boa
 - The base price of the magazine is £2.99 but shipping varies depending on your country. Please select the correct tier for your country.
 - You can cancel your membership anytime. You will receive your magazine for the months you pay.
 - Payment is taken immediately from your account and you will be charged again in a month from the day you subscribe.
-- Have any questions? Ask them over on our [Twitter](https://twitter.com/crossingboard)!
+- Have any questions? Send an email to contact[@]thecrossingboard.com
