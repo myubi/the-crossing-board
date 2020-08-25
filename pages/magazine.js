@@ -27,11 +27,12 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
           },
           createSubscription: function(data, actions) {
             return actions.subscription.create({
-              'plan_id': planID // Creates the subscription
+              'plan_id': 'P-9W044962T5302770YL5CPUOA' // Creates the subscription
             });
           },
           onApprove: function(data, actions) {
-            alert('You have successfully created subscription ' + data.subscriptionID); // Optional message given to subscriber
+            setStep(2);
+            removePayPalButton();
           }
     }).render(element); 
   }
@@ -66,7 +67,7 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
         <div>
         <Head>
           <title>The Crossing Board - Magazine</title>
-          <script src="https://www.paypal.com/sdk/js?client-id=AXf3nkWf9_Ujy_samFC6KBVN7zHF8dUeUSNjneCPlEpzDmboTB9Q0WPpow0iyCax1Xu0kPeBmvU20RoX&vault=true" />
+          <script src="https://www.paypal.com/sdk/js?client-id=ASSVVyUgv_n6ZOVpzaMDWpArQfj5RDNxHn2tapIRmdfWAacxEw8-S7cYtM225XYYvleXq5LisZ9hf4JY&vault=true" />
         </Head>
         <Layout>
         <div className="wrapper">
@@ -116,8 +117,8 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
               <div>{subscriptionOptions.find((country) => country.slug === selectedCountry).delivery}</div>
             </div>
             <div className="selection-title">Choose your option:</div>
-            {currentOptions.map((option, index) => 
-              ( 
+            {currentOptions.map((option, index) => {
+              return ( 
                 <div className="label-wrapper">
                   <label for={option.id} className="label">
                     <div className="label-info">
@@ -136,10 +137,22 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
                     </div>
                   </label>
                 </div>
-              )
+              )}
             )}
             </div>
           }
+          {step === 2 &&
+          <div className="thank-you">
+            <h2>Thank you for your purchase! Yes yes!</h2>
+            <p>Orders go for print on the 1st of every month and will be shipped on the 7th of that month.</p>
+            <p>Your purchase was:</p>
+            <div className="purchase-option">
+            <p>{subscriptionOptions.find((country) => country.slug === selectedCountry).name}</p>
+            <p>{currentOptions.find((option) => option.id === currentOption).name}</p>
+            <p>{subscriptionOptions.find((country) => country.slug === selectedCountry).delivery}</p>
+            </div>
+          </div>
+        }
           </form>
           
         </div>
@@ -229,8 +242,9 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
               align-items: center;
             }
             .magazine-faq :global(img) {
-              max-width: 200px;
+              max-width: 250px;
               margin-right: 20px;
+              border: 5px solid;
             }
             .magazine-faq :global(ul) {
               list-style-type: '${'\\1F31F'}';
@@ -243,9 +257,26 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
               border-bottom: 2px dashed #D19740;
               text-decoration: none;
             }
+            .purchase-option {
+              background: #FFFFFF;
+              padding: 10px;
+              border: 2px dashed;
+              width: fit-content;
+              margin: 0 auto;
+              border-radius: 28px;
+            }
+            .magazine-faq :global(.magazine-text-bubble) {
+              background-color: #FFFFFF;
+              border: 2px dashed;
+              padding: 20px;
+              border-radius: 30px;
+            }
             @media (max-width: 768px) {
               .form-options {
                 flex-wrap: wrap;
+              }
+              .magazine-faq :global(.image-left) {
+                flex-direction: column;
               }
             }
           `}
