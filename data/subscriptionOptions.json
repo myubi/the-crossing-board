@@ -1,0 +1,101 @@
+{
+	"subscriptionOptions": [
+		{
+			"name": "United Kingdom",
+			"slug": "uk",
+			"delivery": "Aims to deliver the next working day",
+			"options": [
+				{
+					"name": "1st Class",
+					"price": "£3.99 per month",
+					"id": "P-3U309485264973135L5BZDYI"
+				},
+				{
+					"name": "Signed For",
+					"price": "£4.99 per month",
+					"id": "P-37J05343AS171200RL5BZE6Y"
+				},
+				{
+					"name": "Tracked",
+					"price": "£7.99 per month",
+					"id": "P-9BP3100487782412VL5B4DGY"
+				}
+			]
+		},
+		{
+			"name": "Europe",
+			"slug": "europe",
+			"delivery": "Aims to deliver within 3-5 working days",
+			"extra-info": "Excluding the UK",
+			"options": [
+				{
+					"name": "Standard",
+					"price": "£4.99 per month",
+					"id": "P-17R73561CJ610464LL5BZGLI"
+				},
+				{
+					"name": "Tracked & Signed For",
+					"price": "£9.99 per month",
+					"id": "P-54F619442K3446840L5BZHJI"
+				}
+			]
+		},
+		{
+			"name": "United States",
+			"slug": "us",
+			"delivery": "Aims to deliver within 6-7 working days",
+			"options": [
+				{
+					"name": "Standard",
+					"price": "£5.99 per month",
+					"id": "P-9R2211892P083644JL5BZIBQ"
+				},
+				{
+					"name": "Tracked & Signed For",
+					"price": "£10.99 per month",
+					"id": "P-68S582955X4779841L5BZIVQ"
+				}
+			]
+		},
+		{
+			"name": "Australia, Singapore, New Zealand & Other Territories",
+			"slug": "world-zone-2",
+			"delivery": "Aims to deliver within 6-7 working days",
+			"extra-info": "For a full list of countries, check",
+			"extra-info2": "under World Zone 2",
+			"link": "https://www.royalmail.com/international-zones#worldzone2",
+			"options": [
+				{
+					"name": "Standard",
+					"price": "£5.99 per month",
+					"id": "P-46U94251918517204L5B4EKY"
+				},
+				{
+					"name": "Tracked & Signed For",
+					"price": "£10.99 per month",
+					"id": "P-36F68104AG279984RL5B4E3Q"
+				}
+			]
+		},
+		{
+			"name": "Rest of the World",
+			"slug": "world-zone-1",
+			"delivery": "Aims to deliver within 6-7 working days",
+			"extra-info": "For a full list of countries, check",
+			"extra-info2": "under World Zone 1",
+			"link": "https://www.royalmail.com/international-zones#worldzone1",
+			"options": [
+				{
+					"name": "Standard",
+					"price": "£5.99 per month",
+					"id": "P-73P35450W3430194XL5B4FHY"
+				},
+				{
+					"name": "Tracked & Signed For",
+					"price": "£10.99 per month",
+					"id": "P-3KN77357XE5686026L5B4FUI"
+				}
+			]
+		}
+	]
+}
