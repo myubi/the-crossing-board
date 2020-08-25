@@ -27,7 +27,7 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
           },
           createSubscription: function(data, actions) {
             return actions.subscription.create({
-              'plan_id': 'P-9W044962T5302770YL5CPUOA' // Creates the subscription
+              'plan_id': planID // Creates the subscription
             });
           },
           onApprove: function(data, actions) {
@@ -67,7 +67,7 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
         <div>
         <Head>
           <title>The Crossing Board - Magazine</title>
-          <script src="https://www.paypal.com/sdk/js?client-id=ASSVVyUgv_n6ZOVpzaMDWpArQfj5RDNxHn2tapIRmdfWAacxEw8-S7cYtM225XYYvleXq5LisZ9hf4JY&vault=true" />
+          <script src="https://www.paypal.com/sdk/js?client-id=AXf3nkWf9_Ujy_samFC6KBVN7zHF8dUeUSNjneCPlEpzDmboTB9Q0WPpow0iyCax1Xu0kPeBmvU20RoX&vault=true" />
         </Head>
         <Layout>
         <div className="wrapper">
