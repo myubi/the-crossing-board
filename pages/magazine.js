@@ -278,6 +278,12 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
               .magazine-faq :global(.image-left) {
                 flex-direction: column;
               }
+              .magazine-faq :global(img) {
+                margin: 0 auto;
+              }
+              .magazine-faq :global(.magazine-text-bubble) {
+                margin-top: 15px;
+              }
             }
           `}
           
