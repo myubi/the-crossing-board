@@ -9,6 +9,8 @@ export default function Layout(props) {
     <Head>
       <link rel="icon" href="/images/favicon.ico" />
       <link href="https://fonts.googleapis.com/css2?family=Solway:wght@400;700&display=swap" rel="stylesheet" />
+      <meta property="og:description" content="A fan made Animal Crossing site with a monthly magazine!" /> 
+      <meta name="description" content="A fan made Animal Crossing site with a monthly magazine!" />
     </Head>
 
       <Header />
