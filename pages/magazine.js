@@ -144,7 +144,7 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
           {step === 2 &&
           <div className="thank-you">
             <h2>Thank you for your purchase! Yes yes!</h2>
-            <p>Orders go for print on the 1st of every month and will be shipped on the 7th of that month.</p>
+            <p>Orders go for print on the 1st of every month and will be shipped on the 8th of that month.</p>
             <p>Your purchase was:</p>
             <div className="purchase-option">
             <p>{subscriptionOptions.find((country) => country.slug === selectedCountry).name}</p>
