@@ -71,6 +71,7 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
         </Head>
         <Layout>
         <div className="wrapper">
+        <img src="../images/magazine/october-banner.png" alt="Next Issue" />
         <div className="magazine-faq">
           <ReactMarkdown source={markdownBody} escapeHtml={false} />
         </div>
@@ -167,6 +168,9 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
               color: #667756;
               text-align: center;
             }
+            .wrapper img {
+              max-width: 100%;
+            }
             .closed-wrapper {
               max-width: 80%;
               margin: 0 auto;
@@ -236,6 +240,7 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
             }
             .magazine-faq {
               text-align: left;
+              margin-top: 10px;
             }
             .magazine-faq :global(.image-left) {
               display: flex;
@@ -270,6 +275,11 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
               border: 2px dashed;
               padding: 20px;
               border-radius: 30px;
+            }
+            
+            .magazine-faq  :global(.no-border) {
+              border: none;
+              border-radius: none;
             }
             @media (max-width: 768px) {
               .form-options {

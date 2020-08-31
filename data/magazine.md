@@ -3,7 +3,7 @@ title: Magazine
 
 ---
 <div class="image-left">
-<img src="../images/magazine/september-cover.jpg" alt="" />
+<img class="no-border" src="../images/magazine/magazines-bundle.png" alt="" />
 <div class="magazine-text-bubble">
 <p>Receive your very own Animal Crossing magazine filled with activities, inspiration and much more! …much more!</p>
 <p>Lovingly crafted by all of us here at The Crossing Board, our magazine is a bundle of entertainment shipped to your door every month.  </p>
