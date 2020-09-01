@@ -21,7 +21,7 @@ export default function Bubble(props) {
               position: relative;
               display: flex;
               min-width: 70vw;
-              min-height: 180px;
+              min-height: 250px;
               width: 60%;
               margin-top: 20px;
               margin-bottom: 20px;
@@ -132,7 +132,7 @@ export default function Bubble(props) {
               }
             }
             
-            @media (max-width: 812px) {
+            @media (max-width: 1360px) {
               .dialogue {
                 min-width: 80vw;
                 min-height: 70vh;
