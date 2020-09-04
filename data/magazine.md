@@ -12,6 +12,7 @@ title: Magazine
 </div>
 
 - Before your departure, please note that our mags are printed on the 1st of every month (London, UK time zone). If you begin your subscription on or after this time, you will receive the next month’s issue. But don’t worry, we won’t charge you twice!
+- We ship all magazines on the 7-8th of every month, so please take this into consideration when choosing a postage option.
 - You can cancel your membership anytime. You will receive your magazine for the months you pay.
 - Payment is taken immediately from your account and you will be charged again in a month from the day you subscribe.
 - Have any questions? Send an email to contact(@)thecrossingboard.com
