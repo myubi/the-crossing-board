@@ -4,12 +4,17 @@ import Head from 'next/head';
 import ReactMarkdown from "react-markdown";
 import Layout from "../components/Layout";
 import { FaCaretLeft } from "react-icons/fa";
+import emailjs from 'emailjs-com';
 
-export default function Magazine ({frontmatter, markdownBody, subscriptionOptions}) {
-  const [step, setStep] = useState(0);
+export default function Magazine ({frontmatter, markdownBody, subscriptionOptions, digitalMagazineOptions}) {
+  const [step, setStep] = useState('subscription-selection');
   const [selectedCountry, setCountry] = useState('uk');
   const [currentOptions, setCurrentOptions] = useState([]);
   const [currentOption, setCurrentOption] = useState('P-3U309485264973135L5BZDYI');
+  const [digitalEdition, setDigitalEdition] = useState(['July 2020']);
+  const [nameDigital, setNameDigital] = useState('');
+  const [emailDigital, setEmailDigital] = useState('');
+  const [currentEdition, setCurrentEdition] = useState('Physical')
   
   const loadSubscribeButton = (planID) => {  
     const element = document.getElementById("paypal-button-container");
@@ -31,10 +36,53 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
             });
           },
           onApprove: function(data, actions) {
-            setStep(2);
+            setStep('subscription-complete');
             removePayPalButton();
           }
     }).render(element); 
+  }
+  
+  const loadDigitalMagazineButton = () => {
+    const element = document.getElementById("paypal-button-container");
+    
+    if(element.firstChild){
+      element.removeChild(element.firstChild); 
+    } 
+    
+    paypal.Buttons({
+        style: {
+            shape: 'pill',
+            color: 'white',
+            layout: 'vertical',
+            label: 'checkout',
+        },
+        createOrder: function(data, actions) {
+            return actions.order.create({
+                purchase_units: [{
+                    amount: {
+                        value: '2.99'
+                    },
+                    description: `Digital Magazine: ${digitalEdition}`
+                }]
+            });
+        },
+        onApprove: function(data, actions) {      
+          setStep('loading');
+          const element = document.getElementById("paypal-button-container");
+          element.classList.add("hide");
+          return actions.order.capture().then(function(details) {
+            setStep('digital-complete');
+            emailjs.send("service_3pqq1mi","template_hyaq47c",{
+              name: nameDigital,
+              email: emailDigital,
+              edition: digitalEdition,
+              payerID: details.payer.payer_id
+            },"user_YChlVtpqNdj6Bnddm5CWl");  
+            removePayPalButton();    
+          });
+
+        }
+    }).render(element);
   }
   
   const removePayPalButton = () => {
@@ -56,18 +104,39 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
     setCountry(e.target.value);
   };
   
+  const handleNameChange = e => {
+    e.persist();
+    setNameDigital(e.target.value);
+  };
+  
+  const handleEmailChange = e => {
+    e.persist();
+    setEmailDigital(e.target.value);
+  };
+  
   const showSubscriptionOption = () => {
     setCurrentOptions(subscriptionOptions.find((country) => country.slug === selectedCountry).options);
     setCurrentOption(subscriptionOptions.find((country) => country.slug === selectedCountry).options[0].id);
     loadSubscribeButton(subscriptionOptions.find((country) => country.slug === selectedCountry).options[0].id);
-    setStep(1);
+    setStep('subscription-options');
+  }
+  
+  const showDigitalForm = () => {
+    setStep('digital-form');
+  }
+  
+  const handleDigitalFormSubmit = (e) => {
+    e.preventDefault(); 
+    const element = document.getElementById("digital-button");
+    element.parentNode.removeChild(element);
+    loadDigitalMagazineButton()
   }
 
   return(
         <div>
         <Head>
           <title>The Crossing Board - Magazine</title>
-          <script src="https://www.paypal.com/sdk/js?client-id=AXf3nkWf9_Ujy_samFC6KBVN7zHF8dUeUSNjneCPlEpzDmboTB9Q0WPpow0iyCax1Xu0kPeBmvU20RoX&vault=true" />
+          <script src="https://www.paypal.com/sdk/js?client-id=AXf3nkWf9_Ujy_samFC6KBVN7zHF8dUeUSNjneCPlEpzDmboTB9Q0WPpow0iyCax1Xu0kPeBmvU20RoX&vault=true&currency=GBP" />
         </Head>
         <Layout>
         <div className="wrapper">
@@ -75,9 +144,18 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
         <div className="magazine-faq">
           <ReactMarkdown source={markdownBody} escapeHtml={false} />
         </div>
-        <div>    
-          <form>
-            {step === 0 &&           
+        <div>
+          <div className="magazine-options">
+            <div className={`magazine-option-selection ${currentEdition === 'Physical' ? 'active' : ''}`} onClick={() => {setStep('subscription-selection'); setCurrentEdition('Physical'); removePayPalButton();}}>Physical</div>
+            <div className={`magazine-option-selection ${currentEdition === 'Digital' ? 'active' : ''}`} onClick={() => {setStep('digital-selection'); setCurrentEdition('Digital'); removePayPalButton();}}>Digital</div>
+          </div>
+          <form onSubmit={handleDigitalFormSubmit}>
+            {step === 'loading' &&
+              <div>
+                <div>Processing... Please don't leave this page.</div>
+              </div>
+            }
+            {step === 'subscription-selection' &&           
               <div>
                 <div className="selection-title">Choose your region:</div>
                 {subscriptionOptions.map((country) => 
@@ -110,9 +188,9 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
                 <button className="next-button" onClick={showSubscriptionOption}>Next</button>
               </div>
             }
-            {step === 1 &&
+            {step === 'subscription-options' &&
             <div style={{position: 'relative'}}>
-            <div onClick={() => {setStep(0); removePayPalButton();}} className="back-button"><FaCaretLeft /></div>
+            <div onClick={() => {setStep('subscription-selection'); removePayPalButton();}} className="back-button"><FaCaretLeft /></div>
             <div className="selection-info">
               <div>{subscriptionOptions.find((country) => country.slug === selectedCountry).name}</div>
               <div>{subscriptionOptions.find((country) => country.slug === selectedCountry).delivery}</div>
@@ -142,7 +220,56 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
             )}
             </div>
           }
-          {step === 2 &&
+            {step === 'digital-selection' && 
+              <div>
+              <div className="selection-title">Choose your edition:</div>
+                <div className="digital-magazines-wrapper">
+                  {digitalMagazineOptions.map((edition) => 
+                  	(
+                      <div className="digital-cover-wrapper" onClick={() => {setDigitalEdition(edition.name); showDigitalForm()}}>
+                        <img src={edition.cover} alt={edition.name} />
+                        <div className="digital-edition-name">{edition.name}</div>
+                      </div>
+                  	)
+                  )}
+                </div>
+              </div>             
+            }
+            {step === 'digital-form' &&
+              <div style={{position: 'relative'}}>
+              <div onClick={() => {setStep('digital-selection'); removePayPalButton();}} className="back-button"><FaCaretLeft /></div>
+              <div className="digital-form-description">
+                <p>Thank you for your interest on our digital magazine! </p>
+                <strong>Please note: In order to avoid unauthorised sharing of our digital magazines, there will be a small watermark with your PayPal ID at the bottom of each page.</strong> 
+                <p>Please tell us the name you want on the magazine and the email address to receive on the form below</p>
+              </div>
+                <div className="digital-form">
+                  <div className="field">
+                    <label for="name">name</label>
+                    <input 
+                      type="text" 
+                      name="name" 
+                      id="name"
+                      onChange={handleNameChange}
+                      required
+                    />
+                  </div>
+                  <div className="field">
+                    <label for="email">email</label>
+                    <input
+                      type="email" 
+                      name="email" 
+                      id="email"
+                      onChange={handleEmailChange}
+                      required
+                    />
+                  </div>
+                </div>
+                <button id="digital-button" className="next-button" type="submit">Buy</button>
+              </div>
+            }
+          </form>
+          {step === 'subscription-complete' &&
           <div className="thank-you">
             <h2>Thank you for your purchase! Yes yes!</h2>
             <p>Orders go for print on the 1st of every month and will be shipped on the 8th of that month.</p>
@@ -154,12 +281,20 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
             </div>
           </div>
         }
-          </form>
+          {step === 'digital-complete' &&
+          <div className="thank-you">
+            <h2>Thank you for your purchase! Yes yes!</h2>
+            <p>You will receive your magazine in 24h!</p>
+          </div>
+          }
           
         </div>
         <div id="paypal-button-container"></div>
         <style jsx>
           {`
+            :global(#paypal-button-container.hide) {
+              display:none;
+            }
             .wrapper {
               background-color: #fdf8e3;
               margin: 20px 10%;
@@ -281,6 +416,64 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
               border: none;
               border-radius: none;
             }
+            .magazine-options {
+              display: flex;
+              justify-content: space-around;
+              margin-bottom: 20px;
+            }
+            .magazine-option-selection {
+              background-color: #FFFFFF;
+              padding: 20px 100px;
+              border: 1px solid;
+              border-radius: 30px;
+              text-transform: uppercase;
+              font-weight: bold;
+              cursor: pointer;
+              transition: all 0.5s ease-out;
+            }
+            .magazine-option-selection.active, .magazine-option-selection:hover {
+              background-color: #667756;
+              border: 1px solid #FFFFFF;
+              color: #FFFFFF;
+            }
+            .digital-magazines-wrapper {
+              display: flex;
+              justify-content: center;
+              margin: 20px;
+            }
+            .digital-cover-wrapper {
+              max-width: 200px;
+              cursor: pointer;
+            }
+            .digital-cover-wrapper img {
+              border: 2px solid;
+              box-shadow: 3px 3px 3px 1px rgb(82 82 82 / 25%);
+            }
+            .digital-edition-name {
+              text-transform: uppercase;
+              font-weight: bold;
+            }
+            .digital-form {
+              margin-bottom: 20px;
+            }
+            .digital-form .field {
+              margin: 20px 0;
+            }
+            .digital-form label {
+              font-weight: bold;
+              margin-right: 10px;
+              text-transform: capitalize;
+            }
+            .digital-form input {
+              padding: 5px 10px;
+              border: 2px solid #657754;
+              border-radius: 10px;
+              background-color: #fef0d2;
+            }
+            .digital-form-description {
+              max-width: 80%;
+              margin: 0 auto;
+            }
             @media (max-width: 768px) {
               .form-options {
                 flex-wrap: wrap;
@@ -309,12 +502,14 @@ export async function getStaticProps() {
   const content = await import(`../data/magazine.md`)
   const data = matter(content.default);
   const subscriptionOptions = await import(`../data/subscriptionOptions.json`);
+  const digitalMagazineOptions = await import(`../data/digitalMagazineOptions.json`);
 
   return {
     props: {
       frontmatter: data.data,
       markdownBody: data.content,
-      ...subscriptionOptions
+      ...subscriptionOptions,
+      ...digitalMagazineOptions
     },
   }
 }
