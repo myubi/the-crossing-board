@@ -10,9 +10,3 @@ title: Magazine
 <p>We hope you enjoy your incoming delivery from all of us here at The Crossing Board. On behalf of the team, thank you for your support and welcome aboard! ...Copy!</p>
 </div>
 </div>
-
-- Before your departure, please note that our magazines are sent to print on the 1st of every month (London, UK time zone). If you begin your subscription on or after this time, you will receive the next month’s issue. But don’t worry, we won’t charge you twice!
-- We ship all magazines by the 8th of that month at the latest, so please take this into consideration when choosing a postage option.
-- You can cancel your membership anytime. You will receive your magazine for the months you pay.
-- Payment is taken immediately from your account and you will be charged again in a month from the day you subscribe.
-- Have any questions? Send an email to contact(@)thecrossingboard.com

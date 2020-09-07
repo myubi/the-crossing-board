@@ -133,7 +133,7 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
         </div>
         <div>
           <div className="magazine-options">
-            <div className={`magazine-option-selection ${currentEdition === 'Physical' ? 'active' : ''}`} onClick={() => {setStep('subscription-selection'); setCurrentEdition('Physical'); removePayPalButton();}}>Physical</div>
+            <div className={`magazine-option-selection ${currentEdition === 'Physical' ? 'active' : ''}`} onClick={() => {setStep('subscription-selection'); setCurrentEdition('Physical'); removePayPalButton();}}>Hard Copy</div>
             <div className={`magazine-option-selection ${currentEdition === 'Digital' ? 'active' : ''}`} onClick={() => {setStep('digital-selection'); setCurrentEdition('Digital'); removePayPalButton();}}>Digital</div>
           </div>
           <form onSubmit={handleDigitalFormSubmit}>
@@ -144,6 +144,17 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
             }
             {step === 'subscription-selection' &&           
               <div>
+                <div>
+                  <p>If you don't want to miss out on our physical magazines, this is the option for you! Simply select from the shipping options below.</p>
+                  <p><strong>Important notes...</strong></p>
+                  <ul>
+                    <li>Before your departure, please note that our magazines are sent to print on the 1st of every month (London, UK time zone). If you begin your subscription on or after this time, you will receive the next month’s issue. But don’t worry, we won’t charge you twice!</li>
+                    <li>We ship all magazines by the 8th of that month at the latest, so please take this into consideration when choosing a postage option.</li>
+                    <li>You can cancel your membership anytime. You will receive your magazine for the months you pay.</li>
+                    <li>Payment is taken immediately from your account and you will be charged again in a month from the day you subscribe.</li>
+                    <li>Have any questions? Send an email to contact(@)thecrossingboard.com</li>
+                  </ul>
+                </div>
                 <div className="selection-title">Choose your region:</div>
                 {subscriptionOptions.map((country) => 
                 	(
@@ -209,7 +220,16 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
           }
             {step === 'digital-selection' && 
               <div>
-              <div className="selection-title">Choose your edition:</div>
+              <div className="digital-info">
+                <p>If you wish to purchase any of our previous issues, you can do so in digital form! Simply select from the magazines below.</p>
+                <p><strong>Important notes...</strong></p>
+                <ul>
+                  <li>Please be sure to download your magazine as soon as you purchase it as it won't be accessible later!</li>
+                  <li>Please be aware that this purchase is intended for your use only and unauthorised sharing is <u>strictly prohibited.</u></li>
+                  <li>Have any questions? Send an email to contact(@)thecrossingboard.com</li>
+                </ul>
+              </div>
+              <div className="selection-title">Choose your edition:</div>          
                 <div className="digital-magazines-wrapper">
                   {digitalMagazineOptions.map((edition) => 
                   	(
@@ -237,7 +257,9 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
         }
           {step === 'digital-complete' &&
           <div className="thank-you">
-            <h2>Thank you for your purchase! Yes yes!</h2>
+            <h2>Thank you for purchasing our digital magazine, we hope you enjoy!</h2>
+            <p>Please be aware that this purchase is intended for your use only and unauthorised sharing is <u>strictly prohibited.</u></p>
+            <p>Below you will find the download for your magazine. Please note that this is NOT emailed to you, so download it now as it won't be available later.</p>
             <p>Click <a href={digitalMagazineOptions.find((edition) => edition.name === digitalEdition).file} download>here</a> to download your magazine.</p>
           </div>
           }
@@ -340,10 +362,11 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
               margin-right: 20px;
               border: 5px solid;
             }
-            .magazine-faq :global(ul) {
+            ul {
               list-style-type: '${'\\1F31F'}';
+              text-align: left;
             }
-            .magazine-faq :global(li) {
+            li {
               padding-left: 10px;
             }
             .magazine-faq :global(a) {
@@ -374,6 +397,7 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
               display: flex;
               justify-content: space-around;
               margin-bottom: 20px;
+              margin-top: 20px;
             }
             .magazine-option-selection {
               background-color: #FFFFFF;
@@ -431,6 +455,12 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
             @media (max-width: 768px) {
               .form-options {
                 flex-wrap: wrap;
+              }
+              .magazine-options {
+                flex-wrap: wrap;
+              }
+              .magazine-option-selection {
+                margin: 10px 0;
               }
               .magazine-faq :global(.image-left) {
                 flex-direction: column;
