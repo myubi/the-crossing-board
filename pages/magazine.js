@@ -4,14 +4,13 @@ import Head from 'next/head';
 import ReactMarkdown from "react-markdown";
 import Layout from "../components/Layout";
 import { FaCaretLeft } from "react-icons/fa";
-import emailjs from 'emailjs-com';
 
 export default function Magazine ({frontmatter, markdownBody, subscriptionOptions, digitalMagazineOptions}) {
   const [step, setStep] = useState('subscription-selection');
   const [selectedCountry, setCountry] = useState('uk');
   const [currentOptions, setCurrentOptions] = useState([]);
   const [currentOption, setCurrentOption] = useState('P-3U309485264973135L5BZDYI');
-  const [digitalEdition, setDigitalEdition] = useState(['July 2020']);
+  const [digitalEdition, setDigitalEdition] = useState('July 2020');
   const [nameDigital, setNameDigital] = useState('');
   const [emailDigital, setEmailDigital] = useState('');
   const [currentEdition, setCurrentEdition] = useState('Physical')
@@ -62,25 +61,13 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
                     amount: {
                         value: '2.99'
                     },
-                    description: `Digital Magazine: ${digitalEdition}`
+                    description: `The Crossing Board Digital Magazine: ${digitalEdition}`
                 }]
             });
         },
         onApprove: function(data, actions) {      
-          setStep('loading');
-          const element = document.getElementById("paypal-button-container");
-          element.classList.add("hide");
-          return actions.order.capture().then(function(details) {
             setStep('digital-complete');
-            emailjs.send("service_3pqq1mi","template_hyaq47c",{
-              name: nameDigital,
-              email: emailDigital,
-              edition: digitalEdition,
-              payerID: details.payer.payer_id
-            },"user_YChlVtpqNdj6Bnddm5CWl");  
             removePayPalButton();    
-          });
-
         }
     }).render(element);
   }
@@ -226,7 +213,7 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
                 <div className="digital-magazines-wrapper">
                   {digitalMagazineOptions.map((edition) => 
                   	(
-                      <div className="digital-cover-wrapper" onClick={() => {setDigitalEdition(edition.name); showDigitalForm()}}>
+                      <div className="digital-cover-wrapper" onClick={() => {setDigitalEdition(edition.name); loadDigitalMagazineButton();}}>
                         <img src={edition.cover} alt={edition.name} />
                         <div className="digital-edition-name">{edition.name}</div>
                       </div>
@@ -234,40 +221,7 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
                   )}
                 </div>
               </div>             
-            }
-            {step === 'digital-form' &&
-              <div style={{position: 'relative'}}>
-              <div onClick={() => {setStep('digital-selection'); removePayPalButton();}} className="back-button"><FaCaretLeft /></div>
-              <div className="digital-form-description">
-                <p>Thank you for your interest on our digital magazine! </p>
-                <strong>Please note: In order to avoid unauthorised sharing of our digital magazines, there will be a small watermark with your PayPal ID at the bottom of each page.</strong> 
-                <p>Please tell us the name you want on the magazine and the email address to receive on the form below</p>
-              </div>
-                <div className="digital-form">
-                  <div className="field">
-                    <label for="name">name</label>
-                    <input 
-                      type="text" 
-                      name="name" 
-                      id="name"
-                      onChange={handleNameChange}
-                      required
-                    />
-                  </div>
-                  <div className="field">
-                    <label for="email">email</label>
-                    <input
-                      type="email" 
-                      name="email" 
-                      id="email"
-                      onChange={handleEmailChange}
-                      required
-                    />
-                  </div>
-                </div>
-                <button id="digital-button" className="next-button" type="submit">Buy</button>
-              </div>
-            }
+          }
           </form>
           {step === 'subscription-complete' &&
           <div className="thank-you">
@@ -284,7 +238,7 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
           {step === 'digital-complete' &&
           <div className="thank-you">
             <h2>Thank you for your purchase! Yes yes!</h2>
-            <p>You will receive your magazine in 24h!</p>
+            <p>Click <a href={digitalMagazineOptions.find((edition) => edition.name === digitalEdition).file} download>here</a> to download your magazine.</p>
           </div>
           }
           
