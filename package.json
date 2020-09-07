@@ -10,6 +10,7 @@
     "forestry-preview": "next start -p 8080 -H 0.0.0.0"
   },
   "dependencies": {
+    "emailjs-com": "^2.6.3",
     "gray-matter": "^4.0.2",
     "hyvor-talk-react": "^1.0.1",
     "isomorphic-unfetch": "^3.0.0",
