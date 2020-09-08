@@ -242,6 +242,7 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
                       <div className="digital-cover-wrapper" onClick={() => {setDigitalEdition(edition.name); loadDigitalMagazineButton();}}>
                         <img src={edition.cover} alt={edition.name} />
                         <div className="digital-edition-name">{edition.name}</div>
+                        <div className="digital-price">£2.99</div>
                       </div>
                   	)
                   )}
@@ -424,6 +425,12 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
               display: flex;
               justify-content: center;
               margin: 20px;
+            }
+            .digital-price {
+              background: #FFFFFF;
+              padding: 10px;
+              border-radius: 20px;
+              border: 1px solid;
             }
             .digital-cover-wrapper {
               max-width: 200px;
