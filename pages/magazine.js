@@ -134,7 +134,7 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
         <div>
           <div className="magazine-options">
             <div className={`magazine-option-selection ${currentEdition === 'Physical' ? 'active' : ''}`} onClick={() => {setStep('subscription-selection'); setCurrentEdition('Physical'); removePayPalButton();}}>Hard Copy</div>
-            <div className={`magazine-option-selection ${currentEdition === 'Digital' ? 'active' : ''}`} onClick={() => {setStep('digital-selection'); setCurrentEdition('Digital'); removePayPalButton();}}>Digital</div>
+            
           </div>
           <form onSubmit={handleDigitalFormSubmit}>
             {step === 'loading' &&
