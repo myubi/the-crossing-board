@@ -59,15 +59,21 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
             return actions.order.create({
                 purchase_units: [{
                     amount: {
+                        currency_code: "GBP",
                         value: '2.99'
                     },
                     description: `The Crossing Board Digital Magazine: ${digitalEdition}`
                 }]
             });
         },
-        onApprove: function(data, actions) {      
+        onApprove: function(data, actions) {
+          setStep('loading');
+          const element = document.getElementById("paypal-button-container");
+          element.classList.add('hide');
+          return actions.order.capture().then(function(details) {
             setStep('digital-complete');
             removePayPalButton();    
+          });
         }
     }).render(element);
   }
@@ -134,7 +140,7 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
         <div>
           <div className="magazine-options">
             <div className={`magazine-option-selection ${currentEdition === 'Physical' ? 'active' : ''}`} onClick={() => {setStep('subscription-selection'); setCurrentEdition('Physical'); removePayPalButton();}}>Hard Copy</div>
-            
+            <div className={`magazine-option-selection ${currentEdition === 'Digital' ? 'active' : ''}`} onClick={() => {setStep('digital-selection'); setCurrentEdition('Digital'); removePayPalButton();}}>Digital</div>
           </div>
           <form onSubmit={handleDigitalFormSubmit}>
             {step === 'loading' &&
