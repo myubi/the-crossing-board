@@ -151,7 +151,7 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
             {step === 'subscription-selection' &&           
               <div>
                 <div>
-                  <p>If you don't want to miss out on our physical magazines, this is the option for you! Simply select from the shipping options below.</p>
+                  <p>If you don't want to miss out on our physical magazines, this is for you! Simply select from the shipping options below.</p>
                   <p><strong>Important notes...</strong></p>
                   <ul>
                     <li>Before your departure, please note that our magazines are sent to print on the 1st of every month (London, UK time zone). If you begin your subscription on or after this time, you will receive the next month’s issue. But don’t worry, we won’t charge you twice!</li>
