@@ -135,11 +135,11 @@ export default function Bubble(props) {
             @media (max-width: 1360px) {
               .dialogue {
                 min-width: 80vw;
-                min-height: 70vh;
+                min-height: 800px;
               }
               
               .dialogue-text {
-                padding: 1.5em 1.8em;
+                padding: 50px 40px;
                 height: 100%;
                 display: flex;
                 flex-direction: column;
