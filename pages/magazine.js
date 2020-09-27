@@ -152,10 +152,14 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
               <div>
                 <div>
                   <p>If you don't want to miss out on our physical magazines, this is for you! Simply select from the shipping options below.</p>
+                  <div className="magazine-promo">
+                    <img src="../images/magazine/magazine-promo.jpg" />
+                    <img src="../images/magazine/magazine-promo2.jpg" />
+                  </div>
                   <p><strong>Important notes...</strong></p>
                   <ul>
                     <li>Before your departure, please note that our magazines are sent to print on the 1st of every month (London, UK time zone). If you begin your subscription on or after this time, you will receive the next month’s issue. But don’t worry, we won’t charge you twice!</li>
-                    <li>We ship all magazines by the 8th of that month at the latest, so please take this into consideration when choosing a postage option.</li>
+                    <li>We ship all magazines around a week after the 1st, so please take this into consideration when choosing a postage option.</li>
                     <li>You can cancel your membership anytime. You will receive your magazine for the months you pay.</li>
                     <li>Payment is taken immediately from your account and you will be charged again in a month from the day you subscribe.</li>
                     <li>Have any questions? Send an email to contact(@)thecrossingboard.com</li>
@@ -253,7 +257,7 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
           {step === 'subscription-complete' &&
           <div className="thank-you">
             <h2>Thank you for your purchase! Yes yes!</h2>
-            <p>Orders go for print on the 1st of every month and will be shipped on the 8th of that month.</p>
+            <p>Orders go for print on the 1st of every month and will be shipped around 1 week later.</p>
             <p>Your purchase was:</p>
             <div className="purchase-option">
             <p>{subscriptionOptions.find((country) => country.slug === selectedCountry).name}</p>
@@ -464,6 +468,10 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
             .digital-form-description {
               max-width: 80%;
               margin: 0 auto;
+            }
+            .magazine-promo img {
+              max-width: 50%;
+              border: 5px solid;
             }
             @media (max-width: 768px) {
               .form-options {
