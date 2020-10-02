@@ -202,6 +202,7 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
             <div className="selection-info">
               <div>{subscriptionOptions.find((country) => country.slug === selectedCountry).name}</div>
               <div>{subscriptionOptions.find((country) => country.slug === selectedCountry).delivery}</div>
+              <div>Please note: We cannot be held responsible for packages shipped using standard postage as there is no record of whether it has been delivered.</div>
             </div>
             <div className="selection-title">Choose your option:</div>
             {currentOptions.map((option, index) => {
