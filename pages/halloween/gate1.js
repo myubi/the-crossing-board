@@ -84,7 +84,7 @@ export default class Gate1 extends React.Component {
           {currentSet.hints.map((hint, index) => 
               (
                 <div className="hint-wrapper">
-                  <div><img className="candy" src={`../images/halloween/candy${index + 1}.png`} alt="" /></div>
+                  <div><img className="candy" src={`../../images/halloween/candy${index + 1}.png`} alt="" /></div>
                   <label htmlFor={`code${index + 1}`}>Candy {index + 1}</label>
                   <div className="hint-header">Hint:</div>
                   <div>
