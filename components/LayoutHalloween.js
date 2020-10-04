@@ -29,7 +29,7 @@ export default function Layout(props) {
           flex-direction: column;
           align-items: center;
           font-family: 'Solway', serif;
-          background-image: url('/halloween/bg.jpg');
+          background-image: url('/images/halloween/bg.jpg');
           color: #DFD0CA;
           text-align: center;
           position: relative;
