@@ -33,7 +33,7 @@ export default function HeaderHalloween(props) {
             </div>
           </div>
           <div className="nav-wrapper">
-          <img className="nav-logo" src="../halloween/logo.png" alt="The Crossing Board" />
+          <img className="nav-logo" src="../images/halloween/logo.png" alt="The Crossing Board" />
           <Link href="/" prefetch={false}>
             <a className={router.pathname == "/" ? "active" : ""}>News</a>
           </Link>
@@ -50,7 +50,7 @@ export default function HeaderHalloween(props) {
       </nav>
       
       <div className="mobile-logo">
-        <img className="nav-logo" src="../halloween/logo.png" alt="The Crossing Board" />
+        <img className="nav-logo" src="../images/halloween/logo.png" alt="The Crossing Board" />
       </div>
       
       <Popup
