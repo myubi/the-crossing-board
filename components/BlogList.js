@@ -17,6 +17,9 @@ const BlogList = ({ allBlogs }) => {
 
   return (
     <>
+    <div className="content-thumb halloween">
+      <div className="pin" /><a href="/halloween">Visit our Halloween ARG here</a>
+    </div>
       <div className="content-thumb magazine">
       <div className="pin" />
         <YouTube
@@ -69,6 +72,12 @@ const BlogList = ({ allBlogs }) => {
           .magazine {
             margin: 20px auto 0;
             max-width: 640px;
+          }
+          
+          .halloween {
+            margin: 0 auto;
+            font-size: 1.5em;
+            max-width: fit-content;
           }
           
           :global(.youtube-wrapper) {

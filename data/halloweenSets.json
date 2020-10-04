@@ -1,0 +1,77 @@
+{
+	"halloweenSets": [
+		{
+			"name": "Set #1",
+			"coming-soon": false,
+			"hints": [
+				{
+					"text": ["Check the announcement video <a href='https://youtu.be/LpvjScBVl4I' target='_blank'>here</a> for the first code!"],
+					"answer": "Candy"
+				},
+				{
+					"text": ["6-18-9-4-1-25 6-9-18-5-19-9-4-5 3-8-1-20 15-14-5 4-5-19-3-18-9-16-20-9-15-14"],
+					"answer": "Ocean"
+				},
+				{
+					"text": [
+						"On a Wednesday of olde",
+						"Back in July of this year",
+						"There was a video with a Hazel",
+						"That holds your next clue"
+					],
+					"answer": "Uniwow!"
+				},
+				{
+					"text": ["Check this video <a href='https://youtu.be/l_0IpXMYhMo' target='_blank'>here</a> for the this code!"],
+					"answer": "April 23rd"
+				},
+				{
+					"text": ["Check this video <a href='https://youtu.be/l_0IpXMYhMo' target='_blank'>here</a> for the this code!"],
+					"answer": "Champ"
+				}
+			],
+			"prizes": [
+				"../halloween/prizes/gfsgsdf.png"
+			]
+		},
+		{
+			"name": "Set #2",
+			"coming-soon": true,
+			"hints": [
+				{
+					"text": "",
+					"answer": ""
+				}
+			],
+			"prizes": [
+				""
+			]
+		},
+		{
+			"name": "Set #3",
+			"coming-soon": true,
+			"hints": [
+				{
+					"text": "",
+					"answer": ""
+				}
+			],
+			"prizes": [
+				""
+			]
+		},
+		{
+			"name": "Set #4",
+			"coming-soon": true,
+			"hints": [
+				{
+					"text": "",
+					"answer": ""
+				}
+			],
+			"prizes": [
+				""
+			]
+		}
+	]
+}
