@@ -4,6 +4,11 @@
 			"name": "July 2020",
 			"cover": "../images/magazine/july-cover.jpg",
 			"file": "../files/magazines/The Crossing Board Digital Magazine July 2020.pdf"
+		},
+		{
+			"name": "September 2020",
+			"cover": "../images/magazine/september-cover.jpg",
+			"file": "../files/magazines/The Crossing Board Digital Magazine September 2020.pdf"
 		}
 	]
 }
