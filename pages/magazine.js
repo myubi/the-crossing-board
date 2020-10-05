@@ -10,7 +10,7 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
   const [selectedCountry, setCountry] = useState('uk');
   const [currentOptions, setCurrentOptions] = useState([]);
   const [currentOption, setCurrentOption] = useState('P-3U309485264973135L5BZDYI');
-  const [digitalEdition, setDigitalEdition] = useState('July 2020');
+  const [digitalEdition, setDigitalEdition] = useState('');
   const [nameDigital, setNameDigital] = useState('');
   const [emailDigital, setEmailDigital] = useState('');
   const [currentEdition, setCurrentEdition] = useState('Physical')
@@ -41,7 +41,7 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
     }).render(element); 
   }
   
-  const loadDigitalMagazineButton = () => {
+  const loadDigitalMagazineButton = (edition) => {
     const element = document.getElementById("paypal-button-container");
     
     if(element.firstChild){
@@ -62,7 +62,7 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
                         currency_code: "GBP",
                         value: '2.99'
                     },
-                    description: `The Crossing Board Digital Magazine: ${digitalEdition}`
+                    description: `The Crossing Board Digital Magazine: ${edition}`
                 }]
             });
         },
@@ -244,7 +244,7 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
                 <div className="digital-magazines-wrapper">
                   {digitalMagazineOptions.map((edition) => 
                   	(
-                      <div className="digital-cover-wrapper" onClick={() => {setDigitalEdition(edition.name); loadDigitalMagazineButton();}}>
+                      <div className={`digital-cover-wrapper ${digitalEdition === edition.name ? 'active' : ''}`} onClick={() => {setDigitalEdition(edition.name); loadDigitalMagazineButton(edition.name);}}>
                         <img src={edition.cover} alt={edition.name} />
                         <div className="digital-edition-name">{edition.name}</div>
                         <div className="digital-price">£2.99</div>
@@ -428,7 +428,7 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
             }
             .digital-magazines-wrapper {
               display: flex;
-              justify-content: center;
+              justify-content: space-evenly;
               margin: 20px;
             }
             .digital-price {
@@ -443,6 +443,10 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
             }
             .digital-cover-wrapper img {
               border: 2px solid;
+              box-shadow: 3px 3px 3px 1px rgb(82 82 82 / 25%);
+            }
+            .digital-cover-wrapper.active img {
+              border: 5px solid #f9b412;
               box-shadow: 3px 3px 3px 1px rgb(82 82 82 / 25%);
             }
             .digital-edition-name {
@@ -492,6 +496,12 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
               }
               .magazine-faq :global(.magazine-text-bubble) {
                 margin-top: 15px;
+              }
+              .digital-magazines-wrapper {
+                flex-wrap: wrap;
+              }
+              .digital-cover-wrapper {
+                margin-top: 20px;
               }
             }
           `}
