@@ -21,7 +21,7 @@ export default function Bubble(props) {
               position: relative;
               display: flex;
               min-width: 70vw;
-              min-height: 250px;
+              min-height: 20vh;
               width: 60%;
               margin-top: 20px;
               margin-bottom: 20px;
@@ -131,11 +131,16 @@ export default function Bubble(props) {
                 opacity: 1;
               }
             }
+            @media (max-width: 1440px) {
+              .dialogue {
+                min-height: 40vh;
+              }
+            }
             
-            @media (max-width: 1360px) {
+            @media (max-width: 900px) {
               .dialogue {
                 min-width: 80vw;
-                min-height: 800px;
+                min-height: 55vh;
               }
               
               .dialogue-text {
@@ -153,6 +158,12 @@ export default function Bubble(props) {
 
               .dialogue-blob-bottom {
                 border-radius: 5% 5% 100% 100% / 100% 100% 100% 100%;
+              }
+            }
+            
+            @media (max-width: 414px) {
+              .dialogue {
+                min-height: 105vh;
               }
             }
 

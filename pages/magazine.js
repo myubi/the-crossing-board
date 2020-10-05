@@ -133,7 +133,7 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
         </Head>
         <Layout>
         <div className="wrapper">
-        <img src="../images/magazine/october-banner.png" alt="Next Issue" />
+        <img src="../images/magazine/november-banner.png" alt="Next Issue" />
         <div className="magazine-faq">
           <ReactMarkdown source={markdownBody} escapeHtml={false} />
         </div>
