@@ -11,6 +11,17 @@ export default function Layout(props) {
       <link href="https://fonts.googleapis.com/css2?family=Solway:wght@400;700&display=swap" rel="stylesheet" />
       <meta property="og:description" content="A fan made Animal Crossing site with a monthly magazine!" /> 
       <meta name="description" content="A fan made Animal Crossing site with a monthly magazine!" />
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-W7CG1PJXF4" />
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-W7CG1PJXF4');
+            `,
+        }}
+      />
     </Head>
 
       <Header />
