@@ -17,7 +17,7 @@ export default function Info({halloweenSets}) {
             return (
               <a href={`/halloween/gate${index + 1}`}>
               <div className="gate">
-              Gate {index + 1}
+              Challenge {index + 1}
               </div>
               </a>
             )

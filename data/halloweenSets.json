@@ -36,15 +36,31 @@
 		},
 		{
 			"name": "Set #2",
-			"coming-soon": true,
+			"coming-soon": false,
 			"hints": [
 				{
-					"text": "",
-					"answer": ""
+					"text": ["Check the announcement video <a href='https://youtu.be/LpvjScBVl4I' target='_blank'>here</a> for this code!"],
+					"answer": "Lucky",
+					"isImage": false
+				},
+				{
+					"text": ["54 6f 70 20 35 20 4b 2e 20 4b 2e 20 53 6c 69 64 65 72 20 53 6f 6e 67 73 20 28 41 63 63 6f 72 64 69 6e 67 20 74 6f 20 74 68 65 20 69 6e 74 65 72 6e 65 74 29 20 23 31 20 61 6e 73 77 65 72"],
+					"answer": "Bubblegum K.K.",
+					"isImage": false
+				},
+				{
+					"text": "../../images/halloween/squids.png",
+					"answer": "Inkwell",
+					"isImage": true
+				},
+				{
+					"text": ["YO caTcHphRaSes"],
+					"answer": "Moose",
+					"isImage": false
 				}
 			],
 			"prizes": [
-				""
+				"../../images/halloween/prizes/bgv38.png"
 			]
 		},
 		{
