@@ -18,7 +18,7 @@ const BlogList = ({ allBlogs }) => {
   return (
     <>
     <div className="content-thumb halloween">
-      <div className="pin" /><a href="/halloween">Visit our Halloween ARG here</a>
+      <div className="pin" /><a href="/halloween">Visit our Halloween Event here</a>
     </div>
       <div className="content-thumb magazine">
       <div className="pin" />
