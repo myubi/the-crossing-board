@@ -9,16 +9,16 @@ export default function Layout(props) {
     <Head>
       <link rel="icon" href="/images/favicon.ico" />
       <link href="https://fonts.googleapis.com/css2?family=Solway:wght@400;700&display=swap" rel="stylesheet" />
-      <meta property="og:description" content="A fan made Animal Crossing site with a monthly magazine!" /> 
-      <meta name="description" content="A fan made Animal Crossing site with a monthly magazine!" />
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-W7CG1PJXF4" />
+      <meta property="og:description" content="A fan-made Animal Crossing site with a fan-made monthly magazine!" /> 
+      <meta name="description" content="A fan-made Animal Crossing site with a fan-made monthly magazine!" />
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-180357144-1" />
       <script
         dangerouslySetInnerHTML={{
           __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-W7CG1PJXF4');
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'UA-180357144-1');
             `,
         }}
       />

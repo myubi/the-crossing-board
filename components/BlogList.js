@@ -36,7 +36,8 @@ const BlogList = ({ allBlogs }) => {
             <a>
               <div className="content-thumb">
                 <div className="pin" />
-                <h3> {reformatDate(post.frontmatter.date)} - {post.frontmatter.title}</h3>
+                <h3> {post.frontmatter.title}</h3>
+                <h4> {reformatDate(post.frontmatter.date)} </h4>
                 <p>
                   <ReactMarkdown source={truncateSummary(post.markdownBody)} escapeHtml={false} />
                 </p>
@@ -96,11 +97,14 @@ const BlogList = ({ allBlogs }) => {
           }
 
           h3 {
-            margin-top: 0;
-            margin-bottom: 1rem;
+            margin: 0;
             text-align: left;
             border-bottom: 2px dashed #D19740;
             color: #946e49;
+          }
+          h4 {
+            margin: 5px 0 0;
+            text-align: left;
           }
           p {
             max-width: 900px;
