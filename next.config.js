@@ -13,6 +13,7 @@ module.exports = ({
     const routes = {
       '/': { page : '/'},
       "/about": { page: "/about"},
+      "/quiz": { page: "/quiz"},
       "/magazine": { page: "/magazine"},
       "/halloween": { page: "/halloween"},
       "/halloween/gate1": { page: "/halloween/gate1"}
