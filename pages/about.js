@@ -9,7 +9,7 @@ export default function Info({frontmatter, markdownBody, profiles}) {
   const aboutFrontmatter = frontmatter;
   const aboutBody = markdownBody;
   const memberOfTheMonth = profiles.find(member => member['member-of-the-month']);
-  const otherMembers = profiles.filter(member => !member['member-of-the-month'] && member.role !== "Founder");
+  const otherMembers = profiles.filter(member => member.role !== "Founder");
   const jemima = profiles.find(member => member.role === 'Founder');
   
   return (
@@ -36,26 +36,6 @@ export default function Info({frontmatter, markdownBody, profiles}) {
             <div className="profile profile-role"><TiStarFullOutline /><span>jemima[@]thecrossingboard.com</span></div>
             <div className="profile profile-twitter"><TiSocialTwitter /><span>{jemima.twitter}</span></div>
             <div className="profile profile-bio">{jemima.bio}</div>
-          </div>
-        </div>
-        <div className="passport-sides passport-bottom">&lt; &lt; &lt; &lt; &lt; &lt; &lt; &lt; &lt; &lt; &lt; &lt; &lt; &lt;</div>
-      </div>
-    </div>
-    <div className="divider" />
-    <div className="member-of-the-month">
-      <div className="member-of-the-month-text">Member of the Month</div>
-      <div className="member-of-the-month-crown"><FaCrown /></div>
-      <div className="passport-wrapper motm-passport">
-        <div className="passport-sides passport-top">
-          <span>PASSPORT</span>
-        </div>
-        <div className="contents-wrapper">
-          <div className="profile-picture"><img src={memberOfTheMonth.picture} alt={memberOfTheMonth.name} /></div>
-          <div className="text-wrapper">
-            <div className="profile profile-name"><TiHeartFullOutline /><span>{memberOfTheMonth.name}</span></div>
-            <div className="profile profile-role"><TiStarFullOutline /><span>{memberOfTheMonth.role}</span></div>
-            <div className="profile profile-twitter"><TiSocialTwitter /><span><a href={`https://twitter.com/${memberOfTheMonth.twitter}`} target="_blank">{memberOfTheMonth.twitter}</a></span></div>
-            <div className="profile profile-bio">{memberOfTheMonth.bio}</div>
           </div>
         </div>
         <div className="passport-sides passport-bottom">&lt; &lt; &lt; &lt; &lt; &lt; &lt; &lt; &lt; &lt; &lt; &lt; &lt; &lt;</div>

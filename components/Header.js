@@ -40,6 +40,9 @@ export default function Header(props) {
           <Link href="/magazine" prefetch={false}>
             <a className={router.pathname == "/magazine" ? "active" : ""}>Magazine</a>
           </Link>
+          <Link href="/quiz" prefetch={false}>
+            <a className={router.pathname == "/quiz" ? "active" : ""}>Quiz</a>
+          </Link>
 					<Link href="/about" prefetch={false}>
 						<a className={router.pathname == "/about" ? "active" : ""}>About</a>
 					</Link>
