@@ -213,7 +213,7 @@ const quizQuestions = [
           },
           {
               "type": "Smug",
-              "content": "Redd tell me where you get the expensive artifacts"
+              "content": "Redd so he can tell me where you get the expensive artifacts"
           },
           {
               "type": "Uchi",
