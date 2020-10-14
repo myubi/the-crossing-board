@@ -86,17 +86,16 @@ export default class QuizContainer extends React.Component {
   		const answersCount = this.state.answersCount;
   		const answersCountKeys = Object.keys(answersCount);
   		const answersCountValues = answersCountKeys.map((key) => answersCount[key]);
-      console.log('answersCountValues');
   		const maxAnswerCount = Math.max.apply(null, answersCountValues);
-
-  		return answersCountKeys.filter((key) => answersCount[key] === maxAnswerCount);
+      
+      return answersCountKeys.filter((key) => answersCount[key] === maxAnswerCount);
   }
 
   setResults (result) {
   	if (result.length === 1) {
   		this.setState({ result: result[0] });
   	} else {
-  		this.setState({ result: 'Undetermined' });
+  		this.setState({ result: result[result.length * Math.random() | 0] });
   	}
   }
   
@@ -147,6 +146,7 @@ export default class QuizContainer extends React.Component {
       <Layout>
       <div className="quiz-wrapper">
       <div className="quiz-title">Quiz</div>
+      <div className="quiz-name">Which Villager Personality Are You?</div>
       {this.state.result ? this.renderResult() : this.renderQuiz()}
       </div>
       <style jsx>{`
@@ -169,6 +169,12 @@ export default class QuizContainer extends React.Component {
           border-radius: 20px;
           margin-bottom: 20px;
           color: #fef0d1;
+        }
+        
+        .quiz-name {
+          font-size: 1.2em;
+          color: #c88c5d;
+          font-weight: bold;
         }
         
         :global(.quiz-reset-button) {
