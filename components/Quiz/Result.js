@@ -18,6 +18,9 @@ function Result(props) {
           .result-title {
             font-size: 2em;
           }
+          img {
+            max-width: 100%;
+          }
         `}
       </style>
     </div>
