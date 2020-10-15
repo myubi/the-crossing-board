@@ -2,13 +2,21 @@
 	"digitalMagazineOptions": [
 		{
 			"name": "July 2020",
+			"slug": "july2020",
 			"cover": "../images/magazine/july-cover.jpg",
 			"file": "../files/magazines/The Crossing Board Digital Magazine July 2020.pdf"
 		},
 		{
 			"name": "September 2020",
+			"slug": "september2020",
 			"cover": "../images/magazine/september-cover.jpg",
 			"file": "../files/magazines/The Crossing Board Digital Magazine September 2020.pdf"
+		},
+		{
+			"name": "October 2020",
+			"slug": "october2020",
+			"cover": "../images/magazine/october-cover.png",
+			"file": "../files/magazines/The Crossing Board Digital Magazine October 2020.pdf"
 		}
 	]
 }

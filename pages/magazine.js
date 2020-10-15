@@ -42,6 +42,8 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
   }
   
   const loadDigitalMagazineButton = (edition) => {
+    setDigitalEdition(edition.name);
+    
     const element = document.getElementById("paypal-button-container");
     
     if(element.firstChild){
@@ -62,15 +64,13 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
                         currency_code: "GBP",
                         value: '2.99'
                     },
-                    description: `The Crossing Board Digital Magazine: ${edition}`
+                    description: `The Crossing Board Digital Magazine: ${edition.name}`
                 }]
             });
         },
         onApprove: function(data, actions) {
-          setStep('loading');
-          const element = document.getElementById("paypal-button-container");
-          element.classList.add('hide');
           return actions.order.capture().then(function(details) {
+            console.log('hello');
             setStep('digital-complete');
             removePayPalButton();    
           });
@@ -244,7 +244,7 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
                 <div className="digital-magazines-wrapper">
                   {digitalMagazineOptions.map((edition) => 
                   	(
-                      <div className={`digital-cover-wrapper ${digitalEdition === edition.name ? 'active' : ''}`} onClick={() => {setDigitalEdition(edition.name); loadDigitalMagazineButton(edition.name);}}>
+                      <div className={`digital-cover-wrapper ${digitalEdition === edition.name ? 'active' : ''}`} onClick={() => {loadDigitalMagazineButton(edition);}}>
                         <img src={edition.cover} alt={edition.name} />
                         <div className="digital-edition-name">{edition.name}</div>
                         <div className="digital-price">£2.99</div>
