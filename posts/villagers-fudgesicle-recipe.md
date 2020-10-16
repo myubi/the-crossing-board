@@ -5,7 +5,7 @@ date: "2020-08-20"
 
 ---
 <div class="image-center">
-<img class="no-border" src="../images/posts/20082020/image1.png" alt="" />
+<img class="no-border" src="/images/posts/20082020/image1.png" alt="" />
 </div>
 
 It’s the height of summer and your Animal Crossing: New Horizons villagers are wandering around the island with some kind of icy, chocolate-y dessert. Do you feel left out and wish you could try one for yourself? Well, now you can! Until Nintendo lets us join in with our villager’s adorable summer picnics, the best option is to make your own.
@@ -13,7 +13,7 @@ It’s the height of summer and your Animal Crossing: New Horizons villagers are
 Whether you know them as fudge pops, ice lollies, fudgesicles, or popsicles - we’re sure you’ll like this rich yet refreshing treat. All you need for this recipe is a mold and a handful of ingredients; it couldn't be simpler! You can also make this recipe vegan by swapping the Nutella for vegan butter and adding an extra tablespoon of cocoa powder. 
 
 <div class="image-center">
-<img class="no-border" src="../images/posts/20082020/image2.png" alt="" />
+<img class="no-border" src="/images/posts/20082020/image2.png" alt="" />
 </div>
 
 ## Ingredients:
