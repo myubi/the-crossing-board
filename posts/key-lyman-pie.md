@@ -5,7 +5,7 @@ date: "2020-08-10"
 
 ---
 <div class="image-center">
-<img src="../images/posts/10082020/recipe.jpg" alt="" />
+<img src="/images/posts/10082020/recipe.jpg" alt="" />
 </div>
 
 With summer in full swing, there’s never been a better time to appreciate the citrus in your life. Key limes can be pretty hard to source outside of Florida, so use whatever you can get your hands on. You know what they say, when life doesn’t give you key limes, it’s okay to use regular limes because it will taste pretty much the same!

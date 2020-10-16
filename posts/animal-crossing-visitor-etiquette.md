@@ -5,7 +5,7 @@ date: "2020-09-01"
 
 ---
 <div class="image-center">
-<img src="../images/posts/01092020/image0.jpg" alt="" />
+<img src="/images/posts/01092020/image0.jpg" alt="" />
 </div>
 
 When it comes to visiting someone else’s island, there are things that a visitor should and absolutely shouldn’t do. Ever wondered what these could be? There might be some things you maybe didn’t even know you already do and others that could benefit you! 
@@ -13,7 +13,7 @@ When it comes to visiting someone else’s island, there are things that a visit
 ## When arriving on the island…
 
 <div class="image-center">
-<img src="../images/posts/01092020/image1.jpg" alt="" />
+<img src="/images/posts/01092020/image1.jpg" alt="" />
 </div>
 
 - DO make sure to say “hello!” or give a greeting to the host of the island
@@ -27,7 +27,7 @@ When it comes to visiting someone else’s island, there are things that a visit
 	
 	
 <div class="image-center">
-<img src="../images/posts/01092020/image4.jpg" alt="" />
+<img src="/images/posts/01092020/image4.jpg" alt="" />
 </div>
 
 - DON’T come to the island wearing your wetsuit (and most especially, don’t jump from the airport to the ocean!) 
@@ -36,7 +36,7 @@ When it comes to visiting someone else’s island, there are things that a visit
 ## When roaming around the island… 
 
 <div class="image-center">
-<img src="../images/posts/01092020/image2.jpg" alt="" />
+<img src="/images/posts/01092020/image2.jpg" alt="" />
 </div>
 
 - DO ask for permission from the host if you could visit Nook’s Cranny and the Able Sisters 
@@ -50,7 +50,7 @@ When it comes to visiting someone else’s island, there are things that a visit
 	
 	
 <div class="image-center">
-<img src="../images/posts/01092020/image8.jpg" alt="" />
+<img src="/images/posts/01092020/image8.jpg" alt="" />
 </div>
 
 - DON’T press B and run all over the flowers!
@@ -65,7 +65,7 @@ When it comes to visiting someone else’s island, there are things that a visit
 ## When leaving the island…
 
 <div class="image-center">
-<img src="../images/posts/01092020/image11.jpg" alt="" />
+<img src="/images/posts/01092020/image11.jpg" alt="" />
 </div>
 
  - DO leave a nice cute note on the host’s bulletin
@@ -75,7 +75,7 @@ When it comes to visiting someone else’s island, there are things that a visit
 	Leaving through the minus button is a big no-no! Leaving this way can cause communication errors, sending everyone home and causing everyone to lose their progress. People may lose the clothes they bought, bugs they caught or turnips they sold. Even if an error doesn’t occur, it’s always polite to get in the leaving queue and say goodbye properly.
 	
 <div class="image-center">
-<img src="../images/posts/01092020/image13.jpg" alt="" />
+<img src="/images/posts/01092020/image13.jpg" alt="" />
 </div>
 
 - DO leave a “thank you” gift whether that may be in the form of furniture, clothing, bells or such.

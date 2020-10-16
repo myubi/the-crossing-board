@@ -5,7 +5,7 @@ date: "2020-07-23"
 
 ---
 <div class="image-center">
-<img src="../images/posts/23072020/intro.jpg" alt="" />
+<img src="/images/posts/23072020/intro.jpg" alt="" />
 </div>
 
 Have you ever felt like playing isn’t fun anymore? As if the game you once loved is tiring, like you’re playing just for the sake of it? You’re getting frustrated with how your island looks, things aren’t going your way, and the spark has been lost…
@@ -25,7 +25,7 @@ Of course burnout doesn’t just come from time travelling! Due to global lockdo
 We suggest taking things slowly. There’s a lot more to the game than decorating your island or terraforming all day! Here are some ways you might be able to overcome your AC burnout:
 
 <div class="image-center">
-<img src="../images/posts/23072020/villagers.jpg" alt="" />
+<img src="/images/posts/23072020/villagers.jpg" alt="" />
 </div>
 
 - Talk to your favourite villagers (without speeding through the dialogue).
@@ -34,7 +34,7 @@ You could even find them the perfect present and wrap it up for them! This will 
 Return to a simpler time and try to catch all the seasonal critters the game has to offer. You can even sell them to the Nooklings for more bells! 
 
 <div class="image-center">
-<img src="../images/posts/23072020/friends.jpg" alt="" />
+<img src="/images/posts/23072020/friends.jpg" alt="" />
 </div>
 
 - Visit a friend.
@@ -47,7 +47,7 @@ But if none of that helps and you still feel unmotivated to play, the best optio
 ##  When is the right time to come back? 
 
 <div class="image-center">
-<img src="../images/posts/23072020/island.jpg" alt="" />
+<img src="/images/posts/23072020/island.jpg" alt="" />
 </div>
 
 A week or two may be enough for you to feel better and ready to play the game, but you know yourself more than I do. So if you feel like a week is not enough, that’s okay. As long as you feel like the game doesn’t spark joy, take as much time as you need. Then when you begin to miss it, go for it!

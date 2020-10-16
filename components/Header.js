@@ -33,7 +33,7 @@ export default function Header(props) {
             </div>
           </div>
           <div className="nav-wrapper">
-          <img className="nav-logo" src="../images/logo2.png" alt="The Crossing Board" />
+          <img className="nav-logo" src="/images/logo2.png" alt="The Crossing Board" />
           <Link href="/" prefetch={false}>
             <a className={router.pathname == "/" ? "active" : ""}>News</a>
           </Link>
@@ -53,7 +53,7 @@ export default function Header(props) {
       </nav>
       
       <div className="mobile-logo">
-        <img className="nav-logo" src="../images/logo2.png" alt="The Crossing Board" />
+        <img className="nav-logo" src="/images/logo2.png" alt="The Crossing Board" />
       </div>
       
       <Popup
