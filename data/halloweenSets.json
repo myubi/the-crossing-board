@@ -65,11 +65,35 @@
 		},
 		{
 			"name": "Set #3",
-			"coming-soon": true,
+			"coming-soon": false,
 			"hints": [
 				{
-					"text": "",
-					"answer": ""
+					"text": [
+						"During E3 2019, tensions were high",
+						"As Animal Crossing got new info",
+						"But fans of this cat could let out a sigh",
+						"As she was revealed to be included"
+					],
+					"answer": "Olivia"
+				},
+				{
+					"text": [
+						"This hipster dog was first introduced",
+						"With an update to New Leaf on November 2nd",
+						"And once his name has been deduced",
+						"You will probably forget he exists again.",
+						"(Please don’t forget about him he’s nice mannnn)"
+					],
+					"answer": "Harvey"
+				},
+				{
+					"text": [
+						"This cryptic cat cooly copies faces",
+						"Of all your favorite friends",
+						"For the introduction into the month of April",
+						"And to give you their picture frames"
+					],
+					"answer": "Blanca"
 				}
 			],
 			"prizes": [
