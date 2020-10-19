@@ -11,11 +11,11 @@ export default function Footer(props) {
           <a href="https://pinterest.com/thecrossingboard" target="_blank"><img className="social-icon" src="/images/pinterest.png" /></a>
         </div>
       </div>
-      <Bubble title="Tom Nook"> 
+      <div className="wrapper"> 
 <p>The Crossing Board is operated as a non-profit making ‘hobby project’. All members of our team contribute towards its creation and operation on a voluntary, part-time basis, with magazine subscriptions funding the running cost of the project.</p>
 <p>Nintendo is a registered trademark of Nintendo of America Inc. The Crossing Board has no trading, commercial or any contractual relationship with Nintendo and we do not claim to own Nintendo or the rights of any of their licensed products. This website, including views expressed, images and material referenced are provided for information purposes only.</p>
 <p>The Crossing Board, is a totally independent third party Animal Crossing news and opinion website and is not a contact point of any kind for Nintendo. You should not rely on the material or information on this website as the basis for making any legal, business or other decisions.</p>
-      </Bubble>
+      </div>
       <style jsx>
         {`
           footer {
@@ -24,6 +24,14 @@ export default function Footer(props) {
             align-items: center;
             margin-top: 20px;
             margin-bottom: 20px;
+          }
+          .wrapper {
+            background-color: #fdf8e3;
+            margin: 20px 10%;
+            border-radius: 60px;
+            padding: 20px;
+            color: #667756;
+            text-align: center;
           }
           .social-icons {
             display: flex;

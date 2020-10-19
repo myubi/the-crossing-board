@@ -400,6 +400,9 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
               padding: 20px;
               border-radius: 30px;
             }
+            :global(.tiny-text){
+              font-size: 0.7em;
+            }
             
             .magazine-faq  :global(.no-border) {
               border: none;

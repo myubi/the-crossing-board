@@ -8,6 +8,9 @@ export default ({ close }) => (
     <Link href="/magazine" onClick={close} prefetch={false}>
       <a>Magazine</a>
     </Link>
+    <Link href="/calendar" onClick={close} prefetch={false}>
+      <a>Calendar</a>
+    </Link>
     <Link href="/quiz" onClick={close} prefetch={false}>
       <a>Quiz</a>
     </Link>
