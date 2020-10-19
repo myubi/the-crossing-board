@@ -5,7 +5,7 @@ import YouTube from 'react-youtube';
 const BlogList = ({ allBlogs }) => {
 
   function truncateSummary(content) {
-    return content.slice(0, 200).trimEnd() + "...";
+    return content.slice(0, 300).trimEnd() + "...";
   }
 
   function reformatDate(fullDate) {
@@ -68,6 +68,7 @@ const BlogList = ({ allBlogs }) => {
             padding: 20px;
             position: relative;
             margin: 10px;
+            height: 90%;
           }
           
           .magazine {
@@ -83,6 +84,10 @@ const BlogList = ({ allBlogs }) => {
           
           :global(.youtube-wrapper) {
             max-width: 100%;
+          }
+          
+          :global(.no-border) {
+            max-width: 200px;
           }
           
           a:hover > .content-thumb { 
