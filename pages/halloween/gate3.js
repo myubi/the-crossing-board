@@ -101,7 +101,7 @@ export default class Gate3 extends React.Component {
       {this.state.unlock &&
         <div>
         <h1>Congratulations!</h1>
-          <p>You have unlocked a Halloween Wallpaper!</p>
+          <p>You have unlocked Halloween Wallpapers!</p>
           <p>Click on the image to download</p>
           <div className="prizes-wrapper">
           {currentSet.prizes.map(prize => (
@@ -132,8 +132,10 @@ export default class Gate3 extends React.Component {
         }
         .prizes-wrapper {
           display: flex;
-          max-width: 300px;
           margin: 0 auto;
+        }
+        .prizes-wrapper a {
+          margin: 0 20px;
         }
         .hint-wrapper {
           border: 2px dashed #f68c1f;
