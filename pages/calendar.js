@@ -39,6 +39,10 @@ export default function Magazine ({frontmatter, markdownBody}) {
             </div>
           </div>
         </div>
+        <div className="features-info">
+        <strong>Features</strong>
+        <ul><li>A4 wall calendar (21x30cm or 8.27x11.69 inches)</li><li>Wire-o-bound with hanger for durable display</li><li>12 full color illustrations made by popular community illustrators</li><li>Suitable for both the southern and northern hemispheres</li><li>Plan your real life AND your island life in one convenient place</li><li>Villager birthdays</li><li>Fishing tourneys and bug offs</li><li>Dates for each special season eg. cherry blossom, wedding, and maple leaf seasons</li><li>Each month’s bugs, fish, and sea critters</li><li>Special events eg. Bunny Day, Toy Day, Harvest Festival, and Halloween</li><li>Room to write your own notes and plan your island</li><li>Days divided into boxes for easy planning</li><li>Order by 20th November for delivery before the holidays</li></ul>
+        </div>
         <div className="disclaimer-wrapper">
           Disclaimer: The Crossing Board is a fan-made, third party, community project with a driving passion to see more new players enter the unique and wonderful world of Nintendo's Animal Crossing. Nintendo is a registered trademark of Nintendo of America inc. The Crossing Board has no trading, commercial, or any contractual relationship with Nintendo and we do not claim to own the rights to any of their licensed products. This calendar, including the views expressed and materials used, are provided for information and entertainment purposes only.
         </div>
@@ -58,6 +62,7 @@ export default function Magazine ({frontmatter, markdownBody}) {
             }
             .calendar-images {
               max-width: 250px;
+              margin-right: 10px;
             }
             .wrapper img {
               max-width: 100%;
@@ -65,6 +70,18 @@ export default function Magazine ({frontmatter, markdownBody}) {
             .price-wrapper {
               font-size: 2em;
               color: #7c3e30;
+            }
+            .features-info {
+              background: white;
+              border: 2px dashed;
+              border-radius: 30px;
+              width: fit-content;
+              margin: 0 auto;
+              padding: 20px;
+              margin-top: 20px;
+            }
+            .features-info ul {
+              text-align: left;
             }
             .disclaimer-wrapper {
               font-size: 0.8em;
