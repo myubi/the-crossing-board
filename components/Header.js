@@ -40,6 +40,9 @@ export default function Header(props) {
           <Link href="/magazine" prefetch={false}>
             <a className={router.pathname == "/magazine" ? "active" : ""}>Magazine</a>
           </Link>
+          <Link href="/calendar" prefetch={false}>
+            <a className={router.pathname == "/calendar" ? "active" : ""}>Calendar</a>
+          </Link>
           <Link href="/quiz" prefetch={false}>
             <a className={router.pathname == "/quiz" ? "active" : ""}>Quiz</a>
           </Link>
@@ -159,7 +162,7 @@ export default function Header(props) {
             display: none;
           }
           
-          @media (max-width: 768px) {
+          @media (max-width: 1200px) {
             .nav-desktop {
               display: none;
             }

@@ -82,7 +82,7 @@ export default function Hamburger({open, ...props}) {
                   transform: translate3d(0, -20px, 0) rotate(-270deg);
                   transition-delay: 0.075s; }
               
-              @media (min-width: 769px) {
+              @media (min-width: 1199px) {
                 .hamburger {
                   display: none;
                 }
