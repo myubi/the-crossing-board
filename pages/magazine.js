@@ -225,7 +225,7 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
                   }}
                   onApprove={(data, actions) => {
                     // Capture the funds from the transaction
-                    return actions.subscription.get().then(function(details) {
+                    return actions.order.capture().then(function(details) {
                       setStep('digital-complete');
                       showPaypalButton(false);
                     });
