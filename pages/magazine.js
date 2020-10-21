@@ -1,135 +1,55 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import matter from "gray-matter";
 import Head from 'next/head';
 import ReactMarkdown from "react-markdown";
 import Layout from "../components/Layout";
 import { FaCaretLeft } from "react-icons/fa";
+import { PayPalButton } from "react-paypal-button-v2";
 
 export default function Magazine ({frontmatter, markdownBody, subscriptionOptions, digitalMagazineOptions}) {
   const [step, setStep] = useState('subscription-selection');
-  const [selectedCountry, setCountry] = useState('uk');
+  const [selectedCountry, setCountry] = useState('');
   const [currentOptions, setCurrentOptions] = useState([]);
-  const [currentOption, setCurrentOption] = useState('P-3U309485264973135L5BZDYI');
+  const [currentOption, setCurrentOption] = useState('');
   const [digitalEdition, setDigitalEdition] = useState('');
-  const [nameDigital, setNameDigital] = useState('');
-  const [emailDigital, setEmailDigital] = useState('');
   const [currentEdition, setCurrentEdition] = useState('Physical')
+  const [showPaypalButton, setShowPaypalButton] = useState(false);
+  const [showNextButton, setShowNextButton] = useState(false);
   
-  const loadSubscribeButton = (planID) => {  
-    const element = document.getElementById("paypal-button-container");
-    
-    if(element.firstChild){
-      element.removeChild(element.firstChild); 
-    } 
-    
-    paypal.Buttons({
-          style: {
-              shape: 'pill',
-              color: 'white',
-              layout: 'vertical',
-              label: 'subscribe'        
-          },
-          createSubscription: function(data, actions) {
-            return actions.subscription.create({
-              'plan_id': planID // Creates the subscription
-            });
-          },
-          onApprove: function(data, actions) {
-            setStep('subscription-complete');
-            removePayPalButton();
-          }
-    }).render(element); 
-  }
-  
-  const loadDigitalMagazineButton = (edition) => {
-    setDigitalEdition(edition.name);
-    
-    const element = document.getElementById("paypal-button-container");
-    
-    if(element.firstChild){
-      element.removeChild(element.firstChild); 
-    } 
-    
-    paypal.Buttons({
-        style: {
-            shape: 'pill',
-            color: 'white',
-            layout: 'vertical',
-            label: 'checkout',
-        },
-        createOrder: function(data, actions) {
-            return actions.order.create({
-                purchase_units: [{
-                    amount: {
-                        currency_code: "GBP",
-                        value: '2.99'
-                    },
-                    description: `The Crossing Board Digital Magazine: ${edition.name}`
-                }]
-            });
-        },
-        onApprove: function(data, actions) {
-          return actions.order.capture().then(function(details) {
-            console.log('hello');
-            setStep('digital-complete');
-            removePayPalButton();    
-          });
-        }
-    }).render(element);
-  }
-  
-  const removePayPalButton = () => {
-    const element = document.getElementById("paypal-button-container");
-    
-    if(element.firstChild){
-      element.removeChild(element.firstChild); 
-    } 
+  const resetPaypal = () => {
+    Object.keys(window).forEach((key) => {
+      if (/paypal|zoid|post_robot/.test(key)) {
+          // eslint-disable-next-line fp/no-delete
+          delete window[key];
+      }
+    });
   }
   
   const handleOptionChange = e => {
     e.persist(); // async access to event https://reactjs.org/docs/events.html
     setCurrentOption(e.target.value);
-    loadSubscribeButton(e.target.value);
+    setShowPaypalButton(true);
   };
   
   const handleCountryChange = e => {
     e.persist(); // async access to event https://reactjs.org/docs/events.html
     setCountry(e.target.value);
-  };
-  
-  const handleNameChange = e => {
-    e.persist();
-    setNameDigital(e.target.value);
-  };
-  
-  const handleEmailChange = e => {
-    e.persist();
-    setEmailDigital(e.target.value);
+    setShowNextButton(true);
   };
   
   const showSubscriptionOption = () => {
     setCurrentOptions(subscriptionOptions.find((country) => country.slug === selectedCountry).options);
-    setCurrentOption(subscriptionOptions.find((country) => country.slug === selectedCountry).options[0].id);
-    loadSubscribeButton(subscriptionOptions.find((country) => country.slug === selectedCountry).options[0].id);
     setStep('subscription-options');
   }
   
   const showDigitalForm = () => {
     setStep('digital-form');
   }
-  
-  const handleDigitalFormSubmit = (e) => {
-    e.preventDefault(); 
-    const element = document.getElementById("digital-button");
-    element.parentNode.removeChild(element);
-    loadDigitalMagazineButton()
-  }
 
   return(
         <div>
         <Head>
           <title>The Crossing Board - Magazine</title>
-          <script src="https://www.paypal.com/sdk/js?client-id=AXf3nkWf9_Ujy_samFC6KBVN7zHF8dUeUSNjneCPlEpzDmboTB9Q0WPpow0iyCax1Xu0kPeBmvU20RoX&vault=true&currency=GBP" />
         </Head>
         <Layout>
         <div className="wrapper">
@@ -139,10 +59,10 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
         </div>
         <div>
           <div className="magazine-options">
-            <div className={`magazine-option-selection ${currentEdition === 'Physical' ? 'active' : ''}`} onClick={() => {setStep('subscription-selection'); setCurrentEdition('Physical'); removePayPalButton();}}>Hard Copy</div>
-            <div className={`magazine-option-selection ${currentEdition === 'Digital' ? 'active' : ''}`} onClick={() => {setStep('digital-selection'); setCurrentEdition('Digital'); removePayPalButton();}}>Digital</div>
+            <div className={`magazine-option-selection ${currentEdition === 'Physical' ? 'active' : ''}`} onClick={() => {setStep('subscription-selection'); setCurrentEdition('Physical'); setShowPaypalButton(false); resetPaypal();}}>Hard Copy</div>
+            <div className={`magazine-option-selection ${currentEdition === 'Digital' ? 'active' : ''}`} onClick={() => {setStep('digital-selection'); setCurrentEdition('Digital'); setShowPaypalButton(false); resetPaypal();}}>Digital</div>
           </div>
-          <form onSubmit={handleDigitalFormSubmit}>
+          <form>
             {step === 'loading' &&
               <div>
                 <div>Processing... Please don't leave this page.</div>
@@ -193,12 +113,14 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
                     </div>
                 	)
                 )}
-                <button className="next-button" onClick={showSubscriptionOption}>Next</button>
+                {showNextButton &&
+                  <button className="next-button" onClick={showSubscriptionOption}>Next</button>
+                }              
               </div>
             }
             {step === 'subscription-options' &&
             <div style={{position: 'relative'}}>
-            <div onClick={() => {setStep('subscription-selection'); removePayPalButton();}} className="back-button"><FaCaretLeft /></div>
+            <div onClick={() => {setStep('subscription-selection');}} className="back-button"><FaCaretLeft /></div>
             <div className="selection-info">
               <div>{subscriptionOptions.find((country) => country.slug === selectedCountry).name}</div>
               <div>{subscriptionOptions.find((country) => country.slug === selectedCountry).delivery}</div>
@@ -227,6 +149,32 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
                 </div>
               )}
             )}
+            {showPaypalButton &&
+            <PayPalButton
+              options={{
+                vault: true,
+                clientId: "AXf3nkWf9_Ujy_samFC6KBVN7zHF8dUeUSNjneCPlEpzDmboTB9Q0WPpow0iyCax1Xu0kPeBmvU20RoX"
+              }}
+              style={{
+              					shape: 'pill',
+              					color: 'white',
+              					layout: 'vertical',
+              					label: 'subscribe'
+              }}
+              createSubscription={(data, actions) => {
+                return actions.subscription.create({
+                  plan_id: currentOption
+                });
+              }}
+              onApprove={(data, actions) => {
+                // Capture the funds from the transaction
+                return actions.subscription.get().then(function(details) {
+                  setStep('subscription-complete');
+                  showPaypalButton(false);
+                });
+              }}
+            />
+            }
             </div>
           }
             {step === 'digital-selection' && 
@@ -244,7 +192,7 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
                 <div className="digital-magazines-wrapper">
                   {digitalMagazineOptions.map((edition) => 
                   	(
-                      <div className={`digital-cover-wrapper ${digitalEdition === edition.name ? 'active' : ''}`} onClick={() => {loadDigitalMagazineButton(edition);}}>
+                      <div className={`digital-cover-wrapper ${digitalEdition === edition.name ? 'active' : ''}`} onClick={() => {setDigitalEdition(edition.name); setShowPaypalButton(true);}}>
                         <img src={edition.cover} alt={edition.name} />
                         <div className="digital-edition-name">{edition.name}</div>
                         <div className="digital-price">£2.99</div>
@@ -252,6 +200,38 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
                   	)
                   )}
                 </div>
+                {showPaypalButton &&
+                <PayPalButton
+                  options={{
+                    clientId: "AXf3nkWf9_Ujy_samFC6KBVN7zHF8dUeUSNjneCPlEpzDmboTB9Q0WPpow0iyCax1Xu0kPeBmvU20RoX",
+                    currency: "GBP"
+                  }}
+                  style={{
+                            shape: 'pill',
+                            color: 'white',
+                            layout: 'vertical',
+                            label: 'checkout'
+                  }}
+                  createOrder={(data, actions) => {
+                    return actions.order.create({
+                        purchase_units: [{
+                            amount: {
+                                currency_code: "GBP",
+                                value: '2.99'
+                            },
+                            description: `The Crossing Board Digital Magazine: ${digitalEdition}`
+                        }]
+                    });
+                  }}
+                  onApprove={(data, actions) => {
+                    // Capture the funds from the transaction
+                    return actions.order.capture().then(function(details) {
+                      setStep('digital-complete');
+                      showPaypalButton(false);
+                    });
+                  }}
+                />
+                }
               </div>             
           }
           </form>
@@ -277,7 +257,6 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
           }
           
         </div>
-        <div id="paypal-button-container"></div>
         <style jsx>
           {`
             :global(#paypal-button-container.hide) {

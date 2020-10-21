@@ -23,6 +23,7 @@
     "react-icons": "^3.10.0",
     "react-lazy-load-image-component": "^1.5.0",
     "react-markdown": "^4.1.0",
+    "react-paypal-button-v2": "^2.6.2",
     "react-responsive-carousel": "^3.2.10",
     "react-youtube": "^7.11.3",
     "reactjs-popup": "^1.5.0",
