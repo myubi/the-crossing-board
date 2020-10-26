@@ -104,15 +104,18 @@
 		},
 		{
 			"name": "Set #4",
-			"coming-soon": true,
+			"coming-soon": false,
 			"hints": [
 				{
-					"text": "",
-					"answer": ""
+					"text": "../../images/halloween/jack.png",
+					"answer": "Static",
+					"isImage": true
 				}
 			],
 			"prizes": [
-				""
+				"../../images/halloween/prizes/kofoprr.png",
+				"../../images/halloween/prizes/ivdfi.png",
+				"../../images/halloween/prizes/mnrfop.png"
 			]
 		}
 	]
