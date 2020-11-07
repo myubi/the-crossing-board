@@ -18,7 +18,8 @@ module.exports = ({
       "/halloween": { page: "/halloween"},
       "/halloween/gate1": { page: "/halloween/gate1"},
       "/success": {page: "/success"},
-      "/sold-out": {page: "/sold-out"}
+      "/sold-out": {page: "/sold-out"},
+      "/magazine-extras": {page: "/magazine-extras"}
     }
   
     return routes
