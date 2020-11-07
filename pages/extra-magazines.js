@@ -31,6 +31,7 @@ export default function Magazine ({frontmatter, markdownBody}) {
                   <input type="hidden" name="hosted_button_id" value="LD7652CAMEHSS" />
                   <input type="hidden" name="on0" value="Shipping Options" />
                   <div className="price-wrapper">Full price</div>
+                  <p>Please select a shipping location:</p>
                   <div className="select-wrapper">
                     <select name="os0">
                     <option value="UK Standard">UK Standard £3.99 GBP</option>
@@ -55,6 +56,7 @@ export default function Magazine ({frontmatter, markdownBody}) {
                   <input type="hidden" name="on0" value="Shipping Options" />
                   <div className="price-wrapper">Discounted</div>
                   <div className="price-minor">(minor imperfections)</div>
+                  <p>Please select a shipping location:</p>
                   <div className="select-wrapper">
                   <select name="os0">
                     <option value="UK Standard">UK Standard £3.49 GBP</option>
