@@ -19,7 +19,7 @@ module.exports = ({
       "/halloween/gate1": { page: "/halloween/gate1"},
       "/success": {page: "/success"},
       "/sold-out": {page: "/sold-out"},
-      "/magazine-extras": {page: "/magazine-extras"}
+      "/extra-magazines": {page: "/extra-magazines"}
     }
   
     return routes
