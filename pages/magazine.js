@@ -62,11 +62,13 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
           <div className="magazine-options">
             <div className={`magazine-option-selection ${currentEdition === 'Physical' ? 'active' : ''}`} onClick={() => {setStep('subscription-selection'); setCurrentEdition('Physical'); setShowPaypalButton(false); resetPaypal();}}>Hard Copy</div>
             <div className={`magazine-option-selection ${currentEdition === 'Digital' ? 'active' : ''}`} onClick={() => {setStep('digital-selection'); setCurrentEdition('Digital'); setShowPaypalButton(false); resetPaypal();}}>Digital</div>
+            <Link href="/extra-magazines" prefetch={false}>
+            <a className="extra-magazines-link">
             <div className="magazine-option-selection">
-              <Link href="/extra-magazines" prefetch={false}>
-                <a>Spare Copies</a>
-              </Link>
+              Extra Copies
             </div>
+            </a>
+            </Link>
           </div>
           <form>
             {step === 'loading' &&
@@ -412,12 +414,13 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
             .magazine-option-selection {
               background-color: #FFFFFF;
               padding: 20px 100px;
-              border: 1px solid;
+              border: 1px solid #667755;
               border-radius: 30px;
               text-transform: uppercase;
               font-weight: bold;
               cursor: pointer;
               transition: all 0.5s ease-out;
+              color: #667755;
             }
             .magazine-option-selection.active, .magazine-option-selection:hover {
               background-color: #667756;
@@ -430,6 +433,12 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
               border: none;
             }
             .magazine-option-selection:hover a {
+              color: #FFFFFF;
+            }
+            .extra-magazines-link {
+              border: none;
+            }
+            .extra-magazines-link:hover {
               color: #FFFFFF;
             }
             .digital-magazines-wrapper {
