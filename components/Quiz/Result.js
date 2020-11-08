@@ -1,8 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const quizTypes = require('../../data/quizTypes.json');
-
 function Result(props) {
   return (
     <div className="result">

@@ -200,11 +200,11 @@ export default class QuizContainer extends React.Component {
 
 export async function getStaticPaths() {
 
-  const quizes = glob.sync('quizes/**/*.json');
+  const quizzes = glob.sync('quizzes/**/*.json');
   
-  console.log(quizes);
+  console.log(quizzes);
 
-  const quizesSlugs = quizes.map(file =>
+  const quizzesSlugs = quizzes.map(file =>
     file
       .split('/')[1]
       .replace(/ /g, '-')
@@ -212,7 +212,7 @@ export async function getStaticPaths() {
       .trim()
   )
 
-  const paths = quizesSlugs.map(slug => `/quizes/${slug}`);
+  const paths = quizzesSlugs.map(slug => `/quizzes/${slug}`);
   
   return { paths, fallback: false }
 }
@@ -220,7 +220,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ ...ctx }) {
   const { slug } = ctx.params;
-  const content = await import(`../../quizes/${slug}.json`)
+  const content = await import(`../../quizzes/${slug}.json`)
 
   return {
     props: {

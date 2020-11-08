@@ -12,7 +12,7 @@ export default ({ close }) => (
       <a>Calendar</a>
     </Link>
     <Link href="/quiz" onClick={close} prefetch={false}>
-      <a>Quizes</a>
+      <a>Quizzes</a>
     </Link>
     <Link href="/about" onClick={close} prefetch={false}>
       <a>About</a>

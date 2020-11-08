@@ -10,15 +10,15 @@ export default class QuizContainer extends React.Component {
     return (
       <div>
       <Head>
-        <title>The Crossing Board - Quiz</title>
+        <title>The Crossing Board - Quizzes</title>
       </Head>
       <Layout>
       <div className="quiz-wrapper">
-      <div className="quiz-header">Quizes</div>
-      {this.props.allQuizes.map(quiz => (
+      <div className="quiz-header">Quizzes</div>
+      {this.props.allquizzes.map(quiz => (
         <Link
           key={quiz.name}
-          href={{ pathname: `/quizes/${quiz.slug}` }}
+          href={{ pathname: `/quizzes/${quiz.slug}` }}
         >
           <a>
             <div className="quiz-title">
@@ -93,7 +93,7 @@ export default class QuizContainer extends React.Component {
 
 export async function getStaticProps() {
   //get posts & context from folder
-  const quizes = (context => {
+  const quizzes = (context => {
     const keys = context.keys()
     const values = keys.map(context)
 
@@ -112,11 +112,11 @@ export async function getStaticProps() {
       }
     })
     return data
-  })(require.context('../quizes', true, /\.json$/))
+  })(require.context('../quizzes', true, /\.json$/))
 
   return {
     props: {
-      allQuizes: quizes
+      allquizzes: quizzes
     },
   }
 }
