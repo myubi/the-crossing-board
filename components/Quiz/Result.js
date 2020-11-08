@@ -8,7 +8,7 @@ function Result(props) {
     <div className="result">
       <div className="result-title">You are <strong>{props.quizResult}</strong>!</div>
       <div><img src={`../images/quiz/${props.quizResult}.png`} alt="Quiz Result"/></div>
-      <div>{quizTypes[props.quizResult]}</div>
+      <div>{props.quizResultText}</div>
       
       <style jsx>
         {`        

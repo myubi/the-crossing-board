@@ -1,0 +1,312 @@
+{
+	"name": "Which NPC Are You?",
+	"questions": [
+  {
+      "question": "What is your favorite thing to do in your free time?",
+      "answers": [
+          {
+              "type": "Isabelle",
+              "content": "I hardly have free time but I love looking out the window and daydreaming from my desk!"
+          },
+          {
+              "type": "Leif",
+              "content": "Taking care of my plants!"
+          },
+          {
+              "type": "Tom Nook",
+              "content": "I’m always thinking of my next project"
+          },
+          {
+              "type": "Celeste",
+              "content": "Learning about Astrology."
+          },
+          {
+              "type": "Blathers",
+              "content": "You can always find me reading."
+          },
+          {
+              "type": "K.K. Slider",
+              "content": "Belting out my favorite song."
+          },
+          {
+              "type": "Pascal",
+              "content": "Find me anywhere near water it’s so relaxing!"
+          },
+          {
+              "type": "Mabel",
+              "content": "I run my own small business/commissions!"
+          }
+      ]
+  },
+  {
+      "question": "What is the first thing you do when you turn on Animal Crossing?",
+      "answers": [
+          {
+              "type": "Leif",
+              "content": "Water my flowers!"
+          },
+          {
+              "type": "Mabel",
+              "content": "I run straight to the shops."
+          },
+          {
+              "type": "Blathers",
+              "content": "Dig up my fossils for the day"
+          },
+          {
+              "type": "Pascal",
+              "content": "I love starting my day fishing"
+          },
+          {
+              "type": "Tom Nook",
+              "content": "I give my villagers gifts and hope they give me something back"
+          },
+          {
+              "type": "Celeste",
+              "content": "I use my wand and change my outfit."
+          },
+          {
+              "type": "Isabelle",
+              "content": "I check my whole island for any NPC visiting."
+          },
+          {
+              "type": "K.K. Slider",
+              "content": "I vibe to whatever hourly song is playing"
+          }
+      ]
+  },
+  {
+      "question": "What’s something from ACNH you wish you could experience in real life?",
+      "answers": [
+          {
+              "type": "K.K. Slider",
+              "content": "I wanna rock out with K.K. Slider!"
+          },
+          {
+              "type": "Leif",
+              "content": "Creating different colored flowers would be so cool!"
+          },
+          {
+              "type": "Pascal",
+              "content": "I would love to chill in the ocean all day everyday."
+          },
+          {
+              "type": "Tom Nook",
+              "content": "Let me be in charge of a whole island! I’ll be rich!"
+          },
+          {
+              "type": "Blathers",
+              "content": "I want to stock up my own museum."
+          },
+          {
+              "type": "Isabelle",
+              "content": "I would love for my own island to be brought to life"
+          },
+          {
+              "type": "Celeste",
+              "content": "To be able to hear when there’s a shooting star so I know when to wish."
+          },
+          {
+              "type": "Mabel",
+              "content": "The fashion of course!"
+          }
+      ]
+  },
+  {
+      "question": "What’s your go-to gift to give your villagers?",
+      "answers": [
+          {
+              "type": "Mabel",
+              "content": "Clothes"
+          },
+          {
+              "type": "Leif",
+              "content": "Fruit"
+          },
+          {
+              "type": "Blathers",
+              "content": "Fossils"
+          },
+          {
+              "type": "Isabelle",
+              "content": "Something I crafted"
+          },
+          {
+              "type": "Tom Nook",
+              "content": "Bells! I’m rolling in them"
+          },
+          {
+              "type": "K.K. Slider",
+              "content": "My favorite K.K. Slider song"
+          },
+          {
+              "type": "Pascal",
+              "content": "Fish"
+          },
+          {
+              "type": "Celeste",
+              "content": "Something related to their zodiac"
+          }
+      ]
+  },
+  {
+      "question": "What is something you want to learn more about?",
+      "answers": [
+          {
+              "type": "Leif",
+              "content": "I want to have a green thumb!"
+          },
+          {
+              "type": "Tom Nook",
+              "content": "How do taxes even work?"
+          },
+          {
+              "type": "Blathers",
+              "content": "I’m such a history buff you can never know enough"
+          },
+          {
+              "type": "Celeste",
+              "content": "Space is so cool there’s so much to learn!"
+          },
+          {
+              "type": "(K.K. Slider",
+              "content": "I would love to learn how to play a new instrument"
+          },
+          {
+              "type": "Isabelle",
+              "content": "I want to be better at organizing"
+          },
+          {
+              "type": "Mabel",
+              "content": "I want to know more about what styles are in!"
+          },
+          {
+              "type": "Pascal",
+              "content": "I just want to be more chill and go with the flow"
+          }
+      ]
+  },
+  {
+      "question": "What is your favorite thing to do when playing Animal Crossing?",
+      "answers": [
+          {
+              "type": "Leif",
+              "content": "Creating new hybrids"
+          },
+          {
+              "type": "Isabelle",
+              "content": "Hanging out with my villagers"
+          },
+          {
+              "type": "Pascal",
+              "content": "Wherever the wind takes me that day"
+          },
+          {
+              "type": "Blathers",
+              "content": "Stocking up my museum!"
+          },
+          {
+              "type": "Mabel",
+              "content": "Showing off my outfits"
+          },
+          {
+              "type": "Celeste",
+              "content": "Wishing on stars so I can craft all of Celeste’s DIY’s"
+          },
+          {
+              "type": "Tom Nook",
+              "content": "Island hopping for new residents"
+          },
+          {
+              "type": "K.K. Slider",
+              "content": "Putting out instruments in hopes my villagers will play them"
+          }
+      ]
+  },
+  {
+      "question": "Which best describes you?",
+      "answers": [
+          {
+              "type": "Isabelle",
+              "content": "Patient"
+          },
+          {
+              "type": "Tom Nook",
+              "content": "Goal-oriented"
+          },
+          {
+              "type": "Pascal",
+              "content": "Laid back"
+          },
+          {
+              "type": "K.K. Slider",
+              "content": "Creative"
+          },
+          {
+              "type": "Blathers",
+              "content": "Intellectual"
+          },
+          {
+              "type": "Leif",
+              "content": "Friendly"
+          },
+          {
+              "type": "Mabel",
+              "content": "Talkative"
+          },
+          {
+              "type": "Celeste",
+              "content": "Dreamer"
+          }
+      ]
+  },
+  {
+      "question": "If you could have one thing for free, what would you choose?",
+      "answers": [
+          {
+              "type": "Tom Nook",
+              "content": "Money! Then I can buy whatever I want"
+          },
+          {
+              "type": "Isabelle",
+              "content": "Some free time"
+          },
+          {
+              "type": "Leif",
+              "content": "All of the plants I want"
+          },
+          {
+              "type": "Pascal",
+              "content": "A trip to a beach"
+          },
+          {
+              "type": "Blathers",
+              "content": "Books"
+          },
+          {
+              "type": "Mabel",
+              "content": "All of the clothes and accessories I want"
+          },
+          {
+              "type": "K.K. Slider",
+              "content": "Concert tickets"
+          },
+          {
+              "type": "Celeste",
+              "content": "I don’t need anything. I’m perfectly content."
+          }
+      ]
+  }
+],
+	"results": {
+		"Isabelle":"Sometimes you may feel like school or work consumes your life. However, you’re very good at realizing when you need a break. You tend to appreciate the smaller things in life and love to take pictures of things that make you happy. You are very going and always bring a smile to people’s faces when they talk to you. You’re a great person to go to for advice and your friends know they can always count on you.",
+		"Leif": "You are one of the easiest people to talk to. You typically make friends pretty easily. If there’s one thing anyone knows about you, it’s your love for plants! You consider yourself a fantastic plant parent. One day you want to have a house filled with your favorite trees and flowers. You are an approachable person and get along well with everyone. ",
+		"Tom Nook": "You’re a fantastic leader. You never let anything set you back. When something needs to get done, you make sure it happens. You often find that you take charge in group projects. You are great at compromising because you want to make sure everyone is happy. It bothers you when things don’t get done quick enough, so you are always on top of all of your tasks!",
+		"Celeste": "You are fascinated by the night sky. Anytime the sky is clear, you’re looking up at it. You often find yourself daydreaming and are more of a night owl than an early bird. The night gives you energy and you may be most creative after the sun goes down. You are into astrology or want to learn more about it and you love expressing your knowledge on things you are most passionate about to anyone who will listen.",
+		"Blathers": "You consider yourself a knowledgeable person. Whenever you learn something new you have to tell someone. You love to read and get excited when someone has the same interests as you. Whenever you have the opportunity to show off your intelligence you jump at it. However, you also love learning and think you can never have enough knowledge!",
+		"K.K. Slider": "You’re a very creative person and have great music taste. You always have to have aux because you know you have the best music. If you don’t already play an instrument you’ve thought about it. You find music is great for every moment/emotion and learn the lyrics to songs quicker than you can memorize anything else.",
+		"Pascal": "You love to go with the flow and are very laid back. But that doesn’t fool anyone! You’re very passionate about your interests and love to talk about them to whoever will listen. Not only are you very easy to get along with, but you find it easy to get along with everybody else! You are a very refreshing friend to have around.",
+		"Mabel": "Fashion is your passion. Your friends always come to you for fashion advice. You’re always up to date on the latest trends and have to have them. You love talking to new people and telling them about whatever you’re up to recently. You are very ambitious and once you have a goal in mind you can’t be stopped.",
+		"Undetermined": "It seems our robots had issues with finding out who you are... Maybe you could try again? ...again?"
+	}
+}

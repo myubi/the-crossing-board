@@ -1,140 +1,9 @@
 import Head from 'next/head';
 import React from 'react';
-import Quiz from '../components/Quiz/Quiz';
-import Result from '../components/Quiz/Result';
 import Layout from "../components/Layout";
-import quizQuestions from '../data/quizQuestions';
+import Link from "next/link";
 
 export default class QuizContainer extends React.Component {
-  
-  constructor(props) {
-    super(props);
-    this.state = {
-      counter: 0,
-      questionId: 1,
-      question: '',
-      answerOptions: [],
-      answer: '',
-      answersCount: {},
-      result: ''
-    };
-    
-    this.handleAnswerSelected = this.handleAnswerSelected.bind(this);
-    this.shuffleArray = this.shuffleArray.bind(this);
-  }
-  
-  componentDidMount() {
-  const shuffledAnswerOptions = quizQuestions.map((question) => this.shuffleArray(question.answers));  
-
-  	this.setState({
-  		question: quizQuestions[0].question,
-  		answerOptions: shuffledAnswerOptions[0]
-  	});
-  }
-
-  shuffleArray(array) {
-  	var currentIndex = array.length, temporaryValue, randomIndex;
-
-  	// While there remain elements to shuffle...
-  	while (0 !== currentIndex) {
-
-  		// Pick a remaining element...
-  		randomIndex = Math.floor(Math.random() * currentIndex);
-  		currentIndex -= 1;
-
-  		// And swap it with the current element.
-  		temporaryValue = array[currentIndex];
-  		array[currentIndex] = array[randomIndex];
-  		array[randomIndex] = temporaryValue;
-  	}
-
-  	return array;
-  };
-
-  setUserAnswer(answer) {
-  	this.setState((state) => ({
-  		answersCount: {
-  			...state.answersCount,
-  			[answer]: (state.answersCount[answer] || 0) + 1
-  		},
-  		answer: answer
-  	}));
-  }
-
-  handleAnswerSelected(event) {
-  		this.setUserAnswer(event.currentTarget.value);
-  		if (this.state.questionId < quizQuestions.length) {
-  				setTimeout(() => this.setNextQuestion(), 300);
-  			} else {
-  				setTimeout(() => this.setResults(this.getResults()), 300);
-  			}
-  }
-
-  setNextQuestion() {
-  	const counter = this.state.counter + 1;
-  	const questionId = this.state.questionId + 1;
-  	this.setState({
-  		counter: counter,
-  		questionId: questionId,
-  		question: quizQuestions[counter].question,
-  		answerOptions: quizQuestions[counter].answers,
-  		answer: ''
-  	});
-  }
-
-  getResults() {
-  		const answersCount = this.state.answersCount;
-  		const answersCountKeys = Object.keys(answersCount);
-  		const answersCountValues = answersCountKeys.map((key) => answersCount[key]);
-  		const maxAnswerCount = Math.max.apply(null, answersCountValues);
-      
-      return answersCountKeys.filter((key) => answersCount[key] === maxAnswerCount);
-  }
-
-  setResults (result) {
-  	if (result.length === 1) {
-  		this.setState({ result: result[0] });
-  	} else {
-  		this.setState({ result: result[result.length * Math.random() | 0] });
-  	}
-  }
-  
-  renderQuiz() {
-  return (
-  		<Quiz
-  			answer={this.state.answer}
-  			answerOptions={this.state.answerOptions}
-  			questionId={this.state.questionId}
-  			question={this.state.question}
-  			questionTotal={quizQuestions.length}
-  			onAnswerSelected={this.handleAnswerSelected}
-        counter={this.state.counter}
-  		/>
-  	);
-  }
-
-  renderResult() {
-  	return (
-      <div>
-  		<Result quizResult={this.state.result} />
-        <div className="quiz-reset-button" onClick={() => this.resetQuiz()}>Take the quiz again?</div>
-      </div>
-  	);
-  }
-  
-  resetQuiz() {
-    const shuffledAnswerOptions = quizQuestions.map((question) => this.shuffleArray(question.answers));  
-
-    this.setState({
-      counter: 0,
-      questionId: 1,
-      question: quizQuestions[0].question,
-  		answerOptions: shuffledAnswerOptions[0],
-      answer: '',
-      answersCount: {},
-      result: ''
-    });
-  }
   
   render() {
     
@@ -145,9 +14,19 @@ export default class QuizContainer extends React.Component {
       </Head>
       <Layout>
       <div className="quiz-wrapper">
-      <div className="quiz-title">Quiz</div>
-      <div className="quiz-name">Which Villager Personality Are You?</div>
-      {this.state.result ? this.renderResult() : this.renderQuiz()}
+      <div className="quiz-header">Quizes</div>
+      {this.props.allQuizes.map(quiz => (
+        <Link
+          key={quiz.name}
+          href={{ pathname: `/quizes/${quiz.slug}` }}
+        >
+          <a>
+            <div className="quiz-title">
+               {quiz.name}
+            </div>
+          </a>
+        </Link>
+      ))}
       </div>
       <style jsx>{`
         .quiz-wrapper {
@@ -157,6 +36,11 @@ export default class QuizContainer extends React.Component {
           padding: 20px;
           border-radius: 10px;
           color: #667756;
+        }
+        .quiz-header {
+          font-size: 2em;
+          font-size: bold;
+          margin-bottom: 20px;
         }
         .quiz-title {
           font-size: 2em;
@@ -169,6 +53,15 @@ export default class QuizContainer extends React.Component {
           border-radius: 20px;
           margin-bottom: 20px;
           color: #fef0d1;
+          transition: all 0.5s ease-in-out;
+        }
+        .quiz-title:hover {
+          color: #c88d5e;
+          background-color: #fef0d1;
+          border: 2px dashed #c88d5e;  
+        }
+        a {
+          text-decoration: none;
         }
         
         .quiz-name {
@@ -195,5 +88,35 @@ export default class QuizContainer extends React.Component {
     </Layout>
     </div>
     );    
+  }
+}
+
+export async function getStaticProps() {
+  //get posts & context from folder
+  const quizes = (context => {
+    const keys = context.keys()
+    const values = keys.map(context)
+
+    const data = keys.map((key, index) => {
+      // Create slug from filename
+      const slug = key
+        .replace(/^.*[\\\/]/, '')
+        .split('.')
+        .slice(0, -1)
+        .join('.')
+      const value = values[index]
+      // Parse yaml metadata & markdownbody in document
+      return {
+        slug,
+        ...value
+      }
+    })
+    return data
+  })(require.context('../quizes', true, /\.json$/))
+
+  return {
+    props: {
+      allQuizes: quizes
+    },
   }
 }
