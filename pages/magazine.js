@@ -382,6 +382,16 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
             :global(.tiny-text){
               font-size: 0.7em;
             }
+            :global(.placeholder-text){
+              width: 250px;
+              margin-right: 20px;
+              height: 330px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              background-color: #c9edf1;
+              color: #40ba81;
+            }
             
             .magazine-faq  :global(.no-border) {
               border: none;
