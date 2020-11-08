@@ -33,7 +33,7 @@
               "content": "Find me anywhere near water it’s so relaxing!"
           },
           {
-              "type": "Mabel",
+              "type": "Label",
               "content": "I run my own small business/commissions!"
           }
       ]
@@ -46,7 +46,7 @@
               "content": "Water my flowers!"
           },
           {
-              "type": "Mabel",
+              "type": "Label",
               "content": "I run straight to the shops."
           },
           {
@@ -107,7 +107,7 @@
               "content": "To be able to hear when there’s a shooting star so I know when to wish."
           },
           {
-              "type": "Mabel",
+              "type": "Label",
               "content": "The fashion of course!"
           }
       ]
@@ -116,7 +116,7 @@
       "question": "What’s your go-to gift to give your villagers?",
       "answers": [
           {
-              "type": "Mabel",
+              "type": "Label",
               "content": "Clothes"
           },
           {
@@ -177,7 +177,7 @@
               "content": "I want to be better at organizing"
           },
           {
-              "type": "Mabel",
+              "type": "Label",
               "content": "I want to know more about what styles are in!"
           },
           {
@@ -206,7 +206,7 @@
               "content": "Stocking up my museum!"
           },
           {
-              "type": "Mabel",
+              "type": "Label",
               "content": "Showing off my outfits"
           },
           {
@@ -251,7 +251,7 @@
               "content": "Friendly"
           },
           {
-              "type": "Mabel",
+              "type": "Label",
               "content": "Talkative"
           },
           {
@@ -284,7 +284,7 @@
               "content": "Books"
           },
           {
-              "type": "Mabel",
+              "type": "Label",
               "content": "All of the clothes and accessories I want"
           },
           {
@@ -306,7 +306,7 @@
 		"Blathers": "You consider yourself a knowledgeable person. Whenever you learn something new you have to tell someone. You love to read and get excited when someone has the same interests as you. Whenever you have the opportunity to show off your intelligence you jump at it. However, you also love learning and think you can never have enough knowledge!",
 		"K.K. Slider": "You’re a very creative person and have great music taste. You always have to have aux because you know you have the best music. If you don’t already play an instrument you’ve thought about it. You find music is great for every moment/emotion and learn the lyrics to songs quicker than you can memorize anything else.",
 		"Pascal": "You love to go with the flow and are very laid back. But that doesn’t fool anyone! You’re very passionate about your interests and love to talk about them to whoever will listen. Not only are you very easy to get along with, but you find it easy to get along with everybody else! You are a very refreshing friend to have around.",
-		"Mabel": "Fashion is your passion. Your friends always come to you for fashion advice. You’re always up to date on the latest trends and have to have them. You love talking to new people and telling them about whatever you’re up to recently. You are very ambitious and once you have a goal in mind you can’t be stopped.",
+		"Label": "Fashion is your passion. Your friends always come to you for fashion advice. You’re always up to date on the latest trends and have to have them. You love talking to new people and telling them about whatever you’re up to recently. You are very ambitious and once you have a goal in mind you can’t be stopped.",
 		"Undetermined": "It seems our robots had issues with finding out who you are... Maybe you could try again? ...again?"
 	}
 }
