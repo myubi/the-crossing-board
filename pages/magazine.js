@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Link from "next/link";
 import matter from "gray-matter";
 import Head from 'next/head';
 import ReactMarkdown from "react-markdown";
@@ -61,6 +62,11 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
           <div className="magazine-options">
             <div className={`magazine-option-selection ${currentEdition === 'Physical' ? 'active' : ''}`} onClick={() => {setStep('subscription-selection'); setCurrentEdition('Physical'); setShowPaypalButton(false); resetPaypal();}}>Hard Copy</div>
             <div className={`magazine-option-selection ${currentEdition === 'Digital' ? 'active' : ''}`} onClick={() => {setStep('digital-selection'); setCurrentEdition('Digital'); setShowPaypalButton(false); resetPaypal();}}>Digital</div>
+            <div className="magazine-option-selection">
+              <Link href="/extra-magazines" prefetch={false}>
+                <a>Spare Copies</a>
+              </Link>
+            </div>
           </div>
           <form>
             {step === 'loading' &&
@@ -416,6 +422,14 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
             .magazine-option-selection.active, .magazine-option-selection:hover {
               background-color: #667756;
               border: 1px solid #FFFFFF;
+              color: #FFFFFF;
+            }
+            .magazine-option-selection a {
+              color: #667756;
+              text-decoration: none;
+              border: none;
+            }
+            .magazine-option-selection:hover a {
               color: #FFFFFF;
             }
             .digital-magazines-wrapper {
