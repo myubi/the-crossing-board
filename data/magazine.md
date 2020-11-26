@@ -4,7 +4,7 @@ title: Magazine
 ---
 <div class="image-left">
 <div style="text-align: center;">
-<div class="placeholder-text">December cover coming soon!</div>
+<img src="/images/magazine/december-cover.png" />
 </div>
 <div class="magazine-text-bubble">
 <p>Receive your very own fan-made Animal Crossing magazine filled with activities, inspiration and much more! <span class="tiny-text">...much more!</span></p>
