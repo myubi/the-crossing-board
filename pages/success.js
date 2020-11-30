@@ -11,7 +11,7 @@ export default function Info() {
     <Layout>
     <div className="wrapper">
       <div className="thank-you-title">Thank you for your purchase!</div>
-      <div>The calendars will be shipped on the 20th of November. Shipping time varies depending on your country.</div>
+      <div>The calendars will be shipped on the 14th of December. Shipping time varies depending on your country.</div>
     </div>
     <style jsx>{`
       .wrapper {
