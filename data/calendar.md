@@ -8,4 +8,4 @@ Our fan-made wall calendar is the perfect place to organise your real life and y
 
 Each month features art by incredible creatives from the community, so keep your eyes peeled for some friendly faces. Filled to the brim with your favorite characters, this organizer is sure to brighten any room. The dimensions of the calendar are A4 (21x30cm or 8.27x11.69 inches).
 
-Pre order your fanmade calendar before the 20th November to guarantee its arrival in time for the holidays!
+Preorder your fan-made calendar before the 10th of December to get it in time for the next bulk shipment!
