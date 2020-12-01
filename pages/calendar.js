@@ -21,8 +21,8 @@ export default function Magazine ({frontmatter, markdownBody}) {
               showThumbs={false}
               showStatus={false}
             >
-            <img src="../images/calendar/calendar-cover-mockup.jpg" alt="Next Issue" />
-            <img src="../images/calendar/calendar-mockup.jpg" alt="Next Issue" />
+            <img src="../images/calendar/calendar01.jpeg" alt="Next Issue" />
+            <img src="../images/calendar/calendar02.jpeg" alt="Next Issue" />
           </Carousel>
           </div>
           <div>

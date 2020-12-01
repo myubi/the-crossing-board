@@ -54,7 +54,7 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
         </Head>
         <Layout>
         <div className="wrapper">
-        <img src="../images/magazine/dec-banner.png" alt="Next Issue" />
+        <img src="../images/magazine/january-banner.jpeg" alt="Next Issue" />
         <div className="magazine-faq">
           <ReactMarkdown source={markdownBody} escapeHtml={false} />
         </div>
@@ -397,8 +397,8 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
               display: flex;
               align-items: center;
               justify-content: center;
-              background-color: #c9edf1;
-              color: #40ba81;
+              background-color: #305875;
+              color: #87ceff;
             }
             
             .magazine-faq  :global(.no-border) {
