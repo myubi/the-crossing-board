@@ -62,13 +62,6 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
           <div className="magazine-options">
             <div className={`magazine-option-selection ${currentEdition === 'Physical' ? 'active' : ''}`} onClick={() => {setStep('subscription-selection'); setCurrentEdition('Physical'); setShowPaypalButton(false); resetPaypal();}}>Hard Copy</div>
             <div className={`magazine-option-selection ${currentEdition === 'Digital' ? 'active' : ''}`} onClick={() => {setStep('digital-selection'); setCurrentEdition('Digital'); setShowPaypalButton(false); resetPaypal();}}>Digital</div>
-            <Link href="/extra-magazines" prefetch={false}>
-            <a className="extra-magazines-link">
-            <div className="magazine-option-selection">
-              Extra Copies
-            </div>
-            </a>
-            </Link>
           </div>
           <form>
             {step === 'loading' &&
