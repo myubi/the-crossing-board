@@ -16,13 +16,13 @@ export default function Magazine ({frontmatter, markdownBody}) {
         <Layout>
         <div className="wrapper">
           <h1 className="title">Extra Magazines</h1>
-          <p>Did you miss out on our November magazine?</p>
+          <p>Did you miss out on our December magazine?</p>
           <p>Well, it seems like Redd knows that these are genuine pieces and he ended up collecting too many... Thankfully, he agreed to give some back so that you can enjoy our latest issue.</p> 
           <p>But hurry before another shady salesman grabs all the <u>limited copies!</u></p>
           
           <div className="extras-wrapper">
             <div className="cover-wrapper">
-              <img src="../images/magazine/november-cover.png" alt="" />
+              <img src="../images/magazine/december-cover.png" alt="" />
             </div>
             <div className="content-wrapper">
               <div className="form-wrapper">
@@ -35,11 +35,11 @@ export default function Magazine ({frontmatter, markdownBody}) {
                   <div className="select-wrapper">
                     <select name="os0">
                     <option value="UK Standard">UK Standard £3.99 GBP</option>
-                    <option value="UK Tracked">UK Tracked £7.99 GBP</option>
-                    <option value="Europe Standard">Europe Standard £4.99 GBP</option>
-                    <option value="Europe Tracked">Europe Tracked £9.99 GBP</option>
-                    <option value="Rest of the World Standard">Rest of the World Standard £5.99 GBP</option>            
-                    <option value="Rest of the World Tracked">Rest of the World Tracked £10.99 GBP</option>
+                  	<option value="Europe Standard">Europe Standard £4.99 GBP</option>
+                  	<option value="Rest of the World Standard">Rest of the World Standard £5.99 GBP</option>
+                  	<option value="UK Tracked">UK Tracked £7.99 GBP</option>
+                  	<option value="Europe Tracked">Europe Tracked £9.99 GBP</option>
+                  	<option value="Rest of the World Tracked">Rest of the World Tracked £10.99 GBP</option>
                     </select> 
                   </div>
                   <input type="hidden" name="currency_code" value="GBP" />
@@ -60,10 +60,10 @@ export default function Magazine ({frontmatter, markdownBody}) {
                   <div className="select-wrapper">
                   <select name="os0">
                     <option value="UK Standard">UK Standard £3.49 GBP</option>
-                    <option value="UK Tracked">UK Tracked £7.49 GBP</option>
                     <option value="Europe Standard">Europe Standard £4.49 GBP</option>
+                    <option value="Rest of the World Standard">Rest of the World Standard £5.49 GBP</option>
+                    <option value="UK Tracked">UK Tracked £7.49 GBP</option>
                     <option value="Europe Tracked">Europe Tracked £9.49 GBP</option>
-                    <option value="Rest of the World Standard">Rest of the World Standard £5.49 GBP</option>                
                     <option value="Rest of the World Tracked">Rest of the World Tracked £10.49 GBP</option>
                   </select>
                   </div>

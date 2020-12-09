@@ -140,6 +140,21 @@ export default function Info({frontmatter, markdownBody, profiles}) {
          <div className="msg">{status.info.msg}</div>
        )}
      </form>
+     <div>
+      <h2>Frequently asked questions:</h2>
+
+      <h3>“I haven’t received my magazine yet, when is it going to arrive?”</h3>
+
+      <p>We ship our magazines out around a week into the month. Whilst the postal service aims to deliver within a week worldwide, there can be delays for certain parts of the world, especially due to the pandemic. If you’d like to track your parcel and be certain of its timely arrival, please opt for tracked shipping.</p>
+
+      <h3>“I think you might have the wrong details for me, can I change them?”</h3>
+
+      <p>Yes, please email us with your name and first line of the address you’ve given us and let us know what you’d like to change.</p>
+
+      <h3>“I might need to cancel my subscription at some point, how can I do this?”</h3>
+
+      <p>You can cancel your subscription at anytime via PayPal or directly with your bank. Alternatively, you can email us with your name and first line of the address that you’ve given us.</p>
+     </div>
     </div>
     <style jsx>{`
       .contact-wrapper {
