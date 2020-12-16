@@ -23,6 +23,12 @@
 			"slug": "november2020",
 			"cover": "../images/magazine/november-cover.png",
 			"file": "../files/magazines/The Crossing Board Digital Magazine November 2020.pdf"
+		},
+		{
+			"name": "December 2020",
+			"slug": "december2020",
+			"cover": "../images/magazine/december-cover.png",
+			"file": "../files/magazines/The Crossing Board Digital Magazine December 2020.pdf"
 		}
 	]
 }
