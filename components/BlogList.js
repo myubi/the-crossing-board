@@ -17,12 +17,14 @@ const BlogList = ({ allBlogs }) => {
 
   return (
     <>
-      <div className="content-thumb magazine">
-      <div className="pin" />
-        <YouTube
-          videoId="d-mZqoURg7Q"   
-          className="youtube-wrapper"             
-        />
+      <div className="move-banner-wrapper">
+        <Link
+          href="/news/we-are-moving-to-shopify"
+        >
+        <a>
+        <img className="move-banner" src="/images/shopify-banner.jpeg" alt="The Crossing Board" />
+        </a>
+        </Link>
       </div>
       <div className="notice-board">
         {sortedByDate.map(post => (
@@ -87,7 +89,17 @@ const BlogList = ({ allBlogs }) => {
             max-width: 200px;
           }
           
-          a:hover > .content-thumb { 
+          .move-banner-wrapper {
+            max-width: 80vw;
+            margin: 20px auto 0;
+          }
+          
+          .move-banner {
+            width: 100%;
+            border-radius: 10px;
+          }
+          
+          a:hover > .content-thumb,  a:hover > .move-banner{ 
             animation: pulse 1.5s infinite;
             animation-timing-function: linear;   
           }
