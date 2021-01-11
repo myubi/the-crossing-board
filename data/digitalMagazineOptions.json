@@ -4,31 +4,31 @@
 			"name": "July 2020",
 			"slug": "july2020",
 			"cover": "../images/magazine/july-cover.jpg",
-			"file": "../files/magazines/The Crossing Board Digital Magazine July 2020.pdf"
+			"file": "../files/magazines/TCB 1 July Digital Fanzine.pdf"
 		},
 		{
 			"name": "September 2020",
 			"slug": "september2020",
 			"cover": "../images/magazine/september-cover.jpg",
-			"file": "../files/magazines/The Crossing Board Digital Magazine September 2020.pdf"
+			"file": "../files/magazines/TCB 2 September Digital Fanzine.pdf"
 		},
 		{
 			"name": "October 2020",
 			"slug": "october2020",
 			"cover": "../images/magazine/october-cover.png",
-			"file": "../files/magazines/The Crossing Board Digital Magazine October 2020.pdf"
+			"file": "../files/magazines/TCB 3 October Digital Fanzine.pdf"
 		},
 		{
 			"name": "November 2020",
 			"slug": "november2020",
 			"cover": "../images/magazine/november-cover.png",
-			"file": "../files/magazines/The Crossing Board Digital Magazine November 2020.pdf"
+			"file": "../files/magazines/TCB 4 November Digital Fanzine.pdf"
 		},
 		{
 			"name": "December 2020",
 			"slug": "december2020",
 			"cover": "../images/magazine/december-cover.png",
-			"file": "../files/magazines/The Crossing Board Digital Magazine December 2020.pdf"
+			"file": "../files/magazines/TCB 5 December Digital Fanzine.pdf"
 		}
 	]
 }

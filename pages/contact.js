@@ -84,6 +84,12 @@ export default function Info({frontmatter, markdownBody, profiles}) {
     </Head>
     <Layout>
     <div className="contact-wrapper">
+    <div className="important-notice">
+      <h2>Important Notice</h2>
+      <p>Please be aware that there are currently huge delays at Post Offices around the world because of staff shortages and quarantining of various depots. This may severely disrupt deliveries of our fanzines. </p>
+      <p>Please understand that this is out of our control and <strong>The Crossing Board cannot be held responsible for any delays</strong>.</p>
+      <p>Many thanks for your understanding and patience.</p>
+    </div>
       <div className="contact-info">
         <ReactMarkdown source={aboutBody} />
       </div>
@@ -215,6 +221,15 @@ export default function Info({frontmatter, markdownBody, profiles}) {
       }
       .error { 
         color: #e63333;
+      }
+      .important-notice {
+        background-color: #9e2e2e;
+        margin-bottom: 25px;
+        padding: 5px;
+        color: #fcf8e3;
+      }
+      .important-notice strong {
+        border-bottom: 1px solid;
       }
     `}</style>
   </Layout>

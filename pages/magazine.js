@@ -58,7 +58,7 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
           <h2>Important Notice</h2>
           <p>Please be aware that there are currently huge delays at Post Offices around the world because of staff shortages and quarantining of various depots. This may severely disrupt deliveries of our fanzines. </p>
           <p>Please understand that this is out of our control and <strong>The Crossing Board cannot be held responsible for any delays</strong>.</p>
-          <p>Many thanks for your understand and patience.</p>
+          <p>Many thanks for your understanding and patience.</p>
         </div>
         <img src="../images/magazine/february-banner.png" alt="Next Issue" />
         <div className="magazine-faq">

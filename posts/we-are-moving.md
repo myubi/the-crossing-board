@@ -1,11 +1,15 @@
 ---
-title: We’re moving to Shopify!
+title: Important update! We're moving...
 author: The Crossing Board
 date: "2021-01-08"
 
 ---
 
 We have some BIG news to share with you all... Our current subscription platform can no longer handle the number of wonderful readers we have and so we’re pleased to announce that we are moving to a new platform!
+
+<div class="image-center">
+<img class="no-border" src="/images/calendar/sold-out.png" alt="" />
+</div>
 
 This means, **all current subscriptions will be cancelled** on **February 1st** at **midnight** and you will need to **re-subscribe** via [shop.thecrossingboard.com](https://shop.thecrossingboard.com). But don't worry, unlike many of Tom Nook's tasks, this one's easy!
 
@@ -24,7 +28,7 @@ We’d also like to mention that along with this move, there will be a slight in
 
 Don’t forget: Once our new platform goes live on the 1st of February, you’ll need to resubscribe to our fanzine at [shop.thecrossingboard.com](https://shop.thecrossingboard.com) before the end of the month in order to receive the March issue and onwards.
 
-If you have any questions regarding our move over to Shopify, please do get in contact with us on contact@thecrossingboard.com. 
+If you have any questions regarding our move to a new platform, please do get in contact with us on contact@thecrossingboard.com. 
 
 *We will be sending further emails with reminders and information to our current subscribers to ensure everyone is aware and doesn’t miss out during our migration.*
 
