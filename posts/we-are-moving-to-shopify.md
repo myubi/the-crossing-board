@@ -5,20 +5,27 @@ date: "2021-01-08"
 
 ---
 
-We have some BIG news to share with you all... Our current platform can no longer handle the number of amazing subscribers we have and so we are pleased to announce that we are moving to Shopify!
+We have some BIG news to share with you all... Our current subscription platform can no longer handle the number of wonderful readers we have and so we’re pleased to announce that we are moving to a new platform!
 
-This means, all current subscriptions will be **cancelled** on February 1st and you will need to **re-subscribe** on our new platform... But don't worry, unlike many of Tom Nook's tasks, this one's easy!
+This means, **all current subscriptions will be cancelled** on **February 1st** at **midnight** and you will need to **re-subscribe** via [shop.thecrossingboard.com](https://shop.thecrossingboard.com). But don't worry, unlike many of Tom Nook's tasks, this one's easy!
 
-We will cancel your current subscription for you; You will need to subscribe to our new shop which will go live on 1st February [here](https://shop.thecrossingboard.com). **Make sure you resubscribe by 31st February to ensure you receive the March and following months magazine editions!**
+We will cancel your current subscription for you, so there’s no need to worry about being charged twice. All you need to do is make sure you have resubscribed on our new site before the 29th of February in order to get our March issue and onwards. 
 
-We are very excited about this upgrade as it will allow us to bring many new features to you all! This will include things such as being able to gift subscriptions (the perfect birthday present!), a new and improved Crossing Board shop website, and your very own Crossing Board account to easily manage your subscriptions. 
+We’re very excited about this upgrade as it will allow us to bring many new features to you all! Some of these include...
 
-We would also like to mention that we are slightly increasing the price of our magazine to reflect the ever growing content and highly demanded gifts included within. This slight increase means we can continue to operate and bring you all the very best articles, puzzles, recipes and more! This has meant we have also been able to increase the quality of our magazine, making it more durable so you can take it with you wherever you go! We hope you understand and would like to thank you for your continued support. 
+- Easy subscription management!
+- A loyalty scheme for those who have subscribed for many months...many months.
+- Addressing a subscription to a friend with a personal graphic - the perfect gift!
+- Reviews from other readers to help you decide which products will best suit you.
+- An optional sign-in with records of your past and present orders.
+- A brand new newsletter, bringing you the latest updates straight to your inbox.
 
-Don’t forget - **Make sure you resubscribe by 31st February to ensure you receive the March and following months magazine editions!**
+We’d also like to mention that along with this move, there will be a slight increase in the price of our hard copy subscription. We hope you can understand that this reflects our ever growing service and the highly demanded gifts and content within our fanzines. The change means that we can continue to operate and bring you all your favourite articles, puzzles, recipes and more!
+
+Don’t forget: Once our new platform goes live on the 1st of February, you’ll need to resubscribe to our fanzine at [shop.thecrossingboard.com](https://shop.thecrossingboard.com) before the end of the month in order to receive the March issue and onwards.
 
 If you have any questions regarding our move over to Shopify, please do get in contact with us on contact@thecrossingboard.com. 
 
-*We will be sending further emails with reminders and information to our current subscribers to ensure they are aware and do not miss out during our migration.*
+*We will be sending further emails with reminders and information to our current subscribers to ensure everyone is aware and doesn’t miss out during our migration.*
 
 
