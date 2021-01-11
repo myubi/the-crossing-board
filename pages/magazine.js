@@ -54,6 +54,12 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
         </Head>
         <Layout>
         <div className="wrapper">
+        <div className="important-notice">
+          <h2>Important Notice</h2>
+          <p>Please be aware that there are currently huge delays at Post Offices around the world because of staff shortages and quarantining of various depots. This may severely disrupt deliveries of our fanzines. </p>
+          <p>Please understand that this is out of our control and <strong>The Crossing Board cannot be held responsible for any delays</strong>.</p>
+          <p>Many thanks for your understand and patience.</p>
+        </div>
         <img src="../images/magazine/february-banner.png" alt="Next Issue" />
         <div className="magazine-faq">
           <ReactMarkdown source={markdownBody} escapeHtml={false} />
@@ -492,6 +498,15 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
             .magazine-promo img {
               max-width: 50%;
               border: 5px solid;
+            }
+            .important-notice {
+              background-color: #9e2e2e;
+              margin-bottom: 25px;
+              padding: 5px;
+              color: #fcf8e3;
+            }
+            .important-notice strong {
+              border-bottom: 1px solid;
             }
             @media (max-width: 768px) {
               .form-options {
