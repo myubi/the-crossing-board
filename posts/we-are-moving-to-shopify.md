@@ -24,7 +24,7 @@ We’d also like to mention that along with this move, there will be a slight in
 
 Don’t forget: Once our new platform goes live on the 1st of February, you’ll need to resubscribe to our fanzine at [shop.thecrossingboard.com](https://shop.thecrossingboard.com) before the end of the month in order to receive the March issue and onwards.
 
-If you have any questions regarding our move over to Shopify, please do get in contact with us on contact@thecrossingboard.com. 
+If you have any questions regarding our move to a new platform, please do get in contact with us on contact@thecrossingboard.com. 
 
 *We will be sending further emails with reminders and information to our current subscribers to ensure everyone is aware and doesn’t miss out during our migration.*
 
