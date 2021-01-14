@@ -67,7 +67,11 @@ export default function Magazine ({frontmatter, markdownBody, subscriptionOption
         <div>
           <div className="magazine-options">
             <div className={`magazine-option-selection ${currentEdition === 'Physical' ? 'active' : ''}`} onClick={() => {setStep('subscription-selection'); setCurrentEdition('Physical'); setShowPaypalButton(false); resetPaypal();}}>Hard Copy</div>
-            <div className={`magazine-option-selection ${currentEdition === 'Digital' ? 'active' : ''}`} onClick={() => {setStep('digital-selection'); setCurrentEdition('Digital'); setShowPaypalButton(false); resetPaypal();}}>Digital</div>
+            <a href="https://shop.thecrossingboard.com/collections/digital-fanzines" className="extra-magazines-link">
+            <div className="magazine-option-selection">
+              Digital
+            </div>
+            </a>
             <Link href="/extra-magazines" prefetch={false}>
             <a className="extra-magazines-link">
             <div className="magazine-option-selection">
