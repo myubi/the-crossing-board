@@ -13,7 +13,7 @@ We have some BIG news to share with you all... Our current subscription platform
 
 This means, **all current subscriptions will be cancelled** on **February 1st** at **midnight** and you will need to **re-subscribe** via [shop.thecrossingboard.com](https://shop.thecrossingboard.com). But don't worry, unlike many of Tom Nook's tasks, this one's easy!
 
-We will cancel your current subscription for you, so there’s no need to worry about being charged twice. All you need to do is make sure you have resubscribed on our new site before the 29th of February in order to get our March issue and onwards. 
+We will cancel your current subscription for you, so there’s no need to worry about being charged twice. All you need to do is make sure you have resubscribed on our new site before the 28th of February in order to get our March issue and onwards. 
 
 We’re very excited about this upgrade as it will allow us to bring many new features to you all! Some of these include...
 
