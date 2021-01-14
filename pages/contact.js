@@ -160,6 +160,8 @@ export default function Info({frontmatter, markdownBody, profiles}) {
       <h3>“I might need to cancel my subscription at some point, how can I do this?”</h3>
 
       <p>You can cancel your subscription at anytime via PayPal or directly with your bank. Alternatively, you can email us with your name and first line of the address that you’ve given us.</p>
+      
+      <p className="disclaimer"><em>Disclaimer: We will not tolerate any form of disrespect or harassment. If someone is seen to be abusive, we will immediately terminate their access.</em></p>
      </div>
     </div>
     <style jsx>{`
