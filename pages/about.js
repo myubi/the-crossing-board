@@ -34,7 +34,9 @@ export default function Info({frontmatter, markdownBody, profiles}) {
           <div className="text-wrapper">
             <div className="profile profile-name"><TiHeartFullOutline /><span>{jemima.name}</span></div>
             <div className="profile profile-role"><TiStarFullOutline /><span>jemima[@]thecrossingboard.com</span></div>
+            {jemima.twitter &&
             <div className="profile profile-twitter"><TiSocialTwitter /><span>{jemima.twitter}</span></div>
+            } 
             <div className="profile profile-bio">{jemima.bio}</div>
           </div>
         </div>
