@@ -5,9 +5,7 @@ export default ({ close }) => (
     <Link href="/" onClick={close} prefetch={false}>
       <a>News</a>
     </Link>
-    <Link href="/magazine" onClick={close} prefetch={false}>
-      <a>Magazine</a>
-    </Link>
+    <a href="https://shop.thecrossingboard.com">Shop</a>
     <Link href="/quiz" onClick={close} prefetch={false}>
       <a>Quizzes</a>
     </Link>
