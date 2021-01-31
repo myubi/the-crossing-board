@@ -12,9 +12,7 @@ export default function Footer(props) {
         </div>
       </div>
       <div className="wrapper"> 
-<p>The Crossing Board is operated as a non-profit making ‘hobby project’. All members of our team contribute towards its creation and operation on a voluntary, part-time basis, with fanzine subscriptions funding the running cost of the project.</p>
-<p>Animal Crossing is a registered trademark of Nintendo of America Inc. The Crossing Board has no trading, commercial or any contractual relationship with Nintendo and we do not claim to own Nintendo or the rights of any of their licensed products. This website, including views expressed, images and material referenced are provided for information purposes only.</p>
-<p>The Crossing Board, is a totally independent third party Animal Crossing news and opinion website and is not a contact point of any kind for Nintendo. You should not rely on the material or information on this website as the basis for making any legal, business or other decisions.</p>
+        <p>Animal Crossing is a registered trademark of Nintendo of America Inc. The Crossing Board has no trading, commercial or any contractual relationship with Nintendo and we do not claim to own Nintendo or the rights of any of their licensed products. This website, including views expressed, images and material referenced are provided for information purposes only.</p>
       </div>
       <style jsx>
         {`
