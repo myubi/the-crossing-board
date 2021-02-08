@@ -17,15 +17,6 @@ const BlogList = ({ allBlogs }) => {
 
   return (
     <>
-      <div className="move-banner-wrapper">
-        <Link
-          href="/news/we-are-moving"
-        >
-        <a>
-        <img className="move-banner" src="/images/shopify-banner.jpeg" alt="The Crossing Board" />
-        </a>
-        </Link>
-      </div>
       <div className="notice-board">
         {sortedByDate.map(post => (
           <Link
