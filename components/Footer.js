@@ -12,7 +12,7 @@ export default function Footer(props) {
         </div>
       </div>
       <div className="wrapper"> 
-        <p>Animal Crossing is a registered trademark of Nintendo of America Inc. The Crossing Board has no trading, commercial or any contractual relationship with Nintendo and we do not claim to own Nintendo or the rights of any of their licensed products. This website, including views expressed, images and material referenced are provided for information purposes only.</p>
+        <p>Animal Crossing is a registered trademark of Nintendo. The Crossing Board has no trading, commercial or any contractual relationship with Nintendo and we do not claim to own Nintendo or the rights to any of their licensed products. This website, including views expressed, images used, and material referenced is provided for information and entertainment purposes only.</p>
       </div>
       <style jsx>
         {`
