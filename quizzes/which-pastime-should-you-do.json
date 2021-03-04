@@ -1,0 +1,164 @@
+{
+  "name": "Which Animal Crossing Pastime Should You Do in Real Life?",
+  "questions": [
+    {
+      "question": "Are you a morning person?",
+      "answers": [
+        {
+          "type": "Yoga",
+          "content": "Yes! I love starting my day early"
+        },
+        {
+          "type": "Stargazing",
+          "content": "Not at all. I love my beauty rest!"
+        },
+        {
+          "type": "Reading a book in nature",
+          "content": "Sometimes, but only after a cup of coffee or tea"
+        },
+        {
+          "type": "Aerobics",
+          "content": "I can be if I have things I need to do"
+        },
+        {
+          "type": "Plant Parent",
+          "content": "It depends on my mood"
+        }
+      ]
+    },
+    {
+      "question": "Which best describes you?",
+      "answers": [
+        {
+          "type": "Yoga",
+          "content": "Calm"
+        },
+        {
+          "type": "Stargazing",
+          "content": "Dazzling"
+        },
+        {
+          "type": "Reading a book in nature",
+          "content": "Curious"
+        },
+        {
+          "type": "Aerobics",
+          "content": "Energetic"
+        },
+        {
+          "type": "Plant Parent",
+          "content": "Fun-loving"
+        }
+      ]
+    },
+    {
+      "question": "It’s snowing outside! What are you doing today?",
+      "answers": [
+        {
+          "type": "Yoga",
+          "content": "Getting chores done. No off days!"
+        },
+        {
+          "type": "Stargazing",
+          "content": "Watching it peacefully fall from my window"
+        },
+        {
+          "type": "Reading a book in nature",
+          "content": "Hunkering down in a blanket and turning on Netflix"
+        },
+        {
+          "type": "Aerobics",
+          "content": "Going for a walk, a little snow doesn’t stop me!"
+        },
+        {
+          "type": "Plant Paren",
+          "content": "Video gaming with my friends!"
+        }
+      ]
+    },
+    {
+      "question": "Who is your favorite NPC?",
+      "answers": [
+        {
+          "type": "Yoga",
+          "content": "Isabelle"
+        },
+        {
+          "type": "Stargazing",
+          "content": "Celeste"
+        },
+        {
+          "type": "Reading a book in nature",
+          "content": "Blathers"
+        },
+        {
+          "type": "Aerobics",
+          "content": "Pascal"
+        },
+        {
+          "type": "Plant Parent",
+          "content": "Leif"
+        }
+      ]
+    },
+    {
+      "question": "What’s your Island’s theme?",
+      "answers": [
+        {
+          "type": "Yoga",
+          "content": "Cottagecore"
+        },
+        {
+          "type": "Stargazing",
+          "content": "Fairycore"
+        },
+        {
+          "type": "Reading a book in nature",
+          "content": "It doesn’t have one but it’s super cozy!"
+        },
+        {
+          "type": "Aerobics",
+          "content": "It doesn’t have one, whatever I’m in the mood for that day!"
+        },
+        {
+          "type": "Plant Parent",
+          "content": "Naturecore"
+        }
+      ]
+    },
+    {
+      "question": "You’re transported into your Animal Crossing island! What’s the first thing you do?",
+      "answers": [
+        {
+          "type": "Yoga",
+          "content": "Run straight to my favorite spot and hangout there"
+        },
+        {
+          "type": "Stargazing",
+          "content": "Wish on shooting stars of course!"
+        },
+        {
+          "type": "Reading a book in nature",
+          "content": "Run to the museum!"
+        },
+        {
+          "type": "Aerobics",
+          "content": "I’m doing a flip straight into the ocean!"
+        },
+        {
+          "type": "Plant Parent",
+          "content": "Picking my favorite flowers to take back with me"
+        }
+      ]
+    }
+  ],
+  "results": {
+    "Yoga": "You’re a determined person who is always on top of their work. You’re energetic but also have a peaceful side to you. Taking some time to unwind is important, and yoga can be just the way to do that! Think about how tranquil Rosie looks as she does her poses; you deserve that too!",
+    "Stargazing": "You appreciate the simple things in life and love taking time for yourself. Nature fascinates you and you love admiring it. Something you might enjoy is stargazing on a clear night. Take a blanket, lay down, and admire the night sky. Find constellations, planets, and you may even see a shooting star! Celeste would be proud.",
+    "Reading a book in nature": "You’re probably someone who already loves to read, but how often do you do it outside? Take a page from your villagers’ book and find a nice tree to plop down next to and read! Anywhere in nature that sounds peaceful is great! Maybe there’s a field close by, or a river down the street. Wherever it is, the peaceful surroundings and noises in nature can help immerse you into your book in ways you’ve never experienced before!",
+    "Aerobics": "You’re very energetic, or maybe you just admire those who are. A great way to spend your pastime without even leaving the house is aerobics! It’s a great way to take your mind off things and listen to your favorite music! The best part is, you can go at your own pace and soon you’ll start looking like a pro like your villagers do in front of Resident Services.",
+    "Plant Parent": "You have a great admiration for nature and all that comes with it. Not only are you easy going and patient, but you’re also very easy to get along with. One of your favorite parts of decorating your island are the trees and all of the variations of flowers! Why not bring this into real life? You can start off easy by getting a plant that needs minimal care. Or, if you’re already a plant pro, why not grow your collection and show it off!",
+    "Undetermined": "It seems our robots had issues with finding out who you are... Maybe you could try again? ...again?"
+  },
+  "hasImages": false
+}
