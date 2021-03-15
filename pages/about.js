@@ -9,18 +9,9 @@ import {
 } from "react-icons/ti";
 import { FaCrown, FaLeaf } from "react-icons/fa";
 
-export default function Info({
-  frontmatter,
-  markdownBody,
-  profiles,
-  volunteeringFrontmatter,
-  volunteeringMarkdown,
-}) {
+export default function Info({ frontmatter, markdownBody, profiles }) {
   const aboutFrontmatter = frontmatter;
   const aboutBody = markdownBody;
-  const memberOfTheMonth = profiles.find(
-    (member) => member["member-of-the-month"]
-  );
   const otherMembers = profiles.filter((member) => member.role !== "Founder");
   const jemima = profiles.find((member) => member.role === "Founder");
 
@@ -34,10 +25,6 @@ export default function Info({
           <div className="about-wrapper">
             <h2>{aboutFrontmatter.title}</h2>
             <ReactMarkdown source={aboutBody} />
-          </div>
-          <div className="about-wrapper">
-            <h2>{volunteeringFrontmatter.title}</h2>
-            <ReactMarkdown source={volunteeringMarkdown} />
           </div>
           <div className="founder">
             <div className="member-of-the-month-text">Founder</div>
@@ -314,17 +301,13 @@ export default function Info({
 
 export async function getStaticProps() {
   const content = await import(`../data/about.md`);
-  const volunteeringContent = await import(`../data/volunteers.md`);
   const data = matter(content.default);
-  const volunteeringData = matter(volunteeringContent.default);
   const profiles = await import(`../data/profiles.json`);
 
   return {
     props: {
       frontmatter: data.data,
       markdownBody: data.content,
-      volunteeringFrontmatter: volunteeringData.data,
-      volunteeringMarkdown: volunteeringData.content,
       ...profiles,
     },
   };
