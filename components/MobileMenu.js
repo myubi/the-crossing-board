@@ -12,6 +12,9 @@ export default ({ close }) => (
     <Link href="/about" onClick={close} prefetch={false}>
       <a>About</a>
     </Link>
+    <Link href="/jobs" onClick={close} prefetch={false}>
+      <a>Jobs</a>
+    </Link>
     <Link href="/contact" onClick={close} prefetch={false}>
       <a>Contact</a>
     </Link>
@@ -25,7 +28,7 @@ export default ({ close }) => (
           align-items: center;
           justify-content: space-evenly;
         }
-        
+
         .nav-wrapper-mobile a {
           color: #c88d5e;
           font-weight: bold;
