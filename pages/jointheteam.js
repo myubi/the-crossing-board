@@ -7,7 +7,7 @@ export default function Jobs({ frontmatter, markdownBody }) {
   return (
     <div>
       <Head>
-        <title>The Crossing Board - Jobs</title>
+        <title>The Crossing Board - Join the Team</title>
       </Head>
       <Layout>
         <div className="jobs-wrapper">
@@ -31,6 +31,12 @@ export default function Jobs({ frontmatter, markdownBody }) {
           .jobs-wrapper :global(a:hover) {
             color: #82b75a;
           }
+
+          @media (max-width: 768px) {
+            .jobs-wrapper {
+              max-width: 90vw;
+            }
+          }
         `}</style>
       </Layout>
     </div>
@@ -38,7 +44,7 @@ export default function Jobs({ frontmatter, markdownBody }) {
 }
 
 export async function getStaticProps() {
-  const content = await import(`../data/jobs.md`);
+  const content = await import(`../data/jointheteam.md`);
   const data = matter(content.default);
 
   return {
