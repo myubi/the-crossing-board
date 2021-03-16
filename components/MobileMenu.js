@@ -12,8 +12,8 @@ export default ({ close }) => (
     <Link href="/about" onClick={close} prefetch={false}>
       <a>About</a>
     </Link>
-    <Link href="/jobs" onClick={close} prefetch={false}>
-      <a>Jobs</a>
+    <Link href="/jointheteam" onClick={close} prefetch={false}>
+      <a>Join the team</a>
     </Link>
     <Link href="/contact" onClick={close} prefetch={false}>
       <a>Contact</a>
