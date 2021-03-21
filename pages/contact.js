@@ -1,26 +1,26 @@
 import matter from "gray-matter";
 import ReactMarkdown from "react-markdown";
-import Head from 'next/head';
-import { useState } from 'react';
-import fetch from 'isomorphic-unfetch';
+import Head from "next/head";
+import { useState } from "react";
+import fetch from "isomorphic-unfetch";
 
 import Layout from "../components/Layout";
 
-export default function Info({frontmatter, markdownBody, profiles}) {
+export default function Info({ frontmatter, markdownBody, profiles }) {
   const aboutFrontmatter = frontmatter;
   const aboutBody = markdownBody;
-  
+
   const [status, setStatus] = useState({
     submitted: false,
     submitting: false,
     info: { error: false, msg: null },
   });
   const [inputs, setInputs] = useState({
-    name: '',
-    email: '',
-    message: '',
+    name: "",
+    email: "",
+    message: "",
   });
-  
+
   const handleServerResponse = (ok, msg) => {
     if (ok) {
       setStatus({
@@ -29,9 +29,9 @@ export default function Info({frontmatter, markdownBody, profiles}) {
         info: { error: false, msg: msg },
       });
       setInputs({
-        name: '',
-        email: '',
-        message: '',
+        name: "",
+        email: "",
+        message: "",
       });
     } else {
       setStatus({
@@ -40,9 +40,9 @@ export default function Info({frontmatter, markdownBody, profiles}) {
     }
   };
 
-  const handleOnChange = e => {
+  const handleOnChange = (e) => {
     e.persist(); // async access to event https://reactjs.org/docs/events.html
-    setInputs(prev => ({
+    setInputs((prev) => ({
       ...prev,
       [e.target.id]: e.target.value,
     }));
@@ -53,194 +53,233 @@ export default function Info({frontmatter, markdownBody, profiles}) {
     });
   };
 
-  const handleOnSubmit = e => {
+  const handleOnSubmit = (e) => {
     e.preventDefault();
-    setStatus(prevStatus => ({ ...prevStatus, submitting: true }));
-    fetch('https://formspree.io/xyynazag', {
-      method: 'POST',
+    setStatus((prevStatus) => ({ ...prevStatus, submitting: true }));
+    fetch("https://formspree.io/xyynazag", {
+      method: "POST",
       headers: {
-        'Content-Type': 'application/json',
+        "Content-Type": "application/json",
       },
       body: JSON.stringify({ data: inputs }),
     })
-      .then(_response => {
-        handleServerResponse(
-          true,
-          'Thanks, your message has been sent.',
-        );
+      .then((_response) => {
+        handleServerResponse(true, "Thanks, your message has been sent.");
       })
-      .catch(_error => {
+      .catch((_error) => {
         handleServerResponse(
           false,
-          "Sorry, we weren't able to send your message!",
+          "Sorry, we weren't able to send your message!"
         );
       });
   };
-    
+
   return (
     <div>
-    <Head>
-      <title>The Crossing Board - Contact Us</title>
-    </Head>
-    <Layout>
-    <div className="contact-wrapper">
-    <div className="important-notice">
-      <h2>Important Notice</h2>
-      <p>Please be aware that there are currently huge delays at Post Offices around the world because of staff shortages and quarantining of various depots. This may severely disrupt deliveries of our fanzines. </p>
-      <p>Please understand that this is out of our control and <strong>The Crossing Board cannot be held responsible for any delays</strong>.</p>
-      <p>Many thanks for your understanding and patience.</p>
+      <Head>
+        <title>The Crossing Board - Contact Us</title>
+      </Head>
+      <Layout>
+        <div className="contact-wrapper">
+          <div className="important-notice">
+            <h2>Important Notice</h2>
+            <p>
+              Please be aware that there are currently huge delays at Post
+              Offices around the world because of staff shortages and
+              quarantining at various depots. This may severely disrupt
+              deliveries of our fanzines.{" "}
+            </p>
+            <p>
+              Please understand that this is out of our control and{" "}
+              <strong>
+                The Crossing Board cannot be held responsible for any delays
+              </strong>
+              .
+            </p>
+            <p>Many thanks for your understanding and patience.</p>
+          </div>
+          <div className="contact-info">
+            <ReactMarkdown source={aboutBody} />
+          </div>
+          <form onSubmit={handleOnSubmit} className="form">
+            <div>
+              <label htmlFor="email">Name *</label>
+              <input
+                id="name"
+                name="name"
+                onChange={handleOnChange}
+                required
+                value={inputs.name}
+              />
+            </div>
+            <div>
+              <label htmlFor="email">Email *</label>
+              <input
+                id="email"
+                type="email"
+                name="_replyto"
+                onChange={handleOnChange}
+                required
+                value={inputs.email}
+              />
+            </div>
+            <div>
+              <label htmlFor="message">Message *</label>
+              <textarea
+                id="message"
+                name="message"
+                onChange={handleOnChange}
+                required
+                rows="5"
+                value={inputs.message}
+              />
+            </div>
+            <div>
+              <button
+                type="submit"
+                disabled={status.submitting}
+                className="btn btn--primary"
+              >
+                {!status.submitting
+                  ? !status.submitted
+                    ? "Send"
+                    : "Sent"
+                  : "Sending..."}
+              </button>
+            </div>
+            {status.info.error && (
+              <div className="error">Error: {status.info.msg}</div>
+            )}
+            {!status.info.error && status.info.msg && (
+              <div className="msg">{status.info.msg}</div>
+            )}
+          </form>
+          <div className="faq-wrapper">
+            <h2>Frequently asked questions:</h2>
+
+            <h3>
+              “I haven’t received my fanzine yet, when is it going to arrive?”
+            </h3>
+
+            <p>
+              We ship our fanzines out around a week into the month. Whilst the
+              postal service aims to deliver within a week worldwide, there can
+              be delays for certain parts of the world, especially due to the
+              pandemic. If you’d like to track your parcel and be certain of its
+              timely arrival, please opt for tracked shipping.
+            </p>
+
+            <h3>
+              “I think you might have the wrong details for me, can I change
+              them?”
+            </h3>
+
+            <p>
+              Yes, please email us with your name and first line of the address
+              you’ve given us and let us know what you’d like to change.
+            </p>
+
+            <h3>
+              “I might need to cancel my subscription at some point, how can I
+              do this?”
+            </h3>
+
+            <p>
+              You can cancel your subscription at anytime via{" "}
+              <a href="https://shop.thecrossingboard.com">our shop</a> or
+              directly with your bank. Alternatively, you can email us with your
+              name and first line of the address that you’ve given us.
+            </p>
+
+            <p className="disclaimer">
+              <em>
+                Disclaimer: We will not tolerate any form of disrespect or
+                harassment. If someone is seen to be abusive, we will
+                immediately terminate their access.
+              </em>
+            </p>
+          </div>
+        </div>
+        <style jsx>{`
+          .contact-wrapper {
+            background-color: #fdf8e3;
+            margin: 20px auto;
+            border-radius: 10px;
+            padding: 20px;
+            color: #667756;
+            max-width: 80vw;
+          }
+          .contact-info {
+            max-width: 500px;
+            margin: 0 auto;
+          }
+
+          .form {
+            max-width: 500px;
+            margin: 0 auto;
+            text-align: left;
+          }
+
+          .form label {
+            display: block;
+            font-weight: bold;
+            margin: 10px 0;
+          }
+          .form input {
+            padding: 15px 10px;
+            border: 2px solid #657754;
+            border-radius: 10px;
+            width: 100%;
+            background-color: #fef0d2;
+          }
+          .form textarea {
+            padding: 10px;
+            border: 2px solid #657754;
+            border-radius: 10px;
+            width: 100%;
+            background-color: #fef0d2;
+          }
+          .form button {
+            margin: 15px 0;
+            width: 100%;
+            padding: 10px 0;
+            border: none;
+            background-color: #fab416;
+            text-transform: uppercase;
+            font-size: 18px;
+            font-weight: bold;
+            color: #657755;
+            border-radius: 20px;
+          }
+          .form button:focus,
+          .form input:focus,
+          .form textarea:focus {
+            outline: 0;
+          }
+          .msg,
+          .error {
+            text-align: center;
+          }
+          .error {
+            color: #e63333;
+          }
+          .important-notice {
+            background-color: #9e2e2e;
+            margin-bottom: 25px;
+            padding: 5px;
+            color: #fcf8e3;
+          }
+          .important-notice strong {
+            border-bottom: 1px solid;
+          }
+          .faq-wrapper a {
+            color: #946e49;
+            border-bottom: 2px dashed #d19740;
+            text-decoration: none;
+          }
+        `}</style>
+      </Layout>
     </div>
-      <div className="contact-info">
-        <ReactMarkdown source={aboutBody} />
-      </div>
-      <form onSubmit={handleOnSubmit} className="form">
-      <div>
-        <label htmlFor="email">Name *</label>
-        <input
-          id="name"
-          name="name"
-          onChange={handleOnChange}
-          required
-          value={inputs.name}
-        />
-      </div>
-       <div>
-         <label htmlFor="email">Email *</label>
-         <input
-           id="email"
-           type="email"
-           name="_replyto"
-           onChange={handleOnChange}
-           required
-           value={inputs.email}
-         />
-       </div>
-       <div>
-         <label htmlFor="message">Message *</label>
-         <textarea
-           id="message"
-           name="message"
-           onChange={handleOnChange}
-           required
-           rows="5"
-           value={inputs.message}
-         />
-       </div>
-       <div>
-         <button
-           type="submit"
-           disabled={status.submitting}
-           className="btn btn--primary"
-         >
-           {!status.submitting
-             ? !status.submitted
-               ? 'Send'
-               : 'Sent'
-             : 'Sending...'}
-         </button>
-       </div>
-       {status.info.error && (
-         <div className="error">Error: {status.info.msg}</div>
-       )}
-       {!status.info.error && status.info.msg && (
-         <div className="msg">{status.info.msg}</div>
-       )}
-     </form>
-     <div className="faq-wrapper">
-      <h2>Frequently asked questions:</h2>
-
-      <h3>“I haven’t received my fanzine yet, when is it going to arrive?”</h3>
-
-      <p>We ship our fanzines out around a week into the month. Whilst the postal service aims to deliver within a week worldwide, there can be delays for certain parts of the world, especially due to the pandemic. If you’d like to track your parcel and be certain of its timely arrival, please opt for tracked shipping.</p>
-
-      <h3>“I think you might have the wrong details for me, can I change them?”</h3>
-
-      <p>Yes, please email us with your name and first line of the address you’ve given us and let us know what you’d like to change.</p>
-
-      <h3>“I might need to cancel my subscription at some point, how can I do this?”</h3>
-
-      <p>You can cancel your subscription at anytime via <a href="https://shop.thecrossingboard.com">our shop</a> or directly with your bank. Alternatively, you can email us with your name and first line of the address that you’ve given us.</p>
-      
-      <p className="disclaimer"><em>Disclaimer: We will not tolerate any form of disrespect or harassment. If someone is seen to be abusive, we will immediately terminate their access.</em></p>
-     </div>
-    </div>
-    <style jsx>{`
-      .contact-wrapper {
-        background-color: #fdf8e3;
-        margin: 20px auto;
-        border-radius: 10px;
-        padding: 20px;
-        color: #667756;
-        max-width: 80vw;
-      }
-      .contact-info { 
-        max-width: 500px;
-        margin: 0 auto;
-      }
-      
-      .form {
-        max-width: 500px;
-        margin: 0 auto;
-        text-align: left;
-      }
-      
-      .form label {
-        display: block;
-        font-weight: bold;
-        margin: 10px 0;
-      }
-      .form input {
-        padding: 15px 10px;
-        border: 2px solid #657754;
-        border-radius: 10px;
-        width: 100%;
-        background-color: #fef0d2;
-      }
-      .form textarea {
-        padding: 10px;
-        border: 2px solid #657754;
-        border-radius: 10px;
-        width: 100%;
-        background-color: #fef0d2;
-      }
-      .form button {
-        margin: 15px 0;
-        width: 100%;
-        padding: 10px 0;
-        border: none;
-        background-color: #fab416;
-        text-transform: uppercase;
-        font-size: 18px;
-        font-weight: bold;
-        color: #657755;
-        border-radius: 20px;
-      }
-      .form button:focus, .form input:focus, .form textarea:focus {
-        outline:0;
-      }
-      .msg, .error {
-        text-align: center;
-      }
-      .error { 
-        color: #e63333;
-      }
-      .important-notice {
-        background-color: #9e2e2e;
-        margin-bottom: 25px;
-        padding: 5px;
-        color: #fcf8e3;
-      }
-      .important-notice strong {
-        border-bottom: 1px solid;
-      }
-      .faq-wrapper a {
-        color: #946e49;
-        border-bottom: 2px dashed #D19740;
-        text-decoration: none;
-      }
-    `}</style>
-  </Layout>
-  </div>
   );
 }
 
@@ -251,7 +290,7 @@ export async function getStaticProps() {
   return {
     props: {
       frontmatter: data.data,
-      markdownBody: data.content
+      markdownBody: data.content,
     },
-  }
+  };
 }
