@@ -1,5 +1,5 @@
 ---
-title: Important update! We're moving...
+title: Important update! We've moved...
 author: The Crossing Board
 date: "2021-01-08"
 ---
@@ -8,7 +8,7 @@ date: "2021-01-08"
 <img class="no-border" src="/images/calendar/sold-out.png" alt="" />
 </div>
 
-We have some BIG news to share with you all... Our current subscription platform can no longer handle the number of wonderful readers we have and so we’re pleased to announce that we are moving to a new platform!
+We have some BIG news to share with you all... Our current subscription platform can no longer handle the number of wonderful readers we have and so we’re pleased to announce that we moved to a new platform!
 
 This means, **all current subscriptions will be cancelled** on **February 1st** at **midnight** and you will need to **re-subscribe** via [shop.thecrossingboard.com](https://shop.thecrossingboard.com). But don't worry, unlike many of Tom Nook's tasks, this one's easy!
 
