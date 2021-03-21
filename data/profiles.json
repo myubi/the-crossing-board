@@ -1,155 +1,203 @@
 {
-	"profiles": [
-		{
-			"name":"Alexa",
-			"member-of-the-month":false,
-			"role":"Social Media Department Head",
-			"picture": "../images/profiles/mirasolxac.png",
-			"twitter":"mirasolxac",
-			"bio":"Hi!! I’m Alexa, and I’m part of the social media team! I’ve played AC titles such as Wild World, New Leaf, Happy Home Designer, & Pocket Camp alongside New Horizons! I really hope you all enjoy this project <3"
-		},
-		{
-			"name":"Alice",
-			"member-of-the-month":false,
-			"role":"Legal Advisor",
-			"picture": "../images/profiles/sweetmelba_.png",
-			"twitter":"sweetmelba_",
-			"bio":"Alice (she/her): currently an LPC and masters student, my role is to make sure that our projects are safe for everyone to enjoy and respect copyright & IP laws. I like knitting, theatre and animals "
-		},
-		{
-			"name":"Bea",
-			"member-of-the-month":false,
-			"role":"Project Management Director",
-			"picture": "../images/profiles/placeholder-profile.png",
-			"twitter":"beatrizcrossing",
-			"bio":"Hi everyone! I'm bea, one the executives. I love chicken nuggets and bluebear! Stay safe!"
-		},
-		{
-			"name":"Bre",
-			"member-of-the-month":false,
-			"role":"DIY Artist",
-			"picture": "../images/profiles/placeholder-profile.png",
-			"twitter":"artbitchbreana",
-			"bio":"hi!! I’m Bre and I specialize in acrylic painting! I paint everything from hydroflasks to clothing! :)"
-		},
-		{
-			"name":"Charlie",
-			"member-of-the-month":false,
-			"role":"Marketing Executive",
-			"picture": "../images/profiles/placeholder-profile.png",
-			"twitter":"ac_solstice",
-			"bio":"My names Charlie. I’m the marketing executive at the crossing board and enjoy all arts and crafts & growing lots of different fruit & vegetables!"
-		},
-		{
-			"name":"Charlize",
-			"member-of-the-month":false,
-			"role":"Social Media Assistant",
-			"picture": "../images/profiles/placeholder-profile.png",
-			"twitter":"celestialfrappe",
-			"bio":"Hi! My name's Charlize and other than playing AC, I'm currently learning Multimedia Arts and I also love doing alternative makeup!"
-		},
-		{
-			"name":"Chloe",
-			"member-of-the-month":false,
-			"role":"Writer",
-			"picture": "../images/profiles/chloscrossing.png",
-			"twitter":"chloscrossing",
-			"bio":"My name is Chloe and I’m part of the writing team! You can also find me baking and taking care of my many plant babies."
-		},
-		{
-			"name":"Cristine",
-			"member-of-the-month":false,
-			"role":"DIY Creator",
-			"picture": "../images/profiles/chrismacnh.png",
-			"twitter":"chrismacnh",
-			"bio":"Hi! My name is Christine. I'm a part of DIY team & I do embroidery. I bought Switch just for ACNH and ACNH is the first game that makes me so addicted!"
-		},
-		{
-			"name":"Dominika",
-			"member-of-the-month":false,
-			"role":"Writer and Illustrator",
-			"picture": "../images/profiles/placeholder-profile.png",
-			"twitter":"acnhmytka",
-			"bio":"Hi! My name is Dominika and I'm part of the writing and illustration team! I am also an English teacher and a big bookworm!"
-		},
-		{
-			"name":"Jackie",
-			"member-of-the-month":false,
-			"role":"Voice Over / Editing",
-			"picture": "../images/profiles/jackieisbad.png",
-			"twitter":"jackieisbad",
-			"bio":"I'm Jackieisbad, I'm a big fan of Nintendo games, and I'm doing voice over and editing for the YouTube channel!"
-		},
-		{
-			"name":"Jazlynn",
-			"member-of-the-month":false,
-			"role":"DIY Creator",
-			"picture": "../images/profiles/peachiejaz.png",
-			"twitter":"peachiejaz",
-			"bio":"My name is Jazlynn. I'm part of the DIY team and I do cross stitching and creative journaling :)"
-		},
-		{
-			"name":"Jemima",
-			"member-of-the-month":false,
-			"role":"Founder",
-			"picture": "../images/profiles/s_o_f_t_c_o_r_e.png",
-			"bio":"Hey there, thanks so much for stopping by! Below you can find all the wonderful people who have helped to make this project what it is. I'm so proud of what we've created and I hope you love it just as much as we do :)"
-		},
-		{
-			"name":"Kimmieko",
-			"member-of-the-month":false,
-			"role":"Writer",
-			"picture": "../images/profiles/placeholder-profile.png",
-			"twitter":"kimmieko10",
-			"bio":"My name is Kimmieko and I am writer for the animal crossing board. I enjoy video games, journaling and baking."
-		},
-		{
-			"name":"Makeda",
-			"member-of-the-month":false,
-			"role":"Illustrator",
-			"picture": "../images/profiles/acnhmooshi.png",
-			"twitter":"acnhmooshi",
-			"bio":"Hey, I’m Makeda and I illustrate for The Crossing Board!"
-		},
-		{
-			"name":"Melissa",
-			"member-of-the-month":false,
-			"role":"Illustrator",
-			"picture": "../images/profiles/melissaa_ac.png",
-			"twitter":"melissaa_ac",
-			"bio":"Hi! I’m Melissa! I’m on the illustration team and I draw ACNH style illustrations!"
-		},
-		{
-			"name":"Nuria",
-			"member-of-the-month":false,
-			"role":"Illustrator",
-			"picture": "../images/profiles/placeholder-profile.png",
-			"twitter":"cocohoneycove",
-			"bio":"My name’s Nuria i’m 20 and I’m from Spain! I am from the drawing team and I illustrate and make art for The Crossing Board"
-		},
-		{
-			"name":"Savanna",
-			"member-of-the-month":false,
-			"role":"Social Media Assistant",
-			"picture": "../images/profiles/aquamarinesav.png",
-			"twitter":"aquamarinesav",
-			"bio":"My name is Savanna. I’m part of the social media team. I’m a mom and a virtual assistant who specializes in social media services"
-		},
-		{
-			"name":"Taiba",
-			"member-of-the-month":false,
-			"role":"Brand and Content Creator",
-			"picture": "../images/profiles/taibas_acnh.png",
-			"twitter":"taibas_ACNH",
-			"bio":"Hi I’m Taiba, I’m part of the branding team and I’ve created some other content too for the site! I love art painting especially and theater and I’m a big Harry Potter fan too!"
-		},
-		{
-			"name":"Taty",
-			"member-of-the-month":false,
-			"role":"Web Developer",
-			"picture": "../images/profiles/myubinomori.png",
-			"twitter":"myubinomori",
-			"bio":"Taty, I am your AC gradma who also likes playing with code! I am in charge with the website! I love sweets and videogames!"
-		}
-	]
+  "profiles": [
+    {
+      "name": "Alexa",
+      "member-of-the-month": false,
+      "role": "Social Media Department Head",
+      "picture": "../images/profiles/mirasolxac.png",
+      "twitter": "mirasolxac",
+      "bio": "Hi!! I’m Alexa, and I’m part of the social media team! I’ve played AC titles such as Wild World, New Leaf, Happy Home Designer, & Pocket Camp alongside New Horizons! I really hope you all enjoy this project <3"
+    },
+    {
+      "name": "Alice",
+      "member-of-the-month": false,
+      "role": "Legal Advisor",
+      "picture": "../images/profiles/sweetmelba_.png",
+      "twitter": "sweetmelba_",
+      "bio": "Alice (she/her): currently an LPC and masters student, my role is to make sure that our projects are safe for everyone to enjoy and respect copyright & IP laws. I like knitting, theatre and animals "
+    },
+    {
+      "name": "Bea",
+      "member-of-the-month": false,
+      "role": "Project Management Director",
+      "picture": "../images/profiles/placeholder-profile.png",
+      "twitter": "beatrizcrossing",
+      "bio": "Hi everyone! I'm bea, one the executives. I love chicken nuggets and bluebear! Stay safe!"
+    },
+    {
+      "name": "Bre",
+      "member-of-the-month": false,
+      "role": "DIY Artist",
+      "picture": "../images/profiles/placeholder-profile.png",
+      "twitter": "artbitchbreana",
+      "bio": "hi!! I’m Bre and I specialize in acrylic painting! I paint everything from hydroflasks to clothing! :)"
+    },
+    {
+      "name": "Charlie",
+      "member-of-the-month": false,
+      "role": "Marketing Manager & Writer",
+      "picture": "../images/profiles/solsticecharlie.png",
+      "twitter": "solsticecharlie",
+      "bio": "Charlie is the head of Marketing at The Crossing Board. Her favourite Animal Crossing character is Cheri and her favourite thing about the game is decorating her island and hanging out with her villagers! When she’s not helping out at The Crossing Board, Charlie enjoys reading, making polymer clay jewellery and playing with her little kitten Jazz."
+    },
+    {
+      "name": "Charlize",
+      "member-of-the-month": false,
+      "role": "Social Media Assistant",
+      "picture": "../images/profiles/placeholder-profile.png",
+      "twitter": "celestialfrappe",
+      "bio": "Hi! My name's Charlize and other than playing AC, I'm currently learning Multimedia Arts and I also love doing alternative makeup!"
+    },
+    {
+      "name": "Chloe",
+      "member-of-the-month": false,
+      "role": "Writer",
+      "picture": "../images/profiles/chloscrossing.png",
+      "twitter": "chloscrossing",
+      "bio": "My name is Chloe and I’m part of the writing team! You can also find me baking and taking care of my many plant babies."
+    },
+    {
+      "name": "Cristine",
+      "member-of-the-month": false,
+      "role": "DIY Creator",
+      "picture": "../images/profiles/chrismacnh.png",
+      "twitter": "chrismacnh",
+      "bio": "Hi! My name is Christine. I'm a part of DIY team & I do embroidery. I bought Switch just for ACNH and ACNH is the first game that makes me so addicted!"
+    },
+    {
+      "name": "Dominika",
+      "member-of-the-month": false,
+      "role": "Writer and Illustrator",
+      "picture": "../images/profiles/placeholder-profile.png",
+      "twitter": "acnhmytka",
+      "bio": "Hi! My name is Dominika and I'm part of the writing and illustration team! I am also an English teacher and a big bookworm!"
+    },
+    {
+      "name": "Emily",
+      "member-of-the-month": false,
+      "role": "Writer & YouTube content creator",
+      "picture": "../images/profiles/placeholder-profile.png",
+      "twitter": "wyndencrossing",
+      "bio": "Emily is a writer at The Crossing Board and also creates content for our Youtube channel. Her favourite Animal Crossing character is Sherb, although Leif holds a special place in her heart too. Her favourite thing about the game is being able to design and decorate your island however you wish! In her spare time, Emily loves playing the Flute, figure skating, baking, and running a stranger things podcast!"
+    },
+    {
+      "name": "Isabella",
+      "member-of-the-month": false,
+      "role": "Writer",
+      "picture": "../images/profiles/placeholder-profile.png",
+      "twitter": "crossingcakes",
+      "bio": "Isabella is a writer at The Crossing Board for the beloved monthly Astronomy corner! Her favourite Animal Crossing characters are Chai & Merry and all of her villagers are her favourite thing about the game. When Isabella isn’t busy writing for The Crossing Board, she loves dancing, reading, and art."
+    },
+    {
+      "name": "Jackie",
+      "member-of-the-month": false,
+      "role": "Youtube content creator",
+      "picture": "../images/profiles/jackieisbad.png",
+      "twitter": "jackieisbad",
+      "bio": "Jackie creates content for The Crossing Board’s Youtube channel. His favourite Animal Crossing character is Static and his favourite thing about the game is the relaxing nature of it and being able to make your island exactly how you want it. Jackie loves playing other games when he’s not busy designing his island, especially long RPGs like Xenoblade Chronicles and Dragon Quest."
+    },
+    {
+      "name": "James",
+      "member-of-the-month": false,
+      "role": "Writer and Marketing assistant",
+      "picture": "../images/profiles/placeholder-profile.png",
+      "twitter": "james_hall94",
+      "bio": "James is a writer and marketing assistant at The Crossing Board. He loves that Animal Crossing has helped to stay in touch with his partner, make new friends and create a cool island to escape from the real world! James has a tattoo of his favourite villager, Dom, he's an angel! When he isn’t hanging out with Dom and the rest of his villagers, he enjoys football (he’s an Arsenal fan!), The Simpsons and going to gigs!"
+    },
+    {
+      "name": "Jazlynn",
+      "member-of-the-month": false,
+      "role": "DIY Creator",
+      "picture": "../images/profiles/peachiejaz.png",
+      "twitter": "peachiejaz",
+      "bio": "My name is Jazlynn. I'm part of the DIY team and I do cross stitching and creative journaling :)"
+    },
+    {
+      "name": "Jemima",
+      "member-of-the-month": false,
+      "role": "Founder",
+      "picture": "../images/profiles/s_o_f_t_c_o_r_e.png",
+      "bio": "Hey there, thanks so much for stopping by! Below you can find all the wonderful people who have helped to make this project what it is. I'm so proud of what we've created and I hope you love it just as much as we do :)"
+    },
+    {
+      "name": "Katya",
+      "member-of-the-month": false,
+      "role": "Social Media Manager & Writer",
+      "picture": "../images/profiles/placeholder-profile.png",
+      "twitter": "chickenkatsoe",
+      "bio": "Katya is the Social Media Manager and a writer at The Crossing Board. Her favourite Animal Crossing is Ellie and her favourite thing about Animal Crossing is how chill and cute it is. New Horizons is her first Animal Crossing game so it holds a special place in her heart. When Katya isn’t busy creating fun content for our social media channels, you can find her busy with her favourite hobby - gaming!"
+    },
+    {
+      "name": "Kimmieko",
+      "member-of-the-month": false,
+      "role": "Writer",
+      "picture": "../images/profiles/placeholder-profile.png",
+      "twitter": "kimmieko10",
+      "bio": "My name is Kimmieko and I am writer for the animal crossing board. I enjoy video games, journaling and baking."
+    },
+    {
+      "name": "Makeda",
+      "member-of-the-month": false,
+      "role": "Illustrator",
+      "picture": "../images/profiles/acnhmooshi.png",
+      "twitter": "acnhmooshi",
+      "bio": "Hey, I’m Makeda and I illustrate for The Crossing Board!"
+    },
+    {
+      "name": "Melissa",
+      "member-of-the-month": false,
+      "role": "Illustrator",
+      "picture": "../images/profiles/melissaa_ac.png",
+      "twitter": "melissaa_ac",
+      "bio": "Melissa is an illustrator at The Crossing Board. Her favourite character is Lolly and her favourite thing about Animal Crossing is terraforming and landscaping her island! When Mellisa isn’t busy drawing cute illustrations for The Crossing Board fanzine, website and social media, she loves to spend time on her other hobbies of gaming, drawing and playing badminton."
+    },
+    {
+      "name": "Nuria",
+      "member-of-the-month": false,
+      "role": "Illustrator",
+      "picture": "../images/profiles/placeholder-profile.png",
+      "twitter": "cocohoneycove",
+      "bio": "My name’s Nuria i’m 20 and I’m from Spain! I am from the drawing team and I illustrate and make art for The Crossing Board"
+    },
+    {
+      "name": "Savanna",
+      "member-of-the-month": false,
+      "role": "Social Media Assistant",
+      "picture": "../images/profiles/aquamarinesav.png",
+      "twitter": "aquamarinesav",
+      "bio": "My name is Savanna. I’m part of the social media team. I’m a mom and a virtual assistant who specializes in social media services"
+    },
+    {
+      "name": "Steph",
+      "member-of-the-month": false,
+      "role": "Illustrator",
+      "picture": "../images/profiles/placeholder-profile.png",
+      "twitter": "soutsui",
+      "bio": "Steph is an illustrator at The Crossing Board. Her favourite Animal Crossing character is Bones and her favourite thing about the game is decorating her island and hanging out with her villagers. In her spare time, when Steph isn’t busy drawing for The Crossing board, she also loves to do her own illustrations and graphic design as well as playing games & watching shows especially anime & kdrama!"
+    },
+    {
+      "name": "Taiba",
+      "member-of-the-month": false,
+      "role": "Brand and Content Creator",
+      "picture": "../images/profiles/taibas_acnh.png",
+      "twitter": "taibas_ACNH",
+      "bio": "Hi I’m Taiba, I’m part of the branding team and I’ve created some other content too for the site! I love art painting especially and theater and I’m a big Harry Potter fan too!"
+    },
+    {
+      "name": "Taty",
+      "member-of-the-month": false,
+      "role": "Web Developer/Designer",
+      "picture": "../images/profiles/myubinomori.png",
+      "twitter": "myubinomori",
+      "bio": "Taty is the Web Developer and designer at The Crossing Board. Taty’s favourite Animal Crossing character is Celeste and her favourite thing about the game is the amazing and chill community that has people helping each other. When Taty isn’t busy improving, editing and designing our website, she loves watching Anime, playing games, Cosplaying and eating all of the cookies in the house!"
+    },
+    {
+      "name": "Valencia",
+      "member-of-the-month": false,
+      "role": "Illustrator",
+      "picture": "../images/profiles/palevius.png",
+      "twitter": "palevius",
+      "bio": "Valencia is an illustrator at The Crossing Board. Her favourite Animal Crossing character is Roald and loves to play Animal Crossing as a stress reliever. She thinks the villagers are very cute and friendly and they make her very happy! When she’s not drawing beautiful illustrations for The Crossing Board, Valencia likes to spend her time drawing, playing the guitar, gaming, and journaling."
+    }
+  ]
 }
