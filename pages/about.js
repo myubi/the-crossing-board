@@ -121,11 +121,13 @@ export default function Info({ frontmatter, markdownBody, profiles }) {
           }
           .passport-top {
             border-radius: 30px 30px 0 0;
+            display: flex;
+            align-items: center;
           }
           .passport-top span {
             overflow: hidden;
             text-align: center;
-            max-width: 50%;
+            width: 100%;
           }
           .passport-top span:before,
           .passport-top span:after {
