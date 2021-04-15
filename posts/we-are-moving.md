@@ -29,4 +29,4 @@ Don’t forget: Once our new platform goes live on the 1st of February, you’ll
 
 If you have any questions regarding our move to a new platform, please do get in contact with us on contact@thecrossingboard.com.
 
-_We will be sending further emails with reminders and information to our current subscribers to ensure everyone is aware and doesn’t miss out during our migration._
+_We will be sending further emails with reminders and information to our current subscribers to ensure everyone is aware and doesn’t miss out during our migration!_
