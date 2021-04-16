@@ -1,49 +1,52 @@
-import matter from 'gray-matter'
-import Head from 'next/head'
+import matter from "gray-matter";
+import Head from "next/head";
 import Layout from "../components/Layout";
 import BlogList from "../components/BlogList";
 
-const Home = ({allBlogs}) => (
+const Home = ({ allBlogs }) => (
   <div>
     <Head>
       <title>The Crossing Board</title>
     </Head>
     <Layout>
-        <BlogList allBlogs={allBlogs}/>
+      <BlogList allBlogs={allBlogs} />
     </Layout>
   </div>
-)
+);
 
 export default Home;
 
 export async function getStaticProps() {
   //get posts & context from folder
-  const posts = (context => {
-    const keys = context.keys()
-    const values = keys.map(context)
+  const posts = ((context) => {
+    const keys = context.keys();
+    const values = keys.map(context);
 
     const data = keys.map((key, index) => {
       // Create slug from filename
       const slug = key
-        .replace(/^.*[\\\/]/, '')
-        .split('.')
+        .replace(/^.*[\\\/]/, "")
+        .split(".")
         .slice(0, -1)
-        .join('.')
-      const value = values[index]
+        .join(".");
+      const value = values[index];
       // Parse yaml metadata & markdownbody in document
-      const document = matter(value.default)
+      const { data, content } = matter(value.default);
       return {
-        frontmatter: document.data,
-        markdownBody: document.content,
+        title: data.title,
+        author: data.author,
+        date: data.date.toString(),
+        draft: data.draft,
+        markdownBody: content,
         slug,
-      }
-    })
-    return data
-  })(require.context('../posts', true, /\.md$/))
+      };
+    });
+    return data;
+  })(require.context("../posts", true, /\.md$/));
 
   return {
     props: {
-      allBlogs: posts
+      allBlogs: posts,
     },
-  }
+  };
 }
