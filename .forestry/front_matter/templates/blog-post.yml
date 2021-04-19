@@ -2,26 +2,26 @@
 label: Blog Post
 hide_body: false
 fields:
-  - type: text
-    name: title
-    label: title
-  - type: text
-    name: author
-    label: author
-    default: The Crossing Board
-  - type: datetime
-    name: date
-    label: date
-    config:
-      required: true
-      display_utc: true
-    default: now
-  - type: boolean
-    name: draft
-    label: Is Draft?
-    description: Keep this page from showing on the website
-    default: true
-    hidden: false
-
+- type: text
+  name: title
+  label: title
+- type: text
+  name: author
+  label: author
+  default: The Crossing Board
+- type: datetime
+  name: date
+  label: date
+  config:
+    required: true
+    display_utc: true
+  default: now
+- type: boolean
+  name: draft
+  label: Is Draft?
+  description: Keep this page from showing on the website
+  default: true
+  hidden: false
 pages:
-  - posts/we-are-moving.md
+- posts/test-post.md
+- posts/we-are-moving.md
