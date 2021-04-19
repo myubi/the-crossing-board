@@ -23,5 +23,4 @@ fields:
   default: true
   hidden: false
 pages:
-- posts/test-post.md
 - posts/we-are-moving.md
