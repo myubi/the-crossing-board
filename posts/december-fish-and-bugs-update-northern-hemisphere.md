@@ -2,7 +2,7 @@
 title: December Fish and Bugs Update! (Northern Hemisphere)
 author: The Crossing Board
 date: "2020-12-01"
-
+draft: false
 ---
 
 One of our favourite things to do on Animal Crossing is to run around our islands looking for all of the animals, swimming or crawling, to donate to our beloved Blathers! We love seeing him display them in all their glory! But which are available in the festive month of December? Well if you’re wondering, you have come to the right place! Here are the fish and bugs that are now available on Animal Crossing in December.
@@ -22,7 +22,6 @@ Flick price: 4,500<br />
 Time: All day<br />
 Months: December – February
 
-
 **Emperor Butterfly**
 
 Location: Flowers<br />
@@ -32,7 +31,6 @@ Flick price: 6,000<br />
 Time: 5pm-8am<br />
 Months: December – March, June – September
 
-
 **Rajah Brooke’s Birdwing**
 
 Location: Flowers<br />
@@ -41,7 +39,6 @@ Nook price: 2,500<br />
 Flick price: 3,750<br />
 Time: 8am – 5pm<br />
 Months: December – February, April – September
-
 
 ### Fish
 
@@ -65,7 +62,6 @@ C.J price: 480<br />
 Time: All day<br />
 Months: December – February
 
-
 **Sea Butterfly**
 
 Location: Sea<br />
@@ -74,7 +70,6 @@ Nook price: 1,000<br />
 C.J price: 1,500<br />
 Time: All day<br />
 Months: December – March
-
 
 **Squid**
 
@@ -85,7 +80,6 @@ C.J price: 750<br />
 Time: All day<br />
 Months: December – August
 
-
 **Stringfish**
 
 Location: River/Pond (Clifftop)<br />
@@ -94,7 +88,6 @@ Nook price: 15,000<br />
 C.J price: 22,500<br />
 Time: 4pm – 9am<br />
 Months: December – March
-
 
 ## Sea creatures
 
@@ -107,6 +100,5 @@ Rarity: Very rare!<br />
 Nook price: 4,500<br />
 Time: All day<br />
 Months: December – January, April – June
-
 
 We hope that this was useful to all of you avid bug catchers and fishing stars…(or should we say, star fishes!) We are particularly hoping to catch a Stringfish this month, what are you hoping for? Let us know over on our social channels.

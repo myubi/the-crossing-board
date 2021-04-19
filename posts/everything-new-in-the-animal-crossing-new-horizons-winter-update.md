@@ -2,7 +2,7 @@
 title: Everything New In The Animal Crossing New Horizons Winter Update
 author: The Crossing Board
 date: "2020-11-17"
-
+draft: false
 ---
 
 <div class="image-center">
@@ -41,7 +41,7 @@ With great events come great new furniture. Scattered throughout the trailer for
 
 ##Inclusive Character Customisations
 
-One of the most anticipated and highly requested additions to Animal Crossing has finally arrived. More inclusive hair and eye shapes! From the trailer, it looks like we will have the option to purchase six new hairstyles using our Nook miles. Although we hope more inclusive customisation options will be added in the future, players around the world are delighted that Nintendo are starting to take steps in the right direction. 
+One of the most anticipated and highly requested additions to Animal Crossing has finally arrived. More inclusive hair and eye shapes! From the trailer, it looks like we will have the option to purchase six new hairstyles using our Nook miles. Although we hope more inclusive customisation options will be added in the future, players around the world are delighted that Nintendo are starting to take steps in the right direction.
 
 <div class="image-center">
 <img src="/images/posts/17112020/image5.png" alt="" />
@@ -52,7 +52,7 @@ One of the most anticipated and highly requested additions to Animal Crossing ha
 
 ##New Reactions
 
-Players around the world are also extremely excited about the addition of the new reactions. From the trailer we can see that players will now be able to do a whole load of new gestures with their animal friends. These reactions include: sniff sniff, wave goodbye, excited, work out, yoga, here you go, ta-da, take a picture and most importantly sit down! Now we can enjoy the luxury of joining our villagers in their work outs followed by a relaxing sit down. 
+Players around the world are also extremely excited about the addition of the new reactions. From the trailer we can see that players will now be able to do a whole load of new gestures with their animal friends. These reactions include: sniff sniff, wave goodbye, excited, work out, yoga, here you go, ta-da, take a picture and most importantly sit down! Now we can enjoy the luxury of joining our villagers in their work outs followed by a relaxing sit down.
 
 <div class="image-center">
 <img src="/images/posts/17112020/image7.png" alt="" />
@@ -87,7 +87,7 @@ Hoard reward alert! Gone are the days of yard sales and storage clear outs. The 
 
 ##Addition of a catalogue feature on Nook Link smartphone app
 
-It’s not just our switch consoles that will be getting new content. Our real life smartphones will too! Nintendo have announced a catalogue feature coming to the NookLink app which will allow players to check their catalogued items from the comfort of their phones. 
+It’s not just our switch consoles that will be getting new content. Our real life smartphones will too! Nintendo have announced a catalogue feature coming to the NookLink app which will allow players to check their catalogued items from the comfort of their phones.
 
 <div class="image-center">
 <img src="/images/posts/17112020/image12.jpg" alt="" />
@@ -95,12 +95,12 @@ It’s not just our switch consoles that will be getting new content. Our real l
 
 ##Seasonal items
 
-Although maybe not arriving with the Animal Crossing Winter update, Nintendo have announced the addition of some great seasonal items. This sunflower rug alongside the northern lights wall will be great additions to any players home. 
+Although maybe not arriving with the Animal Crossing Winter update, Nintendo have announced the addition of some great seasonal items. This sunflower rug alongside the northern lights wall will be great additions to any players home.
 
 <div class="image-center">
 <img src="/images/posts/17112020/image13.jpg" alt="" />
 </div>
 
-And that’s everything we know so far about the Animal Crossing Winter update. 
+And that’s everything we know so far about the Animal Crossing Winter update.
 
 Have you noticed something we haven’t? Let us know on our Instagram [@thecrossingboard](https://instagram.com/thecrossingboard) or Twitter account [@CrossingBoard](https://twitter.com/crossingboard)!
