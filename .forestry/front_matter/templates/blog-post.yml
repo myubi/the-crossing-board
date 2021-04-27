@@ -23,4 +23,5 @@ fields:
   default: true
   hidden: false
 pages:
+- posts/animal-crossing-new-horizon-s-update-announced.md
 - posts/we-are-moving.md
