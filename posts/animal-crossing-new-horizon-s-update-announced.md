@@ -5,7 +5,7 @@ draft: false
 title: 'Animal Crossing: New Horizon’s Update Announced!'
 
 ---
-Animal Crossing: New Horizons next update will be released on 28th April.
+![](/images/news/9eb35792-1005-4bc6-94b1-7bbd61cbb8a5.png)Animal Crossing: New Horizons next update will be released on 28th April.
 
 With May fast approaching, we will see the return of many seasonal events to Animal Crossing next month, but with a new twist.
 
