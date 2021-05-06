@@ -1,0 +1,163 @@
+{
+  "name": "What Area Should You Create on Your Island Next?",
+  "questions": [
+    {
+      "question": "What is your favorite thing about your island?",
+      "answers": [
+        {
+          "type": "Fishing Pier",
+          "content": "I’m just getting started, I’m not sure yet!"
+        },
+        {
+          "type": "Crafting Nook",
+          "content": "It represents my style"
+        },
+        {
+          "type": "Pizzeria",
+          "content": "It’s super cozy!"
+        },
+        {
+          "type": "Outdoor Market",
+          "content": "There’s so much, please don’t make me pick!"
+        },
+        {
+          "type": "Beachside Restaurant)",
+          "content": "There’s something for everyone to enjoy"
+        }
+      ]
+    },
+    {
+      "question": "What is your favorite activity to watch your villagers do?",
+      "answers": [
+        {
+          "type": "Fishing Pier",
+          "content": "Fishing! They look so peaceful"
+        },
+        {
+          "type": "Crafting Nook",
+          "content": "Crafting! They’re so focused and I get a DIY"
+        },
+        {
+          "type": "Pizzeria",
+          "content": "Cooking out on the Plaza"
+        },
+        {
+          "type": "Outdoor Market",
+          "content": "When they have the zoomies!"
+        },
+        {
+          "type": "Beachside Restaurant)",
+          "content": "Visiting each other at their houses"
+        }
+      ]
+    },
+    {
+      "question": "What do you like to do in your downtime?",
+      "answers": [
+        {
+          "type": "Fishing Pier",
+          "content": "Anything as long as it’s outdoors"
+        },
+        {
+          "type": "Crafting Nook",
+          "content": "Arts and crafts please!"
+        },
+        {
+          "type": "Pizzeria",
+          "content": "Trying out new recipes"
+        },
+        {
+          "type": "Outdoor Market",
+          "content": "Shopping!"
+        },
+        {
+          "type": "Beachside Restaurant)",
+          "content": "Hanging out with my friends"
+        }
+      ]
+    },
+    {
+      "question": "Who is your favorite NPC?",
+      "answers": [
+        {
+          "type": "Fishing Pier",
+          "content": "CJ"
+        },
+        {
+          "type": "Crafting Nook",
+          "content": "Tom Nook"
+        },
+        {
+          "type": "Pizzeria",
+          "content": "Isabelle"
+        },
+        {
+          "type": "Outdoor Market",
+          "content": "Mabel"
+        },
+        {
+          "type": "Beachside Restaurant)",
+          "content": "Pascal"
+        }
+      ]
+    },
+    {
+      "question": "It’s one of your villagers’ birthdays! What do you get them?",
+      "answers": [
+        {
+          "type": "Fishing Pier",
+          "content": "A super rare fish"
+        },
+        {
+          "type": "Crafting Nook",
+          "content": "I craft them something, it seems more personal"
+        },
+        {
+          "type": "Pizzeria",
+          "content": "You can never go wrong with furniture"
+        },
+        {
+          "type": "Outdoor Market",
+          "content": "Clothes, of course!"
+        },
+        {
+          "type": "Beachside Restaurant)",
+          "content": "Whatever I find that reminds me of them"
+        }
+      ]
+    },
+    {
+      "question": "Have you decorated your house yet?",
+      "answers": [
+        {
+          "type": "Fishing Pier",
+          "content": "A little bit, I like to put all of my fish and bugs on display"
+        },
+        {
+          "type": "Crafting Nook",
+          "content": "Yes, every room"
+        },
+        {
+          "type": "Pizzeria",
+          "content": "Yes, but I haven’t gotten the last upgrade yet"
+        },
+        {
+          "type": "Outdoor Market",
+          "content": "I use my house for storage"
+        },
+        {
+          "type": "Beachside Restaurant)",
+          "content": "I keep it nice in case anyone visits!"
+        }
+      ]
+    }
+  ],
+  "results": {
+    "Fishing Pier": "You’re someone who probably loves the outdoors. You enjoy Animal Crossing activities like fishing and catching bugs; you are basically a pro! Why not create an area dedicated to one of the most important parts of the game- fishing! Create a lake or pond of any size and make a nice area to hangout and fish. Add some chairs or stools, wooden buckets, fishing rods, street lamps, whatever you fancy. Maybe CJ will even spawn here!",
+    "Crafting Nook": "You have most of the DIYs, if not all of them. Crafting and customization is something you probably do often, it can be exhausting! Your island may be filled at every corner with your creations. Why not create a little area dedicated to just that! You can easily design a crafting nook that fits your theme with the right fencing and customization. Use this as a place to store extra tools and materials to leave more room in your pockets for your creations!",
+    "Pizzeria": "Your island may be one without a specific theme. You may have many different ideas and put them all together. An area that can go on any island, no matter the theme, is a pizzeria! With the amount of tables and chairs to choose from you’re able to easily customize your pizzeria to your liking!",
+    "Outdoor Market": "You may be someone who can’t stand to give away anything in your storage “just in case.” Something you can easily use your extra furniture for is an outdoor market! Craft some stalls and customize them to your liking. Place your items on them and add some stools so you can rest while shopping.",
+    "Beachside Restaurant": "You probably love interacting with your villagers, NPC’s, and watching them interact with each other. You may also enjoy having visitors on your island and just relaxing! A great way to bring everyone together is a beachside restaurant! Decorate it according to your theme, or just go crazy with it! Make this a place everyone will want to come back to and bring their friends."
+  },
+  "hasImages": false
+}
