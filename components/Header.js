@@ -55,6 +55,9 @@ export default function Header(props) {
               Join the team
             </a>
           </Link>
+          <Link href="/faq" prefetch={false}>
+            <a className={router.pathname == "/faq" ? "active" : ""}>FAQ</a>
+          </Link>
           <Link href="/contact" prefetch={false}>
             <a className={router.pathname == "/contact" ? "active" : ""}>
               Contact
