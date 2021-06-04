@@ -1,7 +1,7 @@
 ---
 author: The Crossing Board
 date: 2021-06-04T21:11:59Z
-draft: true
+draft: false
 title: 'Animal Crossing: New Horizons Art Guide'
 
 ---
