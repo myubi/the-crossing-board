@@ -60,4 +60,4 @@ Now let’s explore how you can figure out the difference between the genuine wo
 * Valiant Statue - The fake is mirrored with the left leg in the front, whereas the real version has its right leg in the front.
 * Warrior Statue - The fake is holding a shovel while the genuine version isn’t holding anything.
 
-![](/images/news/blathers-1.png)
+![Celeste](/images/news/blathers-1.png "Celeste Animal Crossing New Horizons")
