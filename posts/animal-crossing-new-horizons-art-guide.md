@@ -16,6 +16,8 @@ Luckily, the following pieces of artwork are available that will always be the r
 * Calm Painting
 * Common Painting
 * Dynamic Painting
+
+  ![](/images/news/dynamic-painting-always-real.png)
 * Flowery Painting
 * Glowing Painting
 * Moody Painting
@@ -48,12 +50,24 @@ Now let’s explore how you can figure out the difference between the genuine wo
 * Wild Painting (Left Half) - There is a dark figure in the fake version, whereas there is a light figure in the genuine piece.
 * Wild Painting (Right Half) - It’s the other way round in this one. There is a light figure in the forgery while the real one features a dark figure.
 * Wistful Painting - The woman’s earring is star-shaped in the fake painting, while it is sphere-shaped in the real version.
+
+![](/images/news/wistful-painting-fake.png)
+
+Fake
+
+![](/images/news/wistful-painting-real.png)
+
+Real
+
 * Ancient Statue - The fake has antennae, while the real one doesn’t. Also, look out for the eyes glowing blue and the statue floating when interacted with.
 * Beautiful Statue - The fake version will have lots of necklaces in comparison to the real statue.
 * Gallant Statue - The fake statue is holding a book in its right hand. There is no book held by the real version.
 * Informative Statue - The fake is blue in colour, while the real one is grey. You may also notice the fake one glowing.
 * Motherly Statue - If the tongue is sticking out, then it’s a fake.
 * Mystic Statue - There is an earring worn by the fake version.
+
+![](/images/news/mystic-statue.png)
+
 * Robust Statue - The fake statue is wearing a watch on its right arm, while there is no watch worn by the real version.
 * Rock-Head Statue - The fake statue is smiling, whereas the real version is showing almost no emotion.
 * Tremendous Statue - The fake statue features a lid with a handle in the middle, but the real version has handles on the side.
