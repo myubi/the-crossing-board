@@ -5,6 +5,8 @@ draft: false
 title: 'Animal Crossing: New Horizons Art Guide'
 
 ---
+![Redd in an apron](/images/news/redd.png "Redd Animal Crossing New Horizons")
+
 A returning character to the Animal Crossing series, the rebranded “Jolly Redd” was added to New Horizons in the 1.2.0 Earth Day update in April 2020. This shady fox will appear on your island every so often at your secret beach on the north shore, selling black market artwork and items on his Treasure Trawler. The paintings and sculptures that feature in the game are in fact based on real-life works of art that you may recognise!
 
 Your first meeting with Redd actually takes place when you see him wandering around the island, once you have donated 60 items to the museum. Interact with him and he will offer to sell you a painting that is always real and donate this to Blathers in order to enable work to begin on a new art exhibit. A short description will always accompany each piece. The Treasure Trawler will then always have four paintings or sculptures in addition to two furniture items. However, because this is Redd we are talking about, there will be fakes so make sure to look closely at each piece to avoid getting caught out!
