@@ -2,9 +2,11 @@
 author: The Crossing Board
 date: 2021-06-17T15:25:23Z
 draft: false
-title: Fanzine subscriptions via paypal have arrived!
+title: Fanzine subscriptions via Paypal have arrived!
 
 ---
+![](/images/news/img_v2_c30b42e6-b82b-487b-8b7d-1c6586ab156h.jpg)
+
 We are so pleased to announce that we are now offering the payment option ‘Paypal’ when paying for your fanzine subscription!
 
 The Crossing Board releases a monthly fanzine dedicated to the latest Animal Crossing New Horizons news, top tips for gameplay, guides, puzzles, quizzes and more.
