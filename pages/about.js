@@ -7,7 +7,7 @@ import {
   TiStarFullOutline,
   TiSocialTwitter,
 } from "react-icons/ti";
-import { FaCrown, FaLeaf } from "react-icons/fa";
+import { FaCrown, FaLeaf, FaFish } from "react-icons/fa";
 
 export default function Info({ frontmatter, markdownBody, profiles }) {
   const aboutFrontmatter = frontmatter;
@@ -26,6 +26,58 @@ export default function Info({ frontmatter, markdownBody, profiles }) {
             <h2>{aboutFrontmatter.title}</h2>
             <ReactMarkdown source={aboutBody} />
           </div>
+          <div className="founder">
+            <div className="member-of-the-month-text">Mascot</div>
+            <div className="member-of-the-month-crown">
+              <FaFish />
+            </div>
+            <div className="passport-wrapper motm-passport">
+              <div className="passport-sides passport-top">
+                <span>PASSPORT</span>
+              </div>
+              <div className="contents-wrapper">
+                <div className="profile-picture">
+                  <img
+                    src="../images/profiles/tcb-mascot-profile.png"
+                    alt="???"
+                  />
+                </div>
+                <div className="text-wrapper">
+                  <div className="profile profile-name">
+                    <TiHeartFullOutline />
+                    <span>???</span>
+                  </div>
+                  <div className="profile profile-role">
+                    <TiStarFullOutline />
+                    <span>Supporting all the TCB Team</span>
+                  </div>
+                  <div className="profile profile-bio">
+                    <p>
+                      Hi there! It’s so nice to meet you! I would tell you my
+                      name, but unfortunately, I don’t have one yet. Will you
+                      help in finding the right name for me?
+                    </p>
+                    <p>
+                      To tell you a bit more about myself, I’m a diplodocus, a
+                      kind of dinosaur! I would say that I’m a mix of lazy and
+                      uchi personalities; I love spending time inside my house
+                      (mostly to nap), but once I’m outside, I love to stretch,
+                      dance, and sing! I also love to eat, and my favourite food
+                      is a popsicle! I can eat them in every season, including
+                      winter. My favourite K.K. Slider song is Stale Cupcakes. I
+                      love listening to it before bed and after I wake up in the
+                      morning, it makes me feel so calm!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="passport-sides passport-bottom">
+                &lt; &lt; &lt; &lt; &lt; &lt; &lt; &lt; &lt; &lt; &lt; &lt; &lt;
+                &lt;
+              </div>
+            </div>
+          </div>
+          <div className="divider" />
           <div className="founder">
             <div className="member-of-the-month-text">Founder</div>
             <div className="member-of-the-month-crown">
@@ -252,6 +304,7 @@ export default function Info({ frontmatter, markdownBody, profiles }) {
             background: #fefce7;
             border-radius: 1em;
             padding: 10px;
+            flex-direction: column;
           }
 
           .profile-bio:after {
