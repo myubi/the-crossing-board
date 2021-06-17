@@ -3,7 +3,7 @@ import ReactMarkdown from "react-markdown";
 
 const BlogList = ({ allBlogs }) => {
   function truncateSummary(content) {
-    return content.slice(0, 300).trimEnd() + "...";
+    return content.slice(0, 230).trimEnd() + "...";
   }
 
   function reformatDate(fullDate) {

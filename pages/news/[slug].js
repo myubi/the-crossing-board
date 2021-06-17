@@ -72,7 +72,8 @@ export default function BlogTemplate({
               }
 
               .blog :global(img) {
-                max-width: 50%;
+                max-height: 300px;
+                width: auto;
                 margin: 0 auto;
                 border-radius: 40px;
                 border: 5px solid;
@@ -85,6 +86,16 @@ export default function BlogTemplate({
 
               .blog :global(.image-center) {
                 text-align: center;
+              }
+
+              .blog :global(.image-left) {
+                float: left;
+                margin-right: 15px;
+              }
+
+              .blog :global(.image-right) {
+                float: right;
+                margin-right: 15px;
               }
 
               .blog :global(.image-credit) {

@@ -2,10 +2,13 @@
 author: The Crossing Board
 date: 2021-04-27T21:55:54Z
 draft: false
-title: 'Animal Crossing: New Horizon’s Update Announced!'
-
+title: "Animal Crossing: New Horizon’s Update Announced!"
 ---
-![](/images/news/9eb35792-1005-4bc6-94b1-7bbd61cbb8a5.png)Animal Crossing: New Horizons next update will be released on 28th April.
+
+<div class="image-left">
+<img src="/images/news/9eb35792-1005-4bc6-94b1-7bbd61cbb8a5.png" alt="" />
+</div>
+Animal Crossing: New Horizons next update will be released on 28th April.
 
 With May fast approaching, we will see the return of many seasonal events to Animal Crossing next month, but with a new twist.
 

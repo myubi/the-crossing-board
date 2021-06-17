@@ -3,9 +3,11 @@ author: The Crossing Board
 date: 2021-06-17T15:25:23Z
 draft: false
 title: Fanzine subscriptions via Paypal have arrived!
-
 ---
-![](/images/news/img_v2_c30b42e6-b82b-487b-8b7d-1c6586ab156h.jpg)
+
+<div class="image-left">
+<img src="/images/news/img_v2_c30b42e6-b82b-487b-8b7d-1c6586ab156h.jpg" alt="" />
+</div>
 
 We are so pleased to announce that we are now offering the payment option ‘Paypal’ when paying for your fanzine subscription!
 
@@ -21,4 +23,6 @@ If a physical copy isn’t for you, we also have digital copies! These are also 
 
 And don’t forget, we also now have our very own The Crossing Board Tote bags available NOW! Featuring The Crossing Board logo, the 10-litre capacity bag can hold all of your favourite things - we’re thinking your switch and of course, your fanzines! You can buy your very own tote bag [here.](https://shop.thecrossingboard.com/collections/merchandise)
 
-![](/images/news/img_v2_bf28e527-34fb-4e08-85f1-ea4db878d2bh.jpg)
+<div class="image-center">
+<img src="/images/news/img_v2_bf28e527-34fb-4e08-85f1-ea4db878d2bh.jpg" alt="" />
+</div>
