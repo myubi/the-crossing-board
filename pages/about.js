@@ -45,18 +45,14 @@ export default function Info({ frontmatter, markdownBody, profiles }) {
                 <div className="text-wrapper">
                   <div className="profile profile-name">
                     <TiHeartFullOutline />
-                    <span>???</span>
+                    <span>Dot</span>
                   </div>
                   <div className="profile profile-role">
                     <TiStarFullOutline />
                     <span>Supporting all the TCB Team</span>
                   </div>
                   <div className="profile profile-bio">
-                    <p>
-                      Hi there! It’s so nice to meet you! I would tell you my
-                      name, but unfortunately, I don’t have one yet. Will you
-                      help in finding the right name for me?
-                    </p>
+                    <p>Hi there! It’s so nice to meet you! My name is Dot!</p>
                     <p>
                       To tell you a bit more about myself, I’m a diplodocus, a
                       kind of dinosaur! I would say that I’m a mix of lazy and
