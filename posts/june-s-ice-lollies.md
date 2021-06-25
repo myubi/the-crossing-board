@@ -5,6 +5,8 @@ draft: false
 title: June’s Ice Lollies
 
 ---
+![](/images/news/img_v2_00d6a1ad-1f02-4375-b130-ae30e739d48h.png)
+
 Hi all!
 
 I have spent the last few hours making my very own versions of the delicious lemon and orange ice lollies I enjoyed on the beach the other day. I couldn’t leave it up to chance to have them again!
