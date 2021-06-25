@@ -72,3 +72,5 @@ Yield: 4-6 ice lollies
 6. Enjoy your deliciously fruity ice lollies!
 
 I can’t decide which of the two lollies I love the most. Let me know which your favourite is over on our socials!
+
+![](/images/news/img_v2_826ece57-d644-4cf7-8c73-0da27f09f36h.png)
