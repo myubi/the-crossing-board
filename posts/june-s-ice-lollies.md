@@ -9,7 +9,7 @@ title: June’s Ice Lollies
 
 Hi all!
 
-I have spent the last few hours making my very own versions of the delicious lemon and orange ice lollies I enjoyed on the beach the other day. I couldn’t leave it up to chance to have them again!
+You must be here as you have read my letter in the July edition of The Crossing Board fanzine. If you haven't, you can [buy your own copy here!](https://shop.thecrossingboard.com/) I have spent the last few hours making my very own versions of the delicious lemon and orange ice lollies I enjoyed on the beach the other day. I couldn’t leave it up to chance to have them again!
 
 The recipes are really easy to follow and make the most refreshing and fruity ice lollies I have ever tasted. And even better, they are made with real fruit! The perfect treat on a summer's day.
 
