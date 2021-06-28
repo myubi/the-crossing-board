@@ -15,7 +15,7 @@ I have spent the last few hours making my very own versions of the delicious lem
 
 The recipes are really easy to follow and make the most refreshing and fruity ice lollies I have ever tasted. And even better, they are made with real fruit! The perfect treat on a summer's day.
 
-First up, are my fruity lemon ice lollies. With only 3 ingredients and no refined sugar, these couldn’t be easier to whip up for your island friends.
+First up, are my fruity lemon ice lollies. With only 3 ingredients these couldn’t be easier to whip up for your island friends.
 
 **June’s Lemon Ice Lollies**
 
@@ -44,7 +44,7 @@ Yield: 4-6 ice lollies
 5. Pop them into the freezer and allow to freeze for 4 hours.
 6. Enjoy your refreshing lemon ice lollies!
 
-The next recipe I have for you is for the delicious orange ice lollies! With only 2 ingredients and no added sugar, these ice lollies are the perfect treat for a summer's day.
+The next recipe I have for you is for the delicious orange ice lollies! With only 2 ingredients, these ice lollies are the perfect treat for a summer's day.
 
 **June’s Orange Ice Lollies**
 
