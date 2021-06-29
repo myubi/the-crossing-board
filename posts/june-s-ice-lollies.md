@@ -9,7 +9,7 @@ title: June’s Ice Lollies
 
 Hi all!
 
-It's me, June, rainbow. I have spent the last few hours making my very own versions of some delicious lemon and orange ice lollies I saw on the beach the other day. In the upcoming July fanzine, ([available here](https://shop.thecrossingboard.com/)) you can read my letter to Chevre and find out about my journey to find these yummy treats!
+It's me, June, rainbow. I have spent the last few hours making my very own versions of some delicious lemon and orange ice lollies I saw on the beach the other day. In the upcoming July fanzine, ([available here](https://shop.thecrossingboard.com/)) you can read my letter to Chevre and find out about my adventure to find these yummy treats!
 
 The recipes are really easy to follow and make the most refreshing and fruity ice lollies I have ever tasted. And even better, they are made with real fruit! The perfect treat on a summer's day, rainbow.
 
