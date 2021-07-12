@@ -5,6 +5,8 @@ draft: false
 title: Staying Safe Online in the Animal Crossing Community
 
 ---
+![](/images/news/untitled-design.png)
+
 Animal Crossing: New Horizons is a game like no other before it in the franchise. While New Leaf had online features and a healthy social media following, New Horizons has certainly eclipsed it. For the past year and a half, players have connected with friends old and new and shown off their creative talents in the form of island builds and custom designs on social media platforms from Instagram to Pinterest. Yes, at its core, New Horizons is a wholesome and friendly game for ages, but with a community in the millions and content almost everywhere you turn, it comes with risks. Let’s explore how you can safely enjoy Animal Crossing and its online world.
 
 **Watch out for scams.** This includes the simple “villager in boxes” hoax in which you exchange bells or items for a villager who is supposedly moving out but once you go into their house you discover they aren’t. A more extreme scam is being asked to use real-life money to get a villager or items you want. If something looks too good to be true, it probably is.
