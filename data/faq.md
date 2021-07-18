@@ -35,3 +35,10 @@ We’re sorry you did not get your fanzine. Unfortunately postal mishaps happen 
 ## “Why should I subscribe if you have digital or extra copies for sale?”
 
 Subscribing means you can be amongst the first group of people that get our monthly fanzines. You may choose a digital copy if you prefer reading on your tablet or any other device, or for sustainability reasons. As for extra physical copies, the number of extra copies we have vary from month to month. To always receive a fanzine, subscribing to our service is the best option!
+
+## "I want to change the address for my subscription, what should I do?"
+
+To change your address on your subscription, please login to your account on our shop page. If you do not have an account yet, just create one with the same email you used to make a subscription. Once logged in, you will need to change your address in two place:
+
+- Under your "Account Details", click to view addresses and update it there.
+- Click on "View your subscriptions", click on your subscription number and change your address on that page too.
