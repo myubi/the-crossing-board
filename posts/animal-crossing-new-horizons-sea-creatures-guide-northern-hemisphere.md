@@ -1,11 +1,11 @@
 ---
 author: The Crossing Board
 date: 2021-07-26T08:51:55Z
-draft: true
+draft: false
 title: 'Animal Crossing: New Horizons Sea Creatures Guide (Northern Hemisphere)'
 
 ---
-We have all been enjoying exploring the waters around our islands for just over a year since the feature was reintroduced to the game in July 2020’s summer update, along with Pascal and Pirate Gulliver. In case you needed reminding, you can only go diving into the sea while wearing a wetsuit, which can be purchased from the NookStop.
+![](/images/news/vampire-squid.png)We have all been enjoying exploring the waters around our islands for just over a year since the feature was reintroduced to the game in July 2020’s summer update, along with Pascal and Pirate Gulliver. In case you needed reminding, you can only go diving into the sea while wearing a wetsuit, which can be purchased from the NookStop.
 
 There are 40 sea creatures available to catch in New Horizons, ten more than in New Leaf. When swimming, you may notice bubbles rising up from the seabed, a sign that a critter is available. The larger the creature, the more bubbles are produced. Just like the fish and bugs, sea creatures can be donated to Blathers at the museum and will appear in your Critterpedia as you catch them. Scallops can be traded with Pascal for DIY recipes.
 
@@ -88,3 +88,5 @@ Some creatures only spawn at certain times, so we hope this handy list will help
 **Flatworm**: August - September \~ 4pm - 9am
 
 **Venus’ Flower Basket**: October - February \~ All Day
+
+![](/images/news/moon-jellyfish.png)
