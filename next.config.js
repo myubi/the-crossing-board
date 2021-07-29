@@ -1,26 +1,27 @@
-module.exports = ({
-  webpack: function(config, {isServer}) {
+module.exports = {
+  webpack: function (config, { isServer }) {
     if (isServer) {
-      require('./scripts/generate-podcast-xml');
+      require("./scripts/generate-podcast-xml");
     }
     config.module.rules.push({
       test: /\.md$/,
-      use: "raw-loader"
+      use: "raw-loader",
     });
     return config;
   },
-   exportPathMap: async function() {
+  exportPathMap: async function () {
     const routes = {
-      '/': { page : '/'},
-      "/about": { page: "/about"},
-      "/quiz": { page: "/quiz"},
-      "/magazine": { page: "/magazine"},
-      "/success": {page: "/success"},
-      "/sold-out": {page: "/sold-out"},
-      "/DIYBottleRecipe": {page: "/DIYBottleRecipe"}
-    }
-  
-    return routes
+      "/": { page: "/" },
+      "/about": { page: "/about" },
+      "/quiz": { page: "/quiz" },
+      "/magazine": { page: "/magazine" },
+      "/success": { page: "/success" },
+      "/sold-out": { page: "/sold-out" },
+      "/DIYBottleRecipe": { page: "/DIYBottleRecipe" },
+      "/dressupgloria": { page: "/dressupgloria" },
+    };
+
+    return routes;
   },
-  exportTrailingSlash: true
-});
+  exportTrailingSlash: true,
+};
