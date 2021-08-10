@@ -1,7 +1,7 @@
 ---
 author: The Crossing Board
 date: 2021-08-10T17:40:24Z
-draft: true
+draft: false
 title: CJ's O-fish-al Snack Mix
 
 ---
@@ -32,4 +32,4 @@ Blue food dye
 
 Signing off now, angler!
 
-\-CJ
+**_-CJ_**
