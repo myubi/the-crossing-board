@@ -5,6 +5,8 @@ draft: false
 title: Best Museum Photo Opportunities ft. Blathers
 
 ---
+![](/images/news/blathers-1.png)
+
 Hoo! August, it seems, is International Fishing Month! Of course, it would be wonderful if you chose to donate any new fish you find to your island museum in honour of this esteemed month. But might I interest you in visiting the fish section of the museum also?
 
 You see, there are many, many wonderful places to take pictures inside of the museum to commemorate your visits. Thus I’ve decided to share five of my favourites if you’d like to add any photographs to your personal collection of memories.
