@@ -1,7 +1,7 @@
 ---
 author: The Crossing Board
 date: 2021-08-23T10:48:20Z
-draft: true
+draft: false
 title: Best Museum Photo Opportunities ft. Blathers
 
 ---
@@ -9,7 +9,7 @@ Hoo! August, it seems, is International Fishing Month! Of course, it would be wo
 
 You see, there are many, many wonderful places to take pictures inside of the museum to commemorate your visits. Thus I’ve decided to share five of my favourites if you’d like to add any photographs to your personal collection of memories.
 
-![](https://lh4.googleusercontent.com/-6U-3Qh0r9n3t5k5xbpxcyd3Q8XnGXtDVBY8jn8Sego92zWWR9QYXSvwyz9DTUVIhBUbuXd0VtuV78XDb3HvK1mNG6R6F1bJubXTg5vm03tc0uZQxzXz3orEICWg_M_903_1D20 =424x239)
+![Animal Crossing Museum](https://lh4.googleusercontent.com/-6U-3Qh0r9n3t5k5xbpxcyd3Q8XnGXtDVBY8jn8Sego92zWWR9QYXSvwyz9DTUVIhBUbuXd0VtuV78XDb3HvK1mNG6R6F1bJubXTg5vm03tc0uZQxzXz3orEICWg_M_903_1D20 "Animal Crossing Museum" =424x239)
 
 When you first enter the fish section of the museum, you’ll find a lovely tank filled with some of the smaller fish you’ve caught, like killifish or goldfish. These small fish, often found in ponds, are peaceful. One of the most beautiful images you can get in the museum is to pose behind the tank and photograph through the tank as the fish swim in front of you! Hoo!
 
