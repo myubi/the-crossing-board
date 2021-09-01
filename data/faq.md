@@ -2,6 +2,19 @@
 title: Frequently Asked Questions
 ---
 
+## "I want to change the address/name for my subscription, what should I do?"
+
+To change your address/name on your subscription, please login to your account on our shop page. _(If you do not have an account yet, just create one with the same email you used to make a subscription._)
+
+You will then need to change it in **two places**:
+
+- Under your **"Account Details"**, click to view addresses and update any addresses or names there. Make sure to also tick the **"Make default"** option. Delete any old addresses to be safe.
+- Click on **"View your subscriptions"**, click on your subscription number and change your address on that page too.
+
+If you still are having issues with changing your address, please [contact us](mailto:contact@thecrossingboard.com).
+
+![Changing address information](/images/faq/change-address.gif)
+
 ## “I haven’t received my fanzine yet, when is it going to arrive?”
 
 If you subscribe any time this month (between the first and the last day), you will always receive the next month's fanzine. This is because we work on the editions a month prior to the release. For example, we worked on the May issue throughout the whole month of April.
@@ -35,10 +48,3 @@ We’re sorry you did not get your fanzine. Unfortunately postal mishaps happen 
 ## “Why should I subscribe if you have digital or extra copies for sale?”
 
 Subscribing means you can be amongst the first group of people that get our monthly fanzines. You may choose a digital copy if you prefer reading on your tablet or any other device, or for sustainability reasons. As for extra physical copies, the number of extra copies we have vary from month to month. To always receive a fanzine, subscribing to our service is the best option!
-
-## "I want to change the address for my subscription, what should I do?"
-
-To change your address on your subscription, please login to your account on our shop page. If you do not have an account yet, just create one with the same email you used to make a subscription. Once logged in, you will need to change your address in two place:
-
-- Under your "Account Details", click to view addresses and update it there.
-- Click on "View your subscriptions", click on your subscription number and change your address on that page too.

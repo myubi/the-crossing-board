@@ -2,96 +2,90 @@
   "profiles": [
     {
       "name": "Charlie",
-      "member-of-the-month": false,
-      "role": "Marketing Manager & Writer",
-      "picture": "../images/profiles/solsticecharlie.png",
+      "pronouns": "she/her",
+      "role": "Head of Marketing & Writer",
+      "picture": "../images/profiles/Charlie.PNG",
       "twitter": "solsticecharlie",
       "bio": "Charlie is the head of Marketing at The Crossing Board. Her favourite Animal Crossing character is Cheri and her favourite thing about the game is decorating her island and hanging out with her villagers! When she’s not helping out at The Crossing Board, Charlie enjoys reading, making polymer clay jewellery and playing with her little kitten Jazz."
     },
     {
       "name": "Chloe",
-      "member-of-the-month": false,
-      "role": "Writer",
-      "picture": "../images/profiles/chloscrossing.png",
+      "pronouns": "she/her",
+      "role": "Head of Writing",
+      "picture": "../images/profiles/Chloe.JPG",
       "twitter": "chloscrossing",
-      "bio": "My name is Chloe and I’m part of the writing team! You can also find me baking and taking care of my many plant babies."
+      "bio": "Chloe is the head of Writing at The Crossing Board. Her favourite Animal Crossing character is Dobie, which is fitting as Dobie’s goal is to become a writer! Chloe particularly enjoys spending time with her villagers on her island. In her spare time, she loves to develop exciting new recipes, bake, make tiktoks, knit, and, nap!"
     },
     {
       "name": "Emily",
-      "member-of-the-month": false,
       "role": "Writer & YouTube content creator",
-      "picture": "../images/profiles/placeholder-profile.png",
+      "picture": "../images/profiles/Emily.PNG",
       "twitter": "wyndencrossing",
-      "bio": "Emily is a writer at The Crossing Board and also creates content for our Youtube channel. Her favourite Animal Crossing character is Sherb, although Leif holds a special place in her heart too. Her favourite thing about the game is being able to design and decorate your island however you wish! In her spare time, Emily loves playing the Flute, figure skating, baking, and running a stranger things podcast!"
+      "bio": "Emily is a writer at The Crossing Board and also creates content for our Youtube channel. Her favourite Animal Crossing character is Sherb, although Leif holds a special place in her heart too. Her favourite thing about the game is being able to design and decorate your island however you wish! In her spare time, Emily loves playing the flute, figure skating, baking, and running a Stranger Things podcast!"
     },
     {
       "name": "Isabella",
-      "member-of-the-month": false,
       "role": "Writer",
       "picture": "../images/profiles/placeholder-profile.png",
       "twitter": "crossingcakes",
       "bio": "Isabella is a writer at The Crossing Board for the beloved monthly Astronomy corner! Her favourite Animal Crossing characters are Chai & Merry and all of her villagers are her favourite thing about the game. When Isabella isn’t busy writing for The Crossing Board, she loves dancing, reading, and art."
     },
     {
-      "name": "Jackie",
-      "member-of-the-month": false,
-      "role": "Youtube content creator",
-      "picture": "../images/profiles/jackieisbad.png",
-      "twitter": "jackieisbad",
-      "bio": "Jackie creates content for The Crossing Board’s Youtube channel. His favourite Animal Crossing character is Static and his favourite thing about the game is the relaxing nature of it and being able to make your island exactly how you want it. Jackie loves playing other games when he’s not busy designing his island, especially long RPGs like Xenoblade Chronicles and Dragon Quest."
-    },
-    {
       "name": "James",
-      "member-of-the-month": false,
       "role": "Writer and Marketing assistant",
-      "picture": "../images/profiles/placeholder-profile.png",
+      "picture": "../images/profiles/James.PNG",
       "twitter": "james_hall94",
-      "bio": "James is a writer and marketing assistant at The Crossing Board. He loves that Animal Crossing has helped to stay in touch with his partner, make new friends and create a cool island to escape from the real world! James has a tattoo of his favourite villager, Dom, he's an angel! When he isn’t hanging out with Dom and the rest of his villagers, he enjoys football (he’s an Arsenal fan!), The Simpsons and going to gigs!"
+      "bio": "James is a writer and marketing assistant at The Crossing Board. He loves that Animal Crossing has helped him stay in touch with his partner, make new friends and create a cool island to escape from the real world! James has a tattoo of his favourite villager, Dom, he's an angel! When he isn’t hanging out with Dom and the rest of his villagers, he enjoys football (he’s an Arsenal fan!), The Simpsons and going to gigs!"
     },
     {
       "name": "Jemima",
-      "member-of-the-month": false,
+      "pronouns": "she/her",
       "role": "Founder",
-      "picture": "../images/profiles/jemima.jpeg",
+      "picture": "../images/profiles/Jemima.PNG",
       "bio": "Hey there, thanks so much for stopping by! Below you can find all the wonderful people who have helped to make this project what it is. I'm so proud of what we've created and I hope you love it just as much as we do :)"
     },
     {
+      "name": "J.R.",
+      "pronouns": "they/them",
+      "role": "Writer & Assistant Editor",
+      "picture": "../images/profiles/J.R.PNG",
+      "twitter": "jrhartauthor",
+      "bio": "J.R. is a writer and assistant editor at The Crossing Board. Their favourite character is the cute lavender goat, Kidd! J.R particularly loves playing Animal Crossing as it is super relaxing and a great way to set their mind at ease after a long day. In their spare time, J.R. loves to do anything crafty including Bargello (an old 70’s needle craft), cross stitch, embroidery, art journaling, painting with watercolours, miniature building, and baking! "
+    },
+    {
       "name": "Katya",
-      "member-of-the-month": false,
-      "role": "Social Media Manager & Writer",
-      "picture": "../images/profiles/placeholder-profile.png",
+      "role": "Head of Social Media & Writer",
+      "picture": "../images/profiles/Katya.PNG",
       "twitter": "chickenkatsoe",
-      "bio": "Katya is the Social Media Manager and a writer at The Crossing Board. Her favourite Animal Crossing is Ellie and her favourite thing about Animal Crossing is how chill and cute it is. New Horizons is her first Animal Crossing game so it holds a special place in her heart. When Katya isn’t busy creating fun content for our social media channels, you can find her busy with her favourite hobby - gaming!"
+      "bio": "Katya is the head of Social Media and a writer at The Crossing Board. Her favourite Animal Crossing is Ellie and her favourite thing about Animal Crossing is how chill and cute it is. New Horizons is her first Animal Crossing game so it holds a special place in her heart. When Katya isn’t busy creating fun content for our social media channels, you can find her busy with her favourite hobby - gaming!"
     },
     {
       "name": "Melissa",
-      "member-of-the-month": false,
       "role": "Illustrator",
-      "picture": "../images/profiles/melissaa_ac.png",
+      "picture": "../images/profiles/Melissa.PNG",
       "twitter": "melissaa_ac",
       "bio": "Melissa is an illustrator at The Crossing Board. Her favourite character is Lolly and her favourite thing about Animal Crossing is terraforming and landscaping her island! When Mellisa isn’t busy drawing cute illustrations for The Crossing Board fanzine, website and social media, she loves to spend time on her other hobbies of gaming, drawing and playing badminton."
     },
     {
-      "name": "Steph",
-      "member-of-the-month": false,
-      "role": "Illustrator",
-      "picture": "../images/profiles/placeholder-profile.png",
-      "twitter": "soutsui",
-      "bio": "Steph is an illustrator at The Crossing Board. Her favourite Animal Crossing character is Bones and her favourite thing about the game is decorating her island and hanging out with her villagers. In her spare time, when Steph isn’t busy drawing for The Crossing board, she also loves to do her own illustrations and graphic design as well as playing games & watching shows especially anime & kdrama!"
+      "name": "Natasha",
+      "pronouns": "she/her",
+      "role": "Head of Creative",
+      "picture": "../images/profiles/Natasha.PNG",
+      "twitter": "sugarmochiart",
+      "bio": "Natasha is the head of Creative as The Crossing Board. Her favourite character in the Animal Crossing world is Dizzy! In her spare time, Natasha loves to keep herself busy with drawing, playing video games, travelling and hiking. When she’s not busy with her hobbies, she loves to play Animal Crossing as it’s her own little wholesome world that she can escape to."
     },
     {
       "name": "Taty",
-      "member-of-the-month": false,
+      "pronouns": "she/her",
       "role": "Web Developer/Designer",
-      "picture": "../images/profiles/myubinomori.png",
+      "picture": "../images/profiles/Taty.PNG",
       "twitter": "myubinomori",
       "bio": "Taty is the Web Developer and designer at The Crossing Board. Taty’s favourite Animal Crossing character is Celeste and her favourite thing about the game is the amazing and chill community that has people helping each other. When Taty isn’t busy improving, editing and designing our website, she loves watching Anime, playing games, Cosplaying and eating all of the cookies in the house!"
     },
     {
       "name": "Valencia",
-      "member-of-the-month": false,
       "role": "Illustrator",
-      "picture": "../images/profiles/palevius.png",
+      "picture": "../images/profiles/Valencia.PNG",
       "twitter": "palevius",
       "bio": "Valencia is an illustrator at The Crossing Board. Her favourite Animal Crossing character is Roald and loves to play Animal Crossing as a stress reliever. She thinks the villagers are very cute and friendly and they make her very happy! When she’s not drawing beautiful illustrations for The Crossing Board, Valencia likes to spend her time drawing, playing the guitar, gaming, and journaling."
     }
