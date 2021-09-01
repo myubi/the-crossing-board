@@ -3,11 +3,12 @@ import matter from "gray-matter";
 import ReactMarkdown from "react-markdown";
 import Head from "next/head";
 import {
+  TiUser,
   TiHeartFullOutline,
   TiStarFullOutline,
   TiSocialTwitter,
 } from "react-icons/ti";
-import { FaCrown, FaLeaf, FaFish } from "react-icons/fa";
+import { FaLeaf, FaFish } from "react-icons/fa";
 
 export default function Info({ frontmatter, markdownBody, profiles }) {
   const aboutFrontmatter = frontmatter;
@@ -44,7 +45,7 @@ export default function Info({ frontmatter, markdownBody, profiles }) {
                 </div>
                 <div className="text-wrapper">
                   <div className="profile profile-name">
-                    <TiHeartFullOutline />
+                    <TiUser />
                     <span>Dot</span>
                   </div>
                   <div className="profile profile-role">
@@ -73,7 +74,6 @@ export default function Info({ frontmatter, markdownBody, profiles }) {
               </div>
             </div>
           </div>
-          <div className="divider" />
           <div className="founder">
             <div className="member-of-the-month-text">Founder</div>
             <div className="member-of-the-month-crown">
@@ -89,8 +89,12 @@ export default function Info({ frontmatter, markdownBody, profiles }) {
                 </div>
                 <div className="text-wrapper">
                   <div className="profile profile-name">
-                    <TiHeartFullOutline />
+                    <TiUser />
                     <span>{jemima.name}</span>
+                  </div>
+                  <div className="profile profile-pronouns">
+                    <TiHeartFullOutline />
+                    <span>{jemima.pronouns}</span>
                   </div>
                   <div className="profile profile-role">
                     <TiStarFullOutline />
@@ -124,9 +128,16 @@ export default function Info({ frontmatter, markdownBody, profiles }) {
                   </div>
                   <div className="text-wrapper">
                     <div className="profile profile-name">
-                      <TiHeartFullOutline />
+                      <TiUser />
                       <span>{profile.name}</span>
                     </div>
+                    {profile.pronouns && (
+                      <div className="profile profile-pronouns">
+                        <TiHeartFullOutline />
+                        <span>{profile.pronouns}</span>
+                      </div>
+                    )}
+
                     <div className="profile profile-role">
                       <TiStarFullOutline />
                       <span>{profile.role}</span>

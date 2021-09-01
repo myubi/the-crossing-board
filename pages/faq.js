@@ -32,6 +32,10 @@ export default function FAQ({ frontmatter, markdownBody }) {
             color: #82b75a;
           }
 
+          .faq-wrapper :global(img) {
+            max-width: 100%;
+          }
+
           @media (max-width: 768px) {
             .faq-wrapper {
               max-width: 90vw;
