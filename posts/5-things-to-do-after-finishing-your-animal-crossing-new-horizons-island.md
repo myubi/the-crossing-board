@@ -21,7 +21,7 @@ You will need to find 1 of each type of item, fish, or bug and present these to 
 
 There are 80 fish to catch, 40 sea creatures, 80 bugs, 73 fossils, and 43 pieces of art to find and donate - that is 316 in total!
 
-2. **Get Into Custom Design**
+2. **Get Into Custom Design![Animal crossing custom designs](/images/news/custom-design-portal.png "Animal crossing custom designs")**
 
 A huge part of Animal Crossing: New Horizons is the design element. You can create so many different items from dresses to flags to hats!
 
@@ -39,13 +39,13 @@ We love to decorate our own island home with these photos, or some like to use t
 
 We have also created a guide to levelling up your villager friendships which can be found in our [February edition.](https://shop.thecrossingboard.com/collections/digital-fanzines/products/february-2021-digital-fanzine)
 
-4. **Visit Dream Islands![Animal crossing dodo airlines](/images/news/plane.png "Animal crossing dodo airlines")**
+4. **Visit Dream Islands!![Animal Crossing Luna](/images/news/luna-01.png "Animal Crossing Luna")**
 
 Visiting dream islands is a great way to experience all of the other wonderful islands in the Animal Crossing: New Horizons community. You can visit dream islands anytime you want, and don’t even need a specific island’s dream address! Just hop into your bed and you will be whisked away with the help of Luna.
 
 Although...this activity does usually mean we are then dreaming of redecorating…
 
-5. **Build All Four Players Islands**
+5. **Build All Four Players Islands![](/images/news/starter-tent.png)**
 
 Why decorate just one villager's house when you could create and decorate all four? Many players forget that you can create up to four players on your island and each one can have their own home. This means that you could decorate one as a hotel, one as a concert hall, one as a shop...the options are endless!
 
