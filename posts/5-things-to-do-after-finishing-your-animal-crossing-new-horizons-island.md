@@ -31,7 +31,7 @@ We also love the addition of photo standees which have allowed for some amazing 
 
 You can also find our guide to creating your own custom designs in the [January edition of our fanzine.](https://shop.thecrossingboard.com/collections/digital-fanzines/products/january-2021)
 
-3. **Max All of Your Villagers’ Friendships**
+3. **Max All of Your Villagers’ Friendships**![Villager photo](/images/news/villager-framed-photo.png "Villager photo")
 
 Nothing is quite as rewarding as your villagers gifting you their photo. It can take a while to win some villagers over, so this task is a great one to do on the side of your other island activities.
 
@@ -39,7 +39,7 @@ We love to decorate our own island home with these photos, or some like to use t
 
 We have also created a guide to levelling up your villager friendships which can be found in our [February edition.](https://shop.thecrossingboard.com/collections/digital-fanzines/products/february-2021-digital-fanzine)
 
-4. **Visit Dream Islands**
+4. **Visit Dream Islands![Animal crossing dodo airlines](/images/news/plane.png "Animal crossing dodo airlines")**
 
 Visiting dream islands is a great way to experience all of the other wonderful islands in the Animal Crossing: New Horizons community. You can visit dream islands anytime you want, and don’t even need a specific island’s dream address! Just hop into your bed and you will be whisked away with the help of Luna.
 
