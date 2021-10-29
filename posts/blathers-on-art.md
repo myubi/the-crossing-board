@@ -1,6 +1,6 @@
 ---
 author: The Crossing Board
-date: 2021-10-28T21:01:52Z
+date: 2021-10-26T00:00:00Z
 draft: false
 title: Blathers on Art
 
