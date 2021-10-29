@@ -9,7 +9,7 @@ title: Blathers on Art
 
 ’The Opulence of Nature’
 
-Hello Esteemed Visitor, welcome to what I hope will be another informative and titillating sojourn into the world of art. A lovely season unfolds outside our windows as we cosy up to the warmth of being indoors. Nature plays a symphony of an autumn rainbow with daring shades of mustards, reds and oranges. Perhaps you are wondering what has prompted my lyrical observation of the natural world? Wonder no further as I will share the source of my delight with you. Hoot! Today we journey into the lush and verdant world of the founder of the Pre-Raphaelite movement, Sir John Everett Millais.
+_Hello Esteemed Visitor_, welcome to what I hope will be another informative and titillating sojourn into the world of art. A lovely season unfolds outside our windows as we cosy up to the warmth of being indoors. Nature plays a symphony of an autumn rainbow with daring shades of mustards, reds and oranges. Perhaps you are wondering what has prompted my lyrical observation of the natural world? Wonder no further as I will share the source of my delight with you. Hoot! Today we journey into the lush and verdant world of the founder of the Pre-Raphaelite movement, Sir John Everett Millais.
 
 ![](/images/news/2913e50cedd84490a1e0b9b51ce71e6e.jpeg)At first glance, we are drawn into a seemingly paradoxical scene of a dream-like maiden floating atop still waters. She seems to float in between worlds, in between what we later discover to be her transition between life and death.
 
