@@ -17,7 +17,7 @@ In order to get to this stage, we will be slightly increasing postage prices for
 
 US standard shipping is increasing from £2.55 to £3.00
 
-US tracked shipping is decreasing from £7.65 to £7.60
+US tracked shipping is decreasing from £7.65 to £7.30
 
 **_This will commence with the December issue. Until then, current shipping times and rates will apply._**
 
