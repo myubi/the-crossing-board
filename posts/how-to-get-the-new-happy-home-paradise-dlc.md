@@ -1,17 +1,18 @@
 ---
 author: The Crossing Board
 date: 2021-11-01T14:15:13Z
-draft: true
+draft: false
 title: How to get the new Happy Home Paradise DLC
 
 ---
+![](/images/news/coconut-tree.png)
+
 One of the most exciting announcements to come out of the recent Animal Crossing Direct is the new paid downloadable content: Happy Home Paradise.
 
 If you love to decorate your home in Animal Crossing: New Horizons then this new content is a dream come true! Not only can you design holiday homes for your beloved islanders, but the DLC looks to include loads of new items, mechanics, and characters to the game!
 
 #### **How can I get Happy Home Paradise?**
 
-  
 Happy Home Paradise will be available to preorder from October 29, 2021 and It will be available to play from November 5, 2021.
 
 Users can either play Animal Crossing: New Horizons – Happy Home Paradise by purchasing it in Nintendo eShop or by downloading it at no additional cost after becoming a member of Nintendo Switch Online + Expansion Pack.
