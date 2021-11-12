@@ -1,138 +1,138 @@
 {
-  "name": "Pick a go-to outfit",
+  "name": "Answer these questions and we will guess your favourite season in Animal Crossing",
   "questions": [
     {
       "question": "What is your favorite thing about your island?",
       "answers": [
         {
-          "type": "Summer!",
+          "type": "Summer",
           "content": "A floral dress"
         },
         {
-          "type": "Spring!",
+          "type": "Spring",
           "content": "Shorts and a t-shirt"
         },
         {
-          "type": "Autumn!",
+          "type": "Autumn",
           "content": "Dungarees"
         },
         {
-          "type": "Winter!",
+          "type": "Winter",
           "content": "A cosy jumper and jeans"
-        },
+        }
       ]
     },
     {
       "question": "Pick a food",
       "answers": [
         {
-          "type": "Summer!",
+          "type": "Summer",
           "content": "A fresh salad"
         },
         {
-          "type": "Spring!",
+          "type": "Spring",
           "content": "A yummy pizza"
         },
         {
-          "type": "Autumn!",
+          "type": "Autumn",
           "content": "A big bowl of pasta"
         },
         {
-          "type": "Winter!",
+          "type": "Winter",
           "content": "A warming bowl of soup"
-        },
+        }
       ]
     },
     {
       "question": "Pick a colour",
       "answers": [
         {
-          "type": "Summer!",
+          "type": "Summer",
           "content": "Yellow"
         },
         {
-          "type": "Spring!",
+          "type": "Spring",
           "content": "Green"
         },
         {
-          "type": "Autumn!",
+          "type": "Autumn",
           "content": "Red"
         },
         {
-          "type": "Winter!",
+          "type": "Winter",
           "content": "Blue"
-        },
+        }
       ]
     },
     {
       "question": "Pick a Sunday activity",
       "answers": [
         {
-          "type": "Summer!",
+          "type": "Summer",
           "content": "Going to the beach with friends"
         },
         {
-          "type": "Spring!",
+          "type": "Spring",
           "content": "Watching your favourite series on TV"
         },
         {
-          "type": "Autumn!",
+          "type": "Autumn",
           "content": "Going for a long walk in the countryside"
         },
         {
-          "type": "Winter!",
+          "type": "Winter",
           "content": "Curling up with a good book"
-        },
+        }
       ]
     },
     {
       "question": "Pick a hobby",
       "answers": [
         {
-          "type": "Summer!",
+          "type": "Summer",
           "content": "Swimming"
         },
         {
-          "type": "Spring!",
+          "type": "Spring",
           "content": "Running"
         },
         {
-          "type": "Autumn!",
+          "type": "Autumn",
           "content": "Painting"
         },
         {
-          "type": "Winter!",
+          "type": "Winter",
           "content": "Gaming"
-        },
+        }
       ]
     },
     {
       "question": "Pick a flower in Animal Crossing",
       "answers": [
         {
-          "type": "Summer!",
+          "type": "Summer",
           "content": "Mums"
         },
         {
-          "type": "Spring!",
+          "type": "Spring",
           "content": "Lilies"
         },
         {
-          "type": "Autumn!",
+          "type": "Autumn",
           "content": "Windflowers"
         },
         {
-          "type": "Winter!",
+          "type": "Winter",
           "content": "Pansies"
-        },
+        }
       ]
     }
   ],
   "results": {
-    "Summer!": "Your favourite Animal Crossing season is the warm sunny season of summer. You love soaking up the rays on the beach with Gulliver and taking part in the fun summer activities; bug offs, fishing tourneys and firework shows. Your bubbly personality makes you the centre of attention and your islanders love your positive attitude!",
-    "Spring!": "Your favourite Animal Crossing season is the fresh and colourful season of spring. You love seeing the cherry blossoms in full bloom and the beautiful pink hue they bring to your island! The excitement of the coming sunny months, spring cleaning, and planting flowers around your island is what you look forward to all year. Leif just loves to see you running around planting all of his seasonal bushes and flowers!",
-    "Autumn!": "Your favourite Animal Crossing season is the colourful and cooler season of autumn/fall. You love all the warm tones, the spooky decor, and the darker nights drawing in on your island! Your kind,caring, and generous personality is appreciated by your islanders when halloween rolls around!",
-    "Winter!": "Your favourite Animal Crossing season is the chilly and snowy season of winter. You love getting wrapped up warm with a hot chocolate in front of the fire with your favourite islander! With the festive holidays around the corner, everyone is excited to see what Jingle will bring them and you enjoy picking out the perfect present for everyone! Your personality is just like a cosy winter night; kind, warm, and caring.",
+    "Summer": "Your favourite Animal Crossing season is the warm sunny season of summer. You love soaking up the rays on the beach with Gulliver and taking part in the fun summer activities; bug offs, fishing tourneys and firework shows. Your bubbly personality makes you the centre of attention and your islanders love your positive attitude!",
+    "Spring": "Your favourite Animal Crossing season is the fresh and colourful season of spring. You love seeing the cherry blossoms in full bloom and the beautiful pink hue they bring to your island! The excitement of the coming sunny months, spring cleaning, and planting flowers around your island is what you look forward to all year. Leif just loves to see you running around planting all of his seasonal bushes and flowers!",
+    "Autumn": "Your favourite Animal Crossing season is the colourful and cooler season of autumn/fall. You love all the warm tones, the spooky decor, and the darker nights drawing in on your island! Your kind,caring, and generous personality is appreciated by your islanders when halloween rolls around!",
+    "Winter": "Your favourite Animal Crossing season is the chilly and snowy season of winter. You love getting wrapped up warm with a hot chocolate in front of the fire with your favourite islander! With the festive holidays around the corner, everyone is excited to see what Jingle will bring them and you enjoy picking out the perfect present for everyone! Your personality is just like a cosy winter night; kind, warm, and caring."
   },
   "hasImages": true
 }
