@@ -9,8 +9,8 @@ export default function Layout(props) {
     <Head>
       <link rel="icon" href="/images/favicon.ico" />
       <link href="https://fonts.googleapis.com/css2?family=Solway:wght@400;700&display=swap" rel="stylesheet" />
-      <meta property="og:description" content="A fan-made Animal Crossing news site with a fan-made monthly fanzine!" /> 
-      <meta name="description" content="A fan-made Animal Crossing news site with a fan-made monthly fanzine!" />
+      <meta property="og:description" content="Your portal of everything anything Animal Crossing! Lovingly crafted by all of us here at The Crossing Board, our fanzine is a bundle of entertainment shipped to your door every month." /> 
+      <meta name="description" content="Your portal of everything anything Animal Crossing! Lovingly crafted by all of us here at The Crossing Board, our fanzine is a bundle of entertainment shipped to your door every month." />
       <meta name="msvalidate.01" content="F45A5B8A626BCB43FE79C1A458AC4AB2" />
       <script async src="https://www.googletagmanager.com/gtag/js?id=UA-180357144-1" />
       <script
