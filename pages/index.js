@@ -7,8 +7,8 @@ const Home = ({ allBlogs }) => (
   <div>
     <Head>
       <title>The Crossing Board</title>
-      <meta property="og:description" content="A fan-made Animal Crossing news site with a fan-made monthly fanzine!" /> 
-      <meta name="description" content="A fan-made Animal Crossing news site with a fan-made monthly fanzine!" />
+      <meta property="og:description" content="Your portal of everything anything Animal Crossing! Lovingly crafted by all of us here at The Crossing Board, our fanzine is a bundle of entertainment shipped to your door every month." /> 
+      <meta name="description" content="Your portal of everything anything Animal Crossing! Lovingly crafted by all of us here at The Crossing Board, our fanzine is a bundle of entertainment shipped to your door every month." />
     </Head>
     <Layout>
       <BlogList allBlogs={allBlogs} />
