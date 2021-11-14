@@ -23,6 +23,7 @@ export default function Footer(props) {
         </div>
       </div>
       <div className="wrapper">
+        <p>The Crossing Board is a fan-made Animal Crossing site with a fan-made monthly fanzine!</p>
         <p>
           Animal Crossing is a registered trademark of Nintendo. The Crossing
           Board has no trading, commercial or any contractual relationship with
