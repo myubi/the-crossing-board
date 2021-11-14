@@ -11,6 +11,8 @@ export default class QuizContainer extends React.Component {
       <div>
       <Head>
         <title>The Crossing Board - Quizzes</title>
+         <meta property="og:description" content="Animal Crossing Quizzes that can tell you about your island and villagers!" /> 
+         <meta name="description" content="Animal Crossing Quizzes that can tell you about your island and villagers!" />
       </Head>
       <Layout>
       <div className="quiz-wrapper">
