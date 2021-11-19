@@ -5,9 +5,11 @@ draft: false
 title: Villager Spotlight - Sasha
 
 ---
+![](/images/news/55ce44b1228c4be494a160c9f0fac052.jpeg)
+
 **Introducing Sasha**
 
-Hello Resident Reps, today we’d like to introduce you to one of the newest villagers to join the Animal Crossing gameverse - Sasha!![](/images/news/55ce44b1228c4be494a160c9f0fac052.jpeg)
+Hello Resident Reps, today we’d like to introduce you to one of the newest villagers to join the Animal Crossing gameverse - Sasha!
 
 Sasha is an adorable rabbit villager whose catchphrase is ‘hoppity’. He likes bugs and snacks and from the aesthetic of his home, a very cozy interior. This villager is soft, cute and will give you the cuddly feels.
 
