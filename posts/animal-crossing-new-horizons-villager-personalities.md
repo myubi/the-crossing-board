@@ -61,20 +61,7 @@ Sisterly villagers are very popular due to their loving nature. However, they ca
 
 **Cranky Villagers**
 
-<TABLE>
-   <TR>
-      <TD>Data 1</TD>
-      <TD>Data 2</TD>
-   </TR>
-   <TR>
-      <TD>Data 3</TD>
-      <TD>Data 4</TD>
-   </TR>
-   <TR>
-      <TD>Data 5</TD>
-      <TD>Data 6</TD>
-   </TR>
-</TABLE>
+<TABLE> <TR> <TD>Kabuki</TD> <TD>cat</TD> </TR> <TR> <TD>Hopper</TD> <TD>Penguin</TD> </TR> <TR> <TD>Data Ike</TD> <TD>Bear</TD> </TR> </TABLE>
 
 Kabuki	Cat
 
