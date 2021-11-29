@@ -9,7 +9,7 @@ Each of the loveable villagers that live on our islands have their very own pers
 
 In total there are 8 different personalities and these are split between female and male villagers.
 
-#### Male Personality Types
+### Male Personality Types
 
 **Cranky**
 
@@ -33,7 +33,7 @@ Smug villagers were introduced in Animal Crossing New Leaf. They are very polite
 
 As Smug villagers are so polite, they get along well with most other personalities, although their ego does annoy cranky and sisterly villagers.
 
-#### Female Personality Types
+### Female Personality Types
 
 **Normal**
 
@@ -57,11 +57,11 @@ Sisterly villagers were only introduced in Animal Crossing New Leaf like Smug vi
 
 Sisterly villagers are very popular due to their loving nature. However, they can sometimes appear blunt which can annoy Cranky and Snooty villagers.
 
-#### List of Each Villagers Personality Type
+### List of Each Villagers Personality Type
 
 **Cranky Villagers**
 
-<TABLE> <TR> <TD>Kabuki</TD> <TD>cat</TD> </TR> <TR> <TD>Hopper</TD> <TD>Penguin</TD> </TR> <TR> <TD>Data Ike</TD> <TD>Bear</TD> </TR> </TABLE>
+<TABLE> <TR> <TD>Kabuki</TD> <TD>cat</TD> </TR> <TR> <TD>Hopper</TD> <TD>Penguin</TD> </TR> <TR> <TD> Ike</TD> <TD>Bear</TD> </TR> <TR> <TD> Gonzo</TD> <TD>Koala</TD> </TR> <TR> <TD> Gaston</TD> <TD>Rabbit</TD> </TR> <TR> <TD> Gruff</TD> <TD>Goat</TD> </TR> </TABLE>
 
 Kabuki	Cat
 
