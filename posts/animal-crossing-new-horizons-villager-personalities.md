@@ -69,6 +69,6 @@ Sisterly villagers are very popular due to their loving nature. However, they ca
 **Jock Villagers**
 
 <TABLE WIDTH=30% > <TH>Villager Name</TH>  
- <TH>Species</TH> <TR> <TD>Jitters</TD> <TD>Bird</TD> </TR> <TR> <TR> <TD>Jitters</TD> <TD>Bird</TD> </TR> <TR> 
+ <TH>Species</TH> <TR> <TD>Jitters</TD> <TD>Bird</TD> </TR> <TR> <TR> <TD>Jay</TD> <TD>Bird</TD> </TR> <TR> <TR> <TD>Iggly</TD> <TD>Penguin</TD> </TR> <TR> <TR> <TD>Genji</TD> <TD>Rabbit</TD> </TR> <TR> <TR> <TD>Frobert</TD> <TD>Frog</TD> </TR> <TR> <TR> <TD>Goose</TD> <TD>Chicken</TD> </TR> <TR> <TR> <TD>Hamlet</TD> <TD>Hamster</TD> </TR> <TR> <TR> <TD>Dom</TD> <TD>Sheep</TD> </TR> <TR> <TR> <TD>Curly</TD> <TD>Pig</TD> </TR> <TR> <TR> <TD>Drift</TD> <TD>Frog</TD> </TR> <TR> <TR> <TD>Flip</TD> <TD>Monkey</TD> </TR> <TR> <TR> <TD>Biff</TD> <TD>Hippo</TD> </TR> <TR> <TD>Bill</TD> <TD>Duck</TD> </TR> <TR> <TR> <TD>Billy</TD> <TD>Goat</TD> </TR> <TR> <TR> <TD>Bam</TD> <TD>Deer</TD> </TR> <TR> <TR> <TD>Antonio</TD> <TD>Anteater</TD> </TR> <TR> <TR> <TD>Axel</TD> <TD>Elephant</TD> </TR> <TR> <TR> <TD>Bud</TD> <TD>Lion</TD> </TR> <TR> <TR> <TD>Buck</TD> <TD>Horse</TD> </TR> <TR> 
 
 </TABLE>
