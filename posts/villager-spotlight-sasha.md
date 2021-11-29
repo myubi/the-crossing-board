@@ -5,11 +5,13 @@ draft: false
 title: Villager Spotlight - Sasha
 
 ---
-![](/images/news/55ce44b1228c4be494a160c9f0fac052.jpeg)
+![](/images/news/img_v2_ec308380-ea2e-4d36-8486-e089c63995eh.png)
 
 **Introducing Sasha**
 
 Hello Resident Reps, today we’d like to introduce you to one of the newest villagers to join the Animal Crossing gameverse - Sasha!
+
+![](/images/news/55ce44b1228c4be494a160c9f0fac052.jpeg)
 
 Sasha is an adorable rabbit villager whose catchphrase is ‘hoppity’. He likes bugs and snacks and from the aesthetic of his home, a very cozy interior. This villager is soft, cute and will give you the cuddly feels.
 
@@ -19,7 +21,7 @@ Animal Crossing fans speculated as to the type of villager Sasha was and those w
 
 Sasha is a lazy type villager, and his relaxed personality is perhaps a nod to his Astro sign - Taurus. He joins the ranks of other popular rabbit villagers such as Ruby, Chrissy and Genji.
 
-Fans of the mobile version of the franchise, Animal Crossing: Pocket Camp, will also be happy to note that Sasha is also available and has the preferred cute style and fashion hobby. 
+Fans of the mobile version of the franchise, Animal Crossing: Pocket Camp, will also be happy to note that Sasha is also available and has the preferred cute style and fashion hobby.
 
 ![](/images/news/c417a1badcf0476fb4ad7ea14de894d6.jpeg)
 
