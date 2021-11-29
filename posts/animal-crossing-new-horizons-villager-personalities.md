@@ -5,6 +5,8 @@ draft: false
 title: 'Animal Crossing: New Horizons Villager Personalities'
 
 ---
+![](/images/news/chelsea.png)
+
 Each of the loveable villagers that live on our islands have their very own personality, just like each of us! These personalities influence a lot in Animal Crossing New Horizons including how the villager talks, what they wear, and even how they interact with other villagers. But what are these personalities?!
 
 In total there are 8 different personalities and these are split between female and male villagers.
