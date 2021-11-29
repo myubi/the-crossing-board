@@ -62,30 +62,13 @@ Sisterly villagers are very popular due to their loving nature. However, they ca
 **Cranky Villagers**
 
 <TABLE WIDTH=30% > <TH>Villager Name</TH>  
- <TH>Species</TH> <TR> <TD>Kabuki</TD> <TD>Cat</TD> </TR> <TR> <TD>Hopper</TD> <TD>Penguin</TD> </TR> <TR> <TD> Ike</TD> <TD>Bear</TD> </TR> <TR> <TD> Gonzo</TD> <TD>Koala</TD> </TR> <TR> <TD> Gaston</TD> <TD>Rabbit</TD> </TR> <TR> <TD> Gruff</TD> <TD>Goat</TD> </TR> <TR> <TD> Groucho</TD> <TD>Bear</TD> </TR> <TR> <TD> Grizzly</TD> <TD>Bear</TD> </TR> <TR> <TD> Hamphrey</TD> <TD>Hamster</TD> </TR> <TR> <TD> Harry</TD> <TD>Hippo</TD> </TR> <TR> <TD> Dobie</TD> <TD>Wolf</TD> </TR> <TR> <TD> Curt</TD> <TD>Bear</TD> </TR> <TR> <TD> Croque</TD> <TD>Frog</TD> </TR> <TR> <TD> Cyrano</TD> <TD>Anteater</TD> </TR> <TR> <TD> Cyd</TD> <TD>Elephant</TD> </TR> <TR> <TD> Del</TD> <TD>Alligator</TD> </TR> <TR> <TD> Fang</TD> <TD>Wolf</TD> </TR> <TR> <TD> Elvis</TD> <TD>Lion</TD> </TR> <TR> <TD> Frank</TD> <TD>Eagle</TD> </TR> <TR> <TD> Angus</TD> <TD>Bull</TD> </TR> <TR> <TD> Admiral</TD> <TD>Bird</TD> </TR> <TR> <TD> Apollo</TD> <TD>Eagle</TD> </TR> <TR> <TD> Avery</TD> <TD>Eagle</TD> </TR> <TR> <TD> Camofrog</TD> <TD>Frog</TD> </TR> <TR> <TD> Butch</TD> <TD>Dog</TD> </TR> <TR> <TD> Buzz</TD> <TD>Eagle</TD> </TR> <TR> <TD> Boris</TD> <TD>Pig</TD> </TR> <TR> <TD> Boyd</TD> <TD>Gorilla</TD> </TR> <TR> <TD>Bruce</TD> <TD>Deer</TD> </TR> <TR> <TD> Chow</TD> <TD>Bear</TD> </TR> <TR> <TD> Chief</TD> <TD>Wolf</TD> </TR> <TR> <TD> Cesar</TD> <TD>Gorilla</TD> </TR> <TR> <TD> Peewee</TD> <TD>Gorilla</TD> </TR> <TR> <TD> Octavian</TD> <TD>Octopus</TD> </TR> <TR> <TD> Murphy</TD> <TD>Cub</TD> </TR> <TR> <TD> Limberg</TD> <TD><Mouse</TD> </TR> <TR> <TD> Lobo</TD> <TD>Wolf</TD> </TR> <TR> <TD> Knox</TD> <TD>Chicken</TD> </TR> <TR> <TD> Monty</TD> <TD>Monkey</TD> </TR> <TR> <TD> Static</TD> <TD>Squirrel</TD> </TR> <TR> <TD> Spike</TD> <TD>Rhino</TD> </TR> <TR> <TD>Ricky</TD> <TD>Squirrel</TD> </TR> <TR> <TD> Rasher</TD> <TD>Pig</TD> </TR> <TR> <TD> Rizzo</TD> <TD>Mouse</TD> </TR>
+ <TH>Species</TH> <TR> <TD>Kabuki</TD> <TD>Cat</TD> </TR> <TR> <TD>Hopper</TD> <TD>Penguin</TD> </TR> <TR> <TD> Ike</TD> <TD>Bear</TD> </TR> <TR> <TD> Gonzo</TD> <TD>Koala</TD> </TR> <TR> <TD> Gaston</TD> <TD>Rabbit</TD> </TR> <TR> <TD> Gruff</TD> <TD>Goat</TD> </TR> <TR> <TD> Groucho</TD> <TD>Bear</TD> </TR> <TR> <TD> Grizzly</TD> <TD>Bear</TD> </TR> <TR> <TD> Hamphrey</TD> <TD>Hamster</TD> </TR> <TR> <TD> Harry</TD> <TD>Hippo</TD> </TR> <TR> <TD> Dobie</TD> <TD>Wolf</TD> </TR> <TR> <TD> Curt</TD> <TD>Bear</TD> </TR> <TR> <TD> Croque</TD> <TD>Frog</TD> </TR> <TR> <TD> Cyrano</TD> <TD>Anteater</TD> </TR> <TR> <TD> Cyd</TD> <TD>Elephant</TD> </TR> <TR> <TD> Del</TD> <TD>Alligator</TD> </TR> <TR> <TD> Fang</TD> <TD>Wolf</TD> </TR> <TR> <TD> Elvis</TD> <TD>Lion</TD> </TR> <TR> <TD> Frank</TD> <TD>Eagle</TD> </TR> <TR> <TD> Angus</TD> <TD>Bull</TD> </TR> <TR> <TD> Admiral</TD> <TD>Bird</TD> </TR> <TR> <TD> Apollo</TD> <TD>Eagle</TD> </TR> <TR> <TD> Avery</TD> <TD>Eagle</TD> </TR> <TR> <TD> Camofrog</TD> <TD>Frog</TD> </TR> <TR> <TD> Butch</TD> <TD>Dog</TD> </TR> <TR> <TD> Buzz</TD> <TD>Eagle</TD> </TR> <TR> <TD> Boris</TD> <TD>Pig</TD> </TR> <TR> <TD> Boyd</TD> <TD>Gorilla</TD> </TR> <TR> <TD>Bruce</TD> <TD>Deer</TD> </TR> <TR> <TD> Chow</TD> <TD>Bear</TD> </TR> <TR> <TD> Chief</TD> <TD>Wolf</TD> </TR> <TR> <TD> Cesar</TD> <TD>Gorilla</TD> </TR> <TR> <TD> Peewee</TD> <TD>Gorilla</TD> </TR> <TR> <TD> Octavian</TD> <TD>Octopus</TD> </TR> <TR> <TD> Murphy</TD> <TD>Cub</TD> </TR> <TR> <TD> Limberg</TD> <TD><Mouse</TD> </TR> <TR> <TD> Lobo</TD> <TD>Wolf</TD> </TR> <TR> <TD> Knox</TD> <TD>Chicken</TD> </TR> <TR> <TD> Monty</TD> <TD>Monkey</TD> </TR> <TR> <TD> Static</TD> <TD>Squirrel</TD> </TR> <TR> <TD> Spike</TD> <TD>Rhino</TD> </TR> <TR> <TD>Ricky</TD> <TD>Squirrel</TD> </TR> <TR> <TD> Rasher</TD> <TD>Pig</TD> </TR> <TR> <TD> Rizzo</TD> <TD>Mouse</TD> </TR> <TR> <TD>Rocco</TD> <TD>Hippo</TD> </TR> <TR> <TD> Rolf</TD> <TD>Tiger</TD> </TR> <TR> <TD> Rooney</TD> <TD>Kangaroo</TD> </TR> <TR> <TD> Roscoe</TD> <TD>Horse</TD> </TR> <TR> <TD> Tom</TD> <TD>Cat</TD> </TR> <TR> <TD> T-Bone</TD> <TD>Bull</TD> </TR> <TR> <TD> Vladimir</TD> <TD>Cub</TD> </TR> <TR> <TD> Vic</TD> <TD>Bull</TD> </TR> <TR> <TD> Wart Jr</TD> <TD>Frog</TD> </TR> <TR> <TD> Walt</TD> <TD>Kangaroo</TD> </TR> <TR> <TD> Wolfgang</TD> <TD>Wolf</TD> </TR>
 
 </TABLE>
 
-Rizzo	Mouse
+**Jock Villagers**
 
-Rocco	Hippo
+<TABLE WIDTH=30% > <TH>Villager Name</TH>  
+ <TH>Species</TH> <TR> <TD>Jitters</TD> <TD>Bird</TD> </TR> <TR> <TR> <TD>Jitters</TD> <TD>Bird</TD> </TR> <TR> 
 
-Rolf  	Tiger
-
-Rooney	Kangaroo
-
-Roscoe	Horse
-
-Tom	Cat
-
-T-Bone	Bull
-
-Vladimir	Cub
-
-Vic	Bull
-
-Wart Jr.	Frog
-
-Walt 	Kangaroo
-
-Wolfgang	Wolf
+</TABLE>
