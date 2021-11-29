@@ -61,25 +61,9 @@ Sisterly villagers are very popular due to their loving nature. However, they ca
 
 **Cranky Villagers**
 
-<TABLE WIDTH=50% > <TR> <TD>Kabuki</TD> <TD>Cat</TD> </TR> <TR> <TD>Hopper</TD> <TD>Penguin</TD> </TR> <TR> <TD> Ike</TD> <TD>Bear</TD> </TR> <TR> <TD> Gonzo</TD> <TD>Koala</TD> </TR> <TR> <TD> Gaston</TD> <TD>Rabbit</TD> </TR> <TR> <TD> Gruff</TD> <TD>Goat</TD> </TR> <TR> <TD> Groucho</TD> <TD>Bear</TD> </TR> <TR> <TD> Grizzly</TD> <TD>Bear</TD> </TR> <TR> <TD> Hamphrey</TD> <TD>Hamster</TD> </TR>
+<TABLE WIDTH=50% > <TR> <TD>Kabuki</TD> <TD>Cat</TD> </TR> <TR> <TD>Hopper</TD> <TD>Penguin</TD> </TR> <TR> <TD> Ike</TD> <TD>Bear</TD> </TR> <TR> <TD> Gonzo</TD> <TD>Koala</TD> </TR> <TR> <TD> Gaston</TD> <TD>Rabbit</TD> </TR> <TR> <TD> Gruff</TD> <TD>Goat</TD> </TR> <TR> <TD> Groucho</TD> <TD>Bear</TD> </TR> <TR> <TD> Grizzly</TD> <TD>Bear</TD> </TR> <TR> <TD> Hamphrey</TD> <TD>Hamster</TD> </TR> <TR> <TD> Harry</TD> <TD>Hippo</TD> </TR> <TR> <TD> Dobie</TD> <TD>Wolf</TD> </TR> <TR> <TD> Curt</TD> <TD>Bear</TD> </TR> <TR> <TD> Croque</TD> <TD>Frog</TD> </TR> <TR> <TD> Cyrano</TD> <TD>Anteater</TD> </TR> <TR> <TD> Cyd</TD> <TD>Elephant</TD> </TR> <TR> <TD> Del</TD> <TD>Alligator</TD> </TR> <TR> <TD> Fang</TD> <TD>Wolf</TD> </TR> <TR> <TD> Elvis</TD> <TD>Lionr</TD> </TR>
 
 </TABLE>
-
-Harry	Hippo
-
-Dobie	Wolf
-
-Curt	Bear
-
-Croque	Frog
-
-Cyrano	Anteater
-
-Cyd	Elephant
-
-Del	Alligator
-
-Fang	Wolf
 
 Elvis	Lion
 
