@@ -62,35 +62,9 @@ Sisterly villagers are very popular due to their loving nature. However, they ca
 **Cranky Villagers**
 
 <TABLE WIDTH=30% > <TH>Villager Name</TH>  
- <TH>Species</TH> <TR> <TD>Kabuki</TD> <TD>Cat</TD> </TR> <TR> <TD>Hopper</TD> <TD>Penguin</TD> </TR> <TR> <TD> Ike</TD> <TD>Bear</TD> </TR> <TR> <TD> Gonzo</TD> <TD>Koala</TD> </TR> <TR> <TD> Gaston</TD> <TD>Rabbit</TD> </TR> <TR> <TD> Gruff</TD> <TD>Goat</TD> </TR> <TR> <TD> Groucho</TD> <TD>Bear</TD> </TR> <TR> <TD> Grizzly</TD> <TD>Bear</TD> </TR> <TR> <TD> Hamphrey</TD> <TD>Hamster</TD> </TR> <TR> <TD> Harry</TD> <TD>Hippo</TD> </TR> <TR> <TD> Dobie</TD> <TD>Wolf</TD> </TR> <TR> <TD> Curt</TD> <TD>Bear</TD> </TR> <TR> <TD> Croque</TD> <TD>Frog</TD> </TR> <TR> <TD> Cyrano</TD> <TD>Anteater</TD> </TR> <TR> <TD> Cyd</TD> <TD>Elephant</TD> </TR> <TR> <TD> Del</TD> <TD>Alligator</TD> </TR> <TR> <TD> Fang</TD> <TD>Wolf</TD> </TR> <TR> <TD> Elvis</TD> <TD>Lion</TD> </TR> <TR> <TD> Frank</TD> <TD>Eagle</TD> </TR>
+ <TH>Species</TH> <TR> <TD>Kabuki</TD> <TD>Cat</TD> </TR> <TR> <TD>Hopper</TD> <TD>Penguin</TD> </TR> <TR> <TD> Ike</TD> <TD>Bear</TD> </TR> <TR> <TD> Gonzo</TD> <TD>Koala</TD> </TR> <TR> <TD> Gaston</TD> <TD>Rabbit</TD> </TR> <TR> <TD> Gruff</TD> <TD>Goat</TD> </TR> <TR> <TD> Groucho</TD> <TD>Bear</TD> </TR> <TR> <TD> Grizzly</TD> <TD>Bear</TD> </TR> <TR> <TD> Hamphrey</TD> <TD>Hamster</TD> </TR> <TR> <TD> Harry</TD> <TD>Hippo</TD> </TR> <TR> <TD> Dobie</TD> <TD>Wolf</TD> </TR> <TR> <TD> Curt</TD> <TD>Bear</TD> </TR> <TR> <TD> Croque</TD> <TD>Frog</TD> </TR> <TR> <TD> Cyrano</TD> <TD>Anteater</TD> </TR> <TR> <TD> Cyd</TD> <TD>Elephant</TD> </TR> <TR> <TD> Del</TD> <TD>Alligator</TD> </TR> <TR> <TD> Fang</TD> <TD>Wolf</TD> </TR> <TR> <TD> Elvis</TD> <TD>Lion</TD> </TR> <TR> <TD> Frank</TD> <TD>Eagle</TD> </TR> <TR> <TD> Angus</TD> <TD>Bull</TD> </TR> <TR> <TD> Admiral</TD> <TD>Bird</TD> </TR> <TR> <TD> Apollo</TD> <TD>Eagle</TD> </TR> <TR> <TD> Avery</TD> <TD>Eagle</TD> </TR> <TR> <TD> Camofrog</TD> <TD>Frog</TD> </TR> <TR> <TD> Butch</TD> <TD>Dog</TD> </TR> <TR> <TD> Buzz</TD> <TD>Eagle</TD> </TR> <TR> <TD> Boris</TD> <TD>Pig</TD> </TR> <TR> <TD> Boyd</TD> <TD>Gorilla</TD> </TR> <TR> <TD>Bruce</TD> <TD>Deer</TD> </TR> <TR> <TD> Chow</TD> <TD>Bear</TD> </TR> <TR> <TD> Chief</TD> <TD>Wolf</TD> </TR>
 
 </TABLE>
-
-Frank	Eagle
-
-Angus	Bull
-
-Admiral	Bird
-
-Apollo	Eagle
-
-Avery	Eagle
-
-Camofrog	Frog
-
-Butch	Dog
-
-Buzz	Eagle
-
-Boris	Pig
-
-Boyd	Gorilla
-
-Bruce	Deer
-
-Chow	Bear
-
-Chief	Wolf
 
 Cesar	Gorilla
 
