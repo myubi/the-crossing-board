@@ -61,25 +61,9 @@ Sisterly villagers are very popular due to their loving nature. However, they ca
 
 **Cranky Villagers**
 
-<TABLE> <TR> <TD>Kabuki</TD> <TD>cat</TD> </TR> <TR> <TD>Hopper</TD> <TD>Penguin</TD> </TR> <TR> <TD> Ike</TD> <TD>Bear</TD> </TR> <TR> <TD> Gonzo</TD> <TD>Koala</TD> </TR> <TR> <TD> Gaston</TD> <TD>Rabbit</TD> </TR> <TR> <TD> Gruff</TD> <TD>Goat</TD> </TR> </TABLE>
+<TABLE> WIDTH=50% <TR> <TD>Kabuki</TD> <TD>Cat</TD> </TR> <TR> <TD>Hopper</TD> <TD>Penguin</TD> </TR> <TR> <TD> Ike</TD> <TD>Bear</TD> </TR> <TR> <TD> Gonzo</TD> <TD>Koala</TD> </TR> <TR> <TD> Gaston</TD> <TD>Rabbit</TD> </TR> <TR> <TD> Gruff</TD> <TD>Goat</TD> </TR> <TR> <TD> Groucho</TD> <TD>Bear</TD> </TR> <TR> <TD> Grizzly</TD> <TD>Bear</TD> </TR> <TR> <TD> Hamphrey</TD> <TD>Hamster</TD> </TR>
 
-Kabuki	Cat
-
-Hopper	Penguin
-
-Ike	Bear
-
-Gonzo	Koala
-
-Gaston	Rabbit
-
-Gruff	Goat
-
-Groucho	Bear
-
-Grizzly	Bear
-
-Hamphrey	Hamster
+</TABLE>
 
 Harry	Hippo
 
