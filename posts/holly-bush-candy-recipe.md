@@ -5,9 +5,11 @@ draft: false
 title: Holly Bush Candy Recipe
 
 ---
-![](/images/news/holly-bush-candy.jpg)
+![](/images/news/holly-candy.jpg)
 
 One of the most fun parts of the new update has been getting to see Leif any time we want. And we’re lucky because he’s always eager to show us the new little seeds and starts that he has. This season, the Holly Bush is the one that we get to enjoy most, which is perfect because it really pops against that winter snowfall!
+
+![](/images/news/holly-bush-candy.jpg)
 
 But the Holly Bush isn’t just for winter islands. Now, you can make a delicious snack that looks just like the beautiful Holly Bush and will brighten your seasonal dessert trays all winter long.
 
