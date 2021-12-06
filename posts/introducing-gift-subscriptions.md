@@ -1,11 +1,11 @@
 ---
 author: The Crossing Board
-date: 2021-11-13T13:45:33Z
+date: 2021-11-13T13:45:33.000+00:00
 draft: false
 title: Introducing GIFT SUBSCRIPTIONS!
 
 ---
-![](/images/news/img_1512.jpg)
+![](/images/news/gift-subscriptions.jpg)
 
 After lots of requests from our lovely readers, we are very pleased to announce the launch of our gift subscriptions!
 
@@ -22,3 +22,5 @@ You will pay monthly for the subscription plan you choose. This makes it a reall
 Lovingly crafted by all of us here at The Crossing Board, our fanzine is a bundle of entertainment shipped to their door every month until the selected period is over. No matter when you choose to commence the subscription, your order will always be for the next month's fanzine. We're sure they'll enjoy their incoming delivery and on behalf of the team, thank you for your support and welcome aboard.
 
 Happy reading!
+
+![](/images/news/img_1512.jpg)
