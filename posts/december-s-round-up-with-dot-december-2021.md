@@ -24,3 +24,5 @@ After you’ve shopped, stocked up and made recipes to your heart’s content - 
 If you’re still in a merry spirit, look no further than the New Year’s Eve fireworks on your island which Isabel will announce. Have fun creating your own event by inviting friends over to your island to ring in 2022.
 
 What are you looking forward to this December in ACNH? Let us know over on our socials!
+
+![](/images/news/tcb-mascot-600px.png)
