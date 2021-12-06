@@ -15,11 +15,11 @@ But the Holly Bush isn’t just for winter islands. Now, you can make a deliciou
 
 **Ingredients**
 
-½ cup (1 stick) butter
+**½ cup (1 stick)** butter
 
-1 bag (453g or 12 oz) marshmallows - mini or large size both work fine
+**1 bag (453g or 12 oz)** marshmallows - mini or large size both work fine
 
-4 cups corn flake cereal - adjust as needed, up to 6 cups
+**4 cups** corn flake cereal - adjust as needed, up to 6 cups
 
 Green food colouring - dark green looks nicest, but any green will work
 
