@@ -19,9 +19,9 @@ If you still are having issues with changing your address, please [contact us](m
 
 If you subscribe any time this month (between the first and the last day), you will always receive the next month's fanzine. This is because we work on the editions a month prior to the release. For example, we worked on the May issue throughout the whole month of April.
 
-As for printing and packing, we finalise all orders as the clock hits midnight (London, UK time) on the first day of the new month. This is our cutoff time, so if you subscribe after midnight, you will automatically receive next month's issue. It takes about a week or so for the fanzines to be printed by our provider. Once we've received the fanzines from our provider (**usually around the 7th**), we immediately pack and ship them off to you!
+As for printing and packing, we finalise all orders as the clock hits midnight (London, UK time) on the first day of the new month. This is our cutoff time, so if you subscribe after midnight, you will automatically receive next month's issue. It takes about a week or so for the fanzines to be printed by our provider. Once we've received the fanzines from our provider, we immediately pack and ship them off to you!
 
-Whilst the postal service aims to deliver within a week worldwide, there can be delays for certain parts of the world, especially due to the pandemic or during holiday periods. If you’d like to track your parcel and be certain of its timely arrival, please opt for tracked shipping.
+Whilst the postal service aims to deliver within a week worldwide, there can be delays for certain parts of the world, especially due to the pandemic. If you’d like to track your parcel and be certain of its timely arrival, please opt for tracked shipping.
 
 If you're interested in purchasing this month's fanzine (or previous editions), check our shop after the 15th of the month! Sometimes we have a printing mishap and are left with a few extra copies. We always release a digital version of the fanzine on the 15th as well.
 
