@@ -8,8 +8,29 @@ To change your address/name on your subscription, please login to your account o
 
 You will then need to change it in **two places**:
 
-- Under your **"Account Details"**, click to view addresses and update any addresses or names there. Make sure to also tick the **"Make default"** option. Delete any old addresses to be safe.
-- Click on **"View your subscriptions"**, click on your subscription number and change your address on that page too.
+Shipping address:
+
+Under 'Shop', log in to your account
+Click on 'View your subscriptions'
+Click on your subscription number:
+Under ‘change address' click 'update' and enter your new details
+
+Default address:
+
+Under 'Shop', log in to your account
+Click ‘View Addresses’
+Delete any old addresses
+Click ‘Add a New Address’
+
+CHANGING YOUR BILLING ADDRESS
+Under 'Shop', log in to your account
+Click on 'View your subscriptions'
+Click on your subscription number:
+Under ‘Payment method’ click ‘Update’
+
+A secure link will then be sent to your email address to update your card details.
+
+(If you didn't set up an account when you subscribed, you can do this at any time by using the same email associated with your account subscription). 
 
 If you still are having issues with changing your address, please [contact us](mailto:contact@thecrossingboard.com).
 
@@ -24,10 +45,6 @@ As for printing and packing, we finalise all orders as the clock hits midnight (
 Whilst the postal service aims to deliver within a week worldwide, there can be delays for certain parts of the world, especially due to the pandemic or during holiday periods. If you’d like to track your parcel and be certain of its timely arrival, please opt for tracked shipping.
 
 If you're interested in purchasing this month's fanzine (or previous editions), check our shop after the 15th of the month! Sometimes we have a printing mishap and are left with a few extra copies. We always release a digital version of the fanzine on the 15th as well.
-
-## “I think you might have the wrong details for me, can I change them?”
-
-You can change your information/details at any time through your account on our website. If you didn't set up an account when you subscribed, you can do it afterwards by using the same email associated with their subscription.
 
 ## “I might need to cancel my subscription at some point, how can I do this?”
 
