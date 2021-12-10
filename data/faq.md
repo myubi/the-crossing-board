@@ -22,6 +22,8 @@ Click ‘View Addresses’.
 Delete any old addresses.
 Click ‘Add a New Address’.
 
+![Changing address information](/images/faq/change-address.gif)
+
 ## "I want to change the billing address. How do I do this?
 
 To change your billing address, please login to your account on our shop page. _(If you do not have an account yet, just create one with the same email you used to make a subscription._)
