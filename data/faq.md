@@ -8,23 +8,25 @@ To change your address/name on your subscription, please login to your account o
 
 You will then need to change it in **two places**:
 
-Shipping address:
+**Shipping address:**
 
-Under 'Shop', log in to your account
-Click on 'View your subscriptions'
-Click on your subscription number:
-Under ‘change address' click 'update' and enter your new details
+Under 'Shop', log in to your account.
+Click on 'View your subscriptions'.
+Click on your subscription number.
+Under ‘change address' click 'update' and enter your new details.
 
-Default address:
+**Default address:**
 
-Under 'Shop', log in to your account
-Click ‘View Addresses’
-Delete any old addresses
-Click ‘Add a New Address’
+Under 'Shop', log in to your account.
+Click ‘View Addresses’.
+Delete any old addresses.
+Click ‘Add a New Address’.
 
-CHANGING YOUR BILLING ADDRESS
-Under 'Shop', log in to your account
-Click on 'View your subscriptions'
+## "I want to change the billing address. How do I do this?
+
+To change your billing address, please login to your account on our shop page. _(If you do not have an account yet, just create one with the same email you used to make a subscription._)
+
+Click on 'View your subscriptions'.
 Click on your subscription number:
 Under ‘Payment method’ click ‘Update’
 
@@ -33,8 +35,6 @@ A secure link will then be sent to your email address to update your card detail
 (If you didn't set up an account when you subscribed, you can do this at any time by using the same email associated with your account subscription). 
 
 If you still are having issues with changing your address, please [contact us](mailto:contact@thecrossingboard.com).
-
-![Changing address information](/images/faq/change-address.gif)
 
 ## “I haven’t received my fanzine yet, when is it going to arrive?”
 
