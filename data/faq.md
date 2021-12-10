@@ -6,9 +6,7 @@ title: Frequently Asked Questions
 
 To change your **shipping** address/name on your subscription, please login to your account on our shop page. _(If you do not have an account yet, just create one with the same email you used to make a subscription._)
 
-Click on 'View Addresses'. Delete any old addresses. Click 'Add a new address'. It is important to TICK the box 'Set as default address' before you 'update address'.
-
-![Changing address information](/images/faq/change-address.gif)
+Click on 'View Addresses'. Delete any old addresses. Click 'Add a new address'. It is important to TICK the box 'Set as default address' before you 'add address'.
 
 ## "I want to change the **billing** address. How do I do this?
 
