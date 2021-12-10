@@ -2,31 +2,17 @@
 title: Frequently Asked Questions
 ---
 
-## "I want to change the address/name for my subscription, what should I do?"
+## "I want to change the **shipping** address/name for my subscription, what should I do?"
 
-To change your address/name on your subscription, please login to your account on our shop page. _(If you do not have an account yet, just create one with the same email you used to make a subscription._)
+To change your **shipping** address/name on your subscription, please login to your account on our shop page. _(If you do not have an account yet, just create one with the same email you used to make a subscription._)
 
-You will then need to change it in **two places**:
-
-**Shipping address:**
-
-Under 'Shop', log in to your account.
-Click on 'View your subscriptions'.
-Click on your subscription number.
-Under ‘change address' click 'update' and enter your new details.
-
-**Default address:**
-
-Under 'Shop', log in to your account.
-Click ‘View Addresses’.
-Delete any old addresses.
-Click ‘Add a New Address’.
+Click on 'View Addresses'. Delete any old addresses. Click 'Add a new address'. It is important to TICK the box 'Set as default address' before you 'update address'.
 
 ![Changing address information](/images/faq/change-address.gif)
 
-## "I want to change the billing address. How do I do this?
+## "I want to change the **billing** address. How do I do this?
 
-To change your billing address, please login to your account on our shop page. _(If you do not have an account yet, just create one with the same email you used to make a subscription._)
+To change your **billing** address, please login to your account on our shop page.
 
 Click on 'View your subscriptions'.
 Click on your subscription number:
@@ -34,7 +20,7 @@ Under ‘Payment method’ click ‘Update’
 
 A secure link will then be sent to your email address to update your card details.
 
-(If you didn't set up an account when you subscribed, you can do this at any time by using the same email associated with your account subscription). 
+_(If you didn't set up an account when you subscribed, you can do this at any time by using the same email associated with your account subscription)._ 
 
 If you are still having issues with changing your address, please [contact us](mailto:contact@thecrossingboard.com).
 
