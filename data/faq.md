@@ -34,7 +34,7 @@ A secure link will then be sent to your email address to update your card detail
 
 (If you didn't set up an account when you subscribed, you can do this at any time by using the same email associated with your account subscription). 
 
-If you still are having issues with changing your address, please [contact us](mailto:contact@thecrossingboard.com).
+If you are still having issues with changing your address, please [contact us](mailto:contact@thecrossingboard.com).
 
 ## “I haven’t received my fanzine yet, when is it going to arrive?”
 
