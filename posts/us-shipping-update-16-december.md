@@ -1,7 +1,7 @@
 ---
 author: The Crossing Board
 date: 2021-12-16T14:49:46Z
-draft: true
+draft: false
 title: US Shipping Update | 16 December
 
 ---
