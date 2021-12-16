@@ -6,11 +6,15 @@ title: Frequently Asked Questions
 
 To change your **shipping** address/name on your subscription, please login to your account on our shop page. _(If you do not have an account yet, just create one with the same email you used to make a subscription._)
 
-Click on 'View Addresses'. Delete any old addresses. Click 'Add a new address'. It is important to TICK the box 'Set as default address' before you 'add address'.
+You will then need to change it in **two places:**
+- Under your "Account Details", click to view addresses and update any addresses or names there. Make sure to also tick the "Make default" option. Delete any old addresses to be safe. 
+- Click on "View your subscriptions", click on your subscription number and change your address on this page too.
 
-## "I want to change the **billing** address. How do I do this?
+If you are still having issues with changing your address, please [contact us](mailto:contact@thecrossingboard.com).
 
-To change your **billing** address, please login to your account on our shop page.
+## "I want to change the **billing** address/payment details. How do I do this?
+
+Please login to your account on our shop page.
 
 Click on 'View your subscriptions'.
 Click on your subscription number:
