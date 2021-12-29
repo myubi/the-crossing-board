@@ -10,6 +10,8 @@ You will then need to change it in **two places:**
 - Under your "Account Details", click to view addresses and update any addresses or names there. Make sure to also tick the "Make default" option. Delete any old addresses to be safe. 
 - Click on "View your subscriptions", click on your subscription number and change your address on this page too.
 
+Please note that this change of address is only applied to **future** orders. If you need to change your address for a order that has already been placed, please [contact us](mailto:contact@thecrossingboard.com).
+
 If you are still having issues with changing your address, please [contact us](mailto:contact@thecrossingboard.com).
 
 ## "I want to change the **billing** address/payment details. How do I do this?
@@ -28,11 +30,17 @@ If you are still having issues with changing your address, please [contact us](m
 
 ## “I haven’t received my fanzine yet, when is it going to arrive?”
 
-If you subscribe any time this month (between the first and the last day), you will always receive the next month's fanzine. This is because we work on the editions a month prior to the release. For example, we worked on the May issue throughout the whole month of April.
+We aim to ship our fanzines around the 7th of each month, but this may vary by a day or two depending on the speed of our provider.  
+
+Whilst the postal service aims to deliver within a week worldwide, there can be delays for certain parts of the world, especially due to the pandemic or during holiday periods. If you’d like to track your parcel and be certain of its timely arrival, please opt for tracked shipping.
+
+## If I subscribe this month, will I get this month’s fanzine or next month’s fanzine?
+
+If you subscribe any time this month (between the first and the last day), **you will always receive the next month's fanzine**. This is because we work on the editions a month prior to the release. For example, we worked on the May issue throughout the whole month of April.
 
 As for printing and packing, we finalise all orders as the clock hits midnight (London, UK time) on the first day of the new month. This is our cutoff time, so if you subscribe after midnight, you will automatically receive next month's issue. It takes about a week or so for the fanzines to be printed by our provider. Once we've received the fanzines from our provider (**usually around the 7th**), we immediately pack and ship them off to you!
 
-Whilst the postal service aims to deliver within a week worldwide, there can be delays for certain parts of the world, especially due to the pandemic or during holiday periods. If you’d like to track your parcel and be certain of its timely arrival, please opt for tracked shipping.
+## When can I buy the latest fanzine or a digital copy? 
 
 If you're interested in purchasing this month's fanzine (or previous editions), check our shop after the 15th of the month! Sometimes we have a printing mishap and are left with a few extra copies. We always release a digital version of the fanzine on the 15th as well.
 
@@ -55,3 +63,11 @@ We’re sorry you did not get your fanzine. Unfortunately postal mishaps happen 
 ## “Why should I subscribe if you have digital or extra copies for sale?”
 
 Subscribing means you can be amongst the first group of people that get our monthly fanzines. You may choose a digital copy if you prefer reading on your tablet or any other device, or for sustainability reasons. As for extra physical copies, the number of extra copies we have vary from month to month. To always receive a fanzine, subscribing to our service is the best option!
+
+## Do you ship worldwide / to the US?
+
+Yes! We ship worldwide from the UK and now ship US subscriptions directly from the US.
+
+## I haven’t received my fanzine, and another payment has been taken!
+
+This is because your recurring payment date has come around just before your current fanzine is due to be sent.  For example, if you subscribed on the 4th of August (for the September issue), your recurring payment will be taken again on the 4th of September (for your October fanzine).  This additional payment will have been taken just before your September fanzine is sent out to you around the 7th.
