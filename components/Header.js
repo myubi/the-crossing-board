@@ -58,11 +58,9 @@ export default function Header(props) {
           <Link href="/faq" prefetch={false}>
             <a className={router.pathname == "/faq" ? "active" : ""}>FAQ</a>
           </Link>
-          <Link href="/contact" prefetch={false}>
-            <a className={router.pathname == "/contact" ? "active" : ""}>
+            <a href="https://shop.thecrossingboard.com/pages/contact">
               Contact
             </a>
-          </Link>
         </div>
       </nav>
 

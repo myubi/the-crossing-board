@@ -18,9 +18,9 @@ export default ({ close }) => (
     <Link href="/faq" onClick={close} prefetch={false}>
       <a>FAQ</a>
     </Link>
-    <Link href="/contact" onClick={close} prefetch={false}>
-      <a>Contact</a>
-    </Link>
+     <a href="https://shop.thecrossingboard.com/pages/contact">
+         Contact
+      </a>
     <style jsx>
       {`
         .nav-wrapper-mobile {
