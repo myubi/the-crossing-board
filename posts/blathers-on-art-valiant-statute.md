@@ -5,11 +5,11 @@ draft: false
 title: 'Blathers on Art : Valiant Statute'
 
 ---
+![](/images/news/4a87b595254042d2a88ddaa100174cbd.jpeg)
+
 Good Day, esteemed visitor and welcome to another edifying instalment of art history as presented by yours truly.
 
 In today’s artistic sojourn, we will briefly discuss the stunning sculpture, _Winged Victory of Samothrace -_ ‌the Valiant Statue. Our discourse will be a brief one because . . . well, very little is actually known about the creator of this work of art.
-
-![](/images/news/4a87b595254042d2a88ddaa100174cbd.jpeg)
 
 Poised on what appears to be the bough of a ship, the Greek goddess, Nike stands bravely against the elements at sea while heralding a successful journey. Admits the elements - choppy, sea storms, unyielding winds and perhaps the threat of a looming kraken or two; the goddess protects her charges unswervingly.
 
