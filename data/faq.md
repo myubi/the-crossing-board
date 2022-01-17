@@ -2,8 +2,7 @@
 title: Frequently Asked Questions
 ---
 ## "I can’t get into my account - my email is not recognised!"
-
-This may be because you didn’t create an account when you initially subscribed. Please [contact us](mailto:contact@thecrossingboard.com) asking for an ‘account invite’ and we’ll send you a link straight away.
+This may be because you didn’t create an account when you initially subscribed.  Please [contact us](mailto:contact@thecrossingboard.com) asking for an ‘account invite’ and we’ll send you a link straight away.
 
 ## "I want to change the **shipping** address/name for my subscription, what should I do?"
 
