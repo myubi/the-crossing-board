@@ -68,7 +68,7 @@ Subscribing means you can be amongst the first group of people that get our mont
 
 ## Do you ship worldwide / to the US?
 
-Yes! We ship worldwide from the UK and now ship US subscriptions directly from the US.
+Yes! We ship worldwide.
 
 ## I haven’t received my fanzine, and another payment has been taken!
 
