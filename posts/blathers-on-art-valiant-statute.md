@@ -1,8 +1,8 @@
 ---
 author: The Crossing Board
-date: 2022-01-17T17:48:59Z
+date: 2022-01-17T17:48:59.000+00:00
 draft: false
-title: 'Blathers on Art : Valiant Statute'
+title: 'Blathers on Art : Valiant Statue'
 
 ---
 ![](/images/news/4a87b595254042d2a88ddaa100174cbd.jpeg)
