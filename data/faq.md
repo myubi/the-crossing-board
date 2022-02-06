@@ -1,7 +1,9 @@
 ---
 title: Frequently Asked Questions
+
 ---
 ## "I can’t get into my account - my email is not recognised!"
+
 This may be because you didn’t create an account when you initially subscribed.  Please [contact us](mailto:contact@thecrossingboard.com) asking for an ‘account invite’ and we’ll send you a link straight away.
 
 ## "I want to change the **shipping** address/name for my subscription, what should I do?"
@@ -9,8 +11,9 @@ This may be because you didn’t create an account when you initially subscribed
 To change your **shipping** address/name on your subscription, please login to your account on our shop page. _(If you do not have an account yet, just create one with the same email you used to make a subscription._)
 
 You will then need to change it in **two places:**
-- Under your "Account Details", click to view addresses and update any addresses or names there. Make sure to also tick the "Make default" option. Delete any old addresses to be safe. 
-- Click on "View your subscriptions", click on your subscription number and change your address on this page too.
+
+* Under your "Account Details", click to view addresses and update any addresses or names there. Make sure to also tick the "Make default" option. Delete any old addresses to be safe.
+* Click on "View your subscriptions", click on your subscription number and change your address on this page too.
 
 Please note that this change of address is only applied to **future** orders. If you need to change your address for a order that has already been placed, please [contact us](mailto:contact@thecrossingboard.com).
 
@@ -26,13 +29,13 @@ Under ‘Payment method’ click ‘Update’
 
 A secure link will then be sent to your email address to update your card details.
 
-_(If you didn't set up an account when you subscribed, you can do this at any time by using the same email associated with your account subscription)._ 
+_(If you didn't set up an account when you subscribed, you can do this at any time by using the same email associated with your account subscription)._
 
 If you are still having issues with changing your address, please [contact us](mailto:contact@thecrossingboard.com).
 
 ## “I haven’t received my fanzine yet, when is it going to arrive?”
 
-We aim to ship our fanzines around the 7th of each month, but this may vary by a day or two depending on the speed of our provider.  
+We aim to ship our fanzines around the 7th of each month, but this may vary by a day or two depending on the speed of our provider.
 
 Whilst the postal service aims to deliver within a week worldwide, there can be delays for certain parts of the world, especially due to the pandemic or during holiday periods. If you’d like to track your parcel and be certain of its timely arrival, please opt for tracked shipping.
 
@@ -42,7 +45,7 @@ If you subscribe any time this month (between the first and the last day), **you
 
 As for printing and packing, we finalise all orders as the clock hits midnight (London, UK time) on the first day of the new month. This is our cutoff time, so if you subscribe after midnight, you will automatically receive next month's issue. It takes about a week or so for the fanzines to be printed by our provider. Once we've received the fanzines from our provider (**usually around the 7th**), we immediately pack and ship them off to you!
 
-## When can I buy the latest fanzine or a digital copy? 
+## When can I buy the latest fanzine or a digital copy?
 
 If you're interested in purchasing this month's fanzine (or previous editions), check our shop after the 15th of the month! Sometimes we have a printing mishap and are left with a few extra copies. We always release a digital version of the fanzine on the 15th as well.
 
@@ -73,3 +76,7 @@ Yes! We ship worldwide.
 ## I haven’t received my fanzine, and another payment has been taken!
 
 This is because your recurring payment date has come around just before your current fanzine is due to be sent.  For example, if you subscribed on the 4th of August (for the September issue), your recurring payment will be taken again on the 4th of September (for your October fanzine).  This additional payment will have been taken just before your September fanzine is sent out to you around the 7th.
+
+## What can my discount rewards be used for?
+
+Discount codes can be used towards extra fanzines and digital copies

@@ -7,7 +7,6 @@ sections:
 - type: document
   path: data/faq.md
   label: FAQ
-  match: "**/*"
 - type: directory
   path: posts
   label: Posts
