@@ -1,7 +1,7 @@
 ---
 author: The Crossing Board
 date: 2022-02-19T09:17:36Z
-draft: true
+draft: false
 title: 'Villager Spotlight : Baking and Chocolates with Marina'
 
 ---
