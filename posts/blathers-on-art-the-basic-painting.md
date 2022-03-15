@@ -5,6 +5,8 @@ draft: false
 title: 'Blathers on Art : The Basic Painting'
 
 ---
+![](/images/news/blathers-3.png)
+
 Good Day, esteemed visitor and welcome to another edifying instalment of art history as presented by yours truly.
 
 In today’s exploration we will be considering the Basic Painting, formally known as _The Blue Boy_ ‌by English 18th century painter, Thomas Gainsborough. A clever idea, by yours truly and inspired by the royalty-core themes in this month’s fanzine.
