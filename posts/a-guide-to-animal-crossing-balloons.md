@@ -23,7 +23,7 @@ There are a few ways you can tell if there is a balloon nearby.
 
 Firstly, you should be able to hear a whooshing sound when a balloon is passing overhead. If you are wearing headphones or have good speakers connected to your TV, this should be an easy way to tell that a balloon is on its way. If you have particularly good hearing, you may even be able to tell which direction the balloon is coming from!
 
-Secondly, look out for them. Not only will you be able to see the balloons when you look up, but they will also produce a shadow on the floor.
+Secondly, look out for them. Not only will you be able to see the balloons when you look up, but they will also produce a shadow on the ground.
 
 ### **Do different colour balloons mean different gifts?**
 
