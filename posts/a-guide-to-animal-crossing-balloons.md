@@ -11,9 +11,9 @@ It's so exciting seeing a balloon passing over your island, especially when ther
 
 ### **When do balloons spawn?**
 
-The gift promising balloons are thought to spawn every 5 minutes, on the 4th and 9th minute. This would mean at times such as 5:04pm, 5:09pm, 5:14pm, and so on. However, as the balloons have to travel over the water, you may not see them until a few minutes later!
+The gift promising balloons are thought to spawn every 5 minutes, on the 4th and 9th minute. This would mean at times such as 5:04pm, 5:09pm, 5:14pm, and so on. However, as the balloons have to travel over the water, you may not see them until a few minutes later.
 
-They can also spawn from different sides of your island and this is believed to change at around 6am and 6pm. This means they will continue to spawn from the same area for around 12 hours before changing.
+They can also spawn from different sides of your island and this is believed to change at around 6am and 6pm. This means they will continue to spawn from the same area for around 12 hours before changing to a new location.
 
 Balloons don't spawn when your gate is open for online play, which is a shame as we think it could make a fun game to play with friends!
 
