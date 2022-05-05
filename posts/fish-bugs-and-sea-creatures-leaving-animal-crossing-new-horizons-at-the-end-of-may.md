@@ -16,4 +16,4 @@ The 31st of May will mark the last day some of these creatures will be available
 
 #### Fish
 
-<TABLE WIDTH="30%"><thead><TR><TH>Fish</TH><TH>Time of Day</TH><TH>Location</TH><TH>Returns</TH></TR></thead><tbody><TR> <TD>Kabuki</TD> <TD>Cat</TD> </TR> <TR> 
+<TABLE WIDTH="30%"><thead><TR><TH>Fish</TH><TH>Time of Day</TH><TH>Location</TH><TH>Returns</TH></TR></thead><tbody><TR> <TD>Loach</TD> <TD>24h</TD><TD>Rivers</TD><TD>September</TD> </TR> <TR> 
