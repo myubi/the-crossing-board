@@ -16,43 +16,4 @@ The 31st of May will mark the last day some of these creatures will be available
 
 #### Fish
 
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-table {
-font-family: arial, sans-serif;
-border-collapse: collapse;
-width: 100%;
-}
-
-<table>
-<tr>
-<th>Fish</th>
-<th>Time of Day</th>
-<th>Location</th>
-<th>Returns</th>
-</tr>
-<tr>
-<td>Loach</td>
-<td>24h</td>
-<td>Rivers</td>
-<td>September</td>
-</tr>
-<tr>
-<td>Golden Trout</td>
-<td>4pm-9am</td>
-<td>Clifftop River</td>
-<td>September</td>
-</tr>
-<tr>
-<td>Oarfish</td>
-<td>24h</td>
-<td>Sea</td>
-<td>Dec</td>
-</tr>
-
-</table>
-
-</body>
-</html>
+<TABLE WIDTH="30%"><thead><TR><TH>Fish</TH><TH>Time of Day</TH><TH>Location</TH><TH>Returns</TH></TR></thead><tbody><TR> <TD>Kabuki</TD> <TD>Cat</TD> </TR> <TR> 
