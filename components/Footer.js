@@ -34,7 +34,7 @@ export default function Footer(props) {
         </p>
       </div>
       <div>
-        The Crossing Board, 30 Ferris Town, Truro, TR13JJ, United Kingdom
+        The Crossing Board, 30 Ferris Town, Truro, TR1 3JJ, United Kingdom
       </div>
       <style jsx>
         {`
