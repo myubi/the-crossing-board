@@ -19,7 +19,7 @@ You will then need to change it in **two places:**
 
 ### **If you current month’s payment HAS been taken:**
 
-Please note that the previous change of address is only applied to **future** orders. If you need to change your address for a order that has already been placed, please [contact us](mailto:contact@thecrossingboard.com).
+Please note that the change of address above is only applied to **future** orders. If you need to change your address for a order that has already been placed, please [contact us](mailto:contact@thecrossingboard.com).
 
 If you are still having issues with changing your address, please [contact us](mailto:contact@thecrossingboard.com).
 
