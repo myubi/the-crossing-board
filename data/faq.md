@@ -1,21 +1,25 @@
 ---
 title: Frequently Asked Questions
-
 ---
+
 ## "I can’t get into my account - my email is not recognised!"
 
-This may be because you didn’t create an account when you initially subscribed.  Please [contact us](mailto:contact@thecrossingboard.com) asking for an ‘account invite’ and we’ll send you a link straight away.
+This may be because you didn’t create an account when you initially subscribed. Please [contact us](mailto:contact@thecrossingboard.com) asking for an ‘account invite’ and we’ll send you a link straight away.
 
 ## "I want to change the **shipping** address/name for my subscription, what should I do?"
+
+### **If your current month’s payment has NOT been taken:**
 
 To change your **shipping** address/name on your subscription, please login to your account on our shop page. _(If you do not have an account yet, just create one with the same email you used to make a subscription._)
 
 You will then need to change it in **two places:**
 
-* Under your "Account Details", click to view addresses and update any addresses or names there. Make sure to also tick the "Make default" option. Delete any old addresses to be safe.
-* Click on "View your subscriptions", click on your subscription number and change your address on this page too.
+- Under your "Account Details", click to view addresses and update any addresses or names there. Make sure to also tick the "Make default" option. Delete any old addresses to be safe.
+- Click on "View your subscriptions", click on your subscription number and change your address on this page too.
 
-Please note that this change of address is only applied to **future** orders. If you need to change your address for a order that has already been placed, please [contact us](mailto:contact@thecrossingboard.com).
+### **If you current month’s payment HAS been taken:**
+
+Please note that the previous change of address is only applied to **future** orders. If you need to change your address for a order that has already been placed, please [contact us](mailto:contact@thecrossingboard.com).
 
 If you are still having issues with changing your address, please [contact us](mailto:contact@thecrossingboard.com).
 
@@ -75,7 +79,7 @@ Yes! We ship worldwide.
 
 ## I haven’t received my fanzine, and another payment has been taken!
 
-This is because your recurring payment date has come around just before your current fanzine is due to be sent.  For example, if you subscribed on the 4th of August (for the September issue), your recurring payment will be taken again on the 4th of September (for your October fanzine).  This additional payment will have been taken just before your September fanzine is sent out to you around the 7th.
+This is because your recurring payment date has come around just before your current fanzine is due to be sent. For example, if you subscribed on the 4th of August (for the September issue), your recurring payment will be taken again on the 4th of September (for your October fanzine). This additional payment will have been taken just before your September fanzine is sent out to you around the 7th.
 
 ## What can my discount rewards be used for?
 
