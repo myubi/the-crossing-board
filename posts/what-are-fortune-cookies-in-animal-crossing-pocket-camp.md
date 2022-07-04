@@ -1,7 +1,7 @@
 ---
 author: The Crossing Board
 date: 2022-07-04T11:00:42Z
-draft: true
+draft: false
 title: 'What Are Fortune Cookies in Animal Crossing: Pocket Camp?'
 
 ---
@@ -27,6 +27,6 @@ For example, if the item is worth over 100 bells, you will have a 20% chance of 
 
 **How Do I Open a Fortune Cookie?**
 
-Your fortune cookies can be found in your inventory. Click on items, then the three dots icon, and then on the cookie item.
+Your fortune cookies can be found in your inventory. Click on the small bag icon, then the three dots, and then on the fortune cookie icon.
 
 What is your favourite fortune cookie in _Animal Crossing: Pocket Camp?_ Let us know in the comments below!
