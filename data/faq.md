@@ -41,7 +41,18 @@ If you are still having issues with changing your address, please [contact us](m
 
 We aim to ship our fanzines around the 7th of each month, but this may vary by a day or two depending on the speed of our provider.
 
-Whilst the postal service aims to deliver within a week worldwide, there can be delays for certain parts of the world, especially due to the pandemic or during holiday periods. If you’d like to track your parcel and be certain of its timely arrival, please opt for tracked shipping.
+**ROYAL MAIL POSTAL STRIKES UPDATE**
+Unfortunately, the processing, distribution, shipping, collections and admin departments of Royal Mail have announced the following strike dates: 
+
+![image info](/images/royal-mail-strikes-22.jpg)
+
+Please **ADD AT LEAST AN EXTRA 10 DAYS** onto the average timings below to allow for any backlog:
+- UK 1-3 days
+- Europe 6-11 days
+- United States 9.5 days
+- Worldwide 8-13 days
+
+If you’d like to track your parcel and be certain of its timely arrival, please opt for tracked shipping.
 
 ## If I subscribe this month, will I get this month’s fanzine or next month’s fanzine?
 
