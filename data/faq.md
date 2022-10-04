@@ -44,7 +44,11 @@ We aim to ship our fanzines around the 7th of each month, but this may vary by a
 **ROYAL MAIL POSTAL STRIKES UPDATE**
 Unfortunately, the processing, distribution, shipping, collections and admin departments of Royal Mail have announced the following strike dates: 
 
-![image info](/images/royal-mail-strikes-22.jpg)
+- 30th September
+- 1st October
+- 13th October
+- 20th October
+- 25th October 
 
 Please **ADD AT LEAST AN EXTRA 10 DAYS** onto the average timings below to allow for any backlog:
 - UK 1-3 days
