@@ -55,9 +55,7 @@ export default function Header(props) {
               Join the team
             </a>
           </Link>
-          <Link href="/faq" prefetch={false}>
-            <a className={router.pathname == "/faq" ? "active" : ""}>FAQ</a>
-          </Link>
+            <a href="https://shop.thecrossingboard.com/a/faq">FAQ</a>  
             <a href="https://shop.thecrossingboard.com/pages/contact">
               Contact
             </a>
