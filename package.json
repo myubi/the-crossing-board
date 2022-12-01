@@ -5,7 +5,7 @@
   "description": "An Animal Crossing News Fansite",
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider && next build && next export",
     "start": "serve out",
     "forestry-preview": "next start -p 8080 -H 0.0.0.0"
   },
