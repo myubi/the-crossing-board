@@ -27,7 +27,7 @@ concurrency:
 jobs:
   # Build job
   build:
-    runs-on: ubuntu-latest
+    runs-on: node:16.18.1
     steps:
       - name: Checkout
         uses: actions/checkout@v4
