@@ -1,9 +1,11 @@
 ---
 title: Important update! We've moved...
 author: The Crossing Board
-date: 2021-01-08
+date: 2021-01-08T00:00:00.000Z
 draft: false
+_template: blog_post
 ---
+
 
 <div class="image-center">
 <img class="no-border" src="/images/calendar/sold-out.png" alt="" />

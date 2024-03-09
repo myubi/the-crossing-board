@@ -1,10 +1,11 @@
 ---
 author: The Crossing Board
-date: 2021-12-31T00:28:12Z
+date: 2021-12-31T00:28:12.000Z
 draft: false
-title: " Villager Spotlight : Tea with Kitty"
-
+title: ' Villager Spotlight : Tea with Kitty'
+_template: blog_post
 ---
+
 ![](/images/news/kitty-article.jpeg)Good day Island Reps, in this week’s villager spotlight we’ll be featuring an exclusive q & a with the gorgeous and elegant cat villager - Kitty. Many players will remember Kitty from as far back as the City Folk days and she has been present in all game versions since.
 
 Being a snooty - type villager, Kitty has a refined aesthetic and an astute sense of snark! As Island Reps befriend this adorable cat, they’ll be pleased to discover a heart of gold beneath her catty exterior.

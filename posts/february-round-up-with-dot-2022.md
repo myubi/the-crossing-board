@@ -1,10 +1,11 @@
 ---
 author: The Crossing Board
-date: 2022-02-10T15:52:39Z
+date: 2022-02-10T15:52:39.000Z
 draft: false
 title: 'February Round-Up with Dot : 2022'
-
+_template: blog_post
 ---
+
 ![](/images/news/tcb-mascot-600px.png)Hello Resident Reps! It’s Dot here with your ACNH round up for the second month of the year. Assuming you’ve fished to your heart’s content in last month’s tourney, collected enough gyroids to make even Blather’s jealous and tucked all your holiday decor away - it’s time to enjoy this month’s festivities.
 
 Lunar New Year, Seollal, Valentine’s Day, Hinamatsuri and Carnival of Venice are amongst this month’s celebrated in-game holidays.

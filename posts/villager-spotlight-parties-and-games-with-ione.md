@@ -1,10 +1,11 @@
 ---
 author: The Crossing Board
-date: 2022-03-21T13:33:45Z
+date: 2022-03-21T13:33:45.000Z
 draft: false
 title: 'Villager Spotlight : Parties and Games with Ione'
-
+_template: blog_post
 ---
+
 ![](/images/news/6dc92a39adbb4a60978472edfcccc163.jpeg)Hello Resident Reps! 
 
 The villager in today’s Spotlight may be familiar to some of you already as she made quite a stir when she debuted in last year’s generous Animal Crossing New Horizons DLC. We recently visited this dreamy and adorable villager at her home where we talked constellations, having fun and themed parties.

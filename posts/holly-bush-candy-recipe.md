@@ -1,10 +1,11 @@
 ---
 author: The Crossing Board
-date: 2021-12-06T09:50:12Z
+date: 2021-12-06T09:50:12.000Z
 draft: false
 title: Holly Bush Candy Recipe
-
+_template: blog_post
 ---
+
 ![](/images/news/holly-candy.jpg)
 
 One of the most fun parts of the new update has been getting to see Leif any time we want. And we’re lucky because he’s always eager to show us the new little seeds and starts that he has. This season, the Holly Bush is the one that we get to enjoy most, which is perfect because it really pops against that winter snowfall!

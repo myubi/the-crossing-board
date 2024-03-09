@@ -1,10 +1,11 @@
 ---
 author: The Crossing Board
-date: 2022-01-07T12:48:25Z
+date: 2022-01-07T12:48:25.000Z
 draft: false
 title: January Round Up with Dot - January 2022
-
+_template: blog_post
 ---
+
 ![](/images/news/tcb-mascot-600px.png)
 
 Hello Resident Reps! It’s Dot here with your ACNH round up for the first month of the year. I hope putting away your island’s holiday decor doesn’t leave you feeling too glum? Chin up buttercup, there’s still lots to do this month and here are a few anecdotes to get you started:

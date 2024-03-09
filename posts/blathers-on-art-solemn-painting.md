@@ -1,10 +1,11 @@
 ---
 author: The Crossing Board
-date: 2021-12-11T10:03:02Z
+date: 2021-12-11T10:03:02.000Z
 draft: false
 title: 'Blathers on Art : Solemn Painting'
-
+_template: blog_post
 ---
+
 ![](/images/news/blathers-3.png)
 
 Good Day, esteemed visitor and welcome to another edifying instalment of art history as presented by yours truly. This Solemn Painting, known as Las Meninas was rendered by the Spanish painter Diego Rodríguez de Silva y Velázquez or more popularly - Diego Velázquez.

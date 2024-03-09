@@ -1,10 +1,11 @@
 ---
 author: The Crossing Board
-date: 2021-11-29T11:19:01Z
+date: 2021-11-29T11:19:01.000Z
 draft: false
 title: Brewster Brewster
-
+_template: blog_post
 ---
+
 ![](/images/news/brewster.png)
 
 Newer players may be wondering how to invite Brewster, the much loved NPC to their island museums and in doing so will discover why this cool pigeon is so well-loved by many. Thankfully, the fairies at TCB are here to help with some pointers including what to expect from the process of opening your island’s answer to Starbucks.

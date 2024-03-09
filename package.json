@@ -4,8 +4,8 @@
   "private": true,
   "description": "An Animal Crossing News Fansite",
   "scripts": {
-    "dev": "next dev",
-    "build": "NODE_OPTIONS=--openssl-legacy-provider && next build && next export",
+    "dev": "TINA_PUBLIC_IS_LOCAL=true tinacms dev -c \"next dev\"",
+    "build": "tinacms build && NODE_OPTIONS=--openssl-legacy-provider && next build && next export",
     "start": "serve out",
     "forestry-preview": "next start -p 8080 -H 0.0.0.0"
   },
@@ -18,8 +18,8 @@
     "nextjs-redirect": "^5.0.0",
     "node-glob": "^1.2.0",
     "raw-loader": "^3.0.0",
-    "react": "16.13.1",
-    "react-dom": "16.13.1",
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
     "react-hamburgers": "^1.0.0",
     "react-icons": "^3.10.0",
     "react-lazy-load-image-component": "^1.5.0",
@@ -28,6 +28,11 @@
     "react-responsive-carousel": "^3.2.10",
     "react-youtube": "^7.11.3",
     "reactjs-popup": "^1.5.0",
-    "serve": "^11.3.2"
+    "serve": "^11.3.2",
+    "tinacms": "^1.6.0"
+  },
+  "devDependencies": {
+    "@tinacms/cli": "^1.5.42",
+    "@types/node": "^20.11.25"
   }
 }

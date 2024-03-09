@@ -1,10 +1,11 @@
 ---
 author: The Crossing Board
-date: 2022-01-17T17:48:59.000+00:00
+date: 2022-01-17T17:48:59.000Z
 draft: false
 title: 'Blathers on Art : Valiant Statue'
-
+_template: blog_post
 ---
+
 ![](/images/news/4a87b595254042d2a88ddaa100174cbd.jpeg)
 
 Good Day, esteemed visitor and welcome to another edifying instalment of art history as presented by yours truly.

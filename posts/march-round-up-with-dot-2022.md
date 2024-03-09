@@ -1,10 +1,11 @@
 ---
 author: The Crossing Board
-date: 2022-03-07T09:26:39Z
+date: 2022-03-07T09:26:39.000Z
 draft: false
 title: 'March Round-Up with Dot : 2022'
-
+_template: blog_post
 ---
+
 ![](/images/news/tcb-mascot-600px.png)
 
 Hello Resident Reps! It’s Dot here with your ACNH round up for the third month of the year. March in-game brings us a fun mix of events and of course, event items and recipes to collect. If you missed the opportunity to do so last year, you can collect items for the Japanese Hinamatsuri (February 25 - March 3), pie for Pi Day (March 1-14), get lucky for Shamrock Day (March 10 - 17) and plan pranks on the sly for April Fool’s Day (March 26 - April 1).

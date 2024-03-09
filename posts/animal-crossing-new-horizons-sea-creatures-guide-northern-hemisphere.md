@@ -1,10 +1,11 @@
 ---
 author: The Crossing Board
-date: 2021-07-26T08:51:55Z
+date: 2021-07-26T08:51:55.000Z
 draft: false
 title: 'Animal Crossing: New Horizons Sea Creatures Guide (Northern Hemisphere)'
-
+_template: blog_post
 ---
+
 ![](/images/news/vampire-squid.png)
 
 We have all been enjoying exploring the waters around our islands for just over a year since the feature was reintroduced to the game in July 2020’s summer update, along with Pascal and Pirate Gulliver. In case you needed reminding, you can only go diving into the sea while wearing a wetsuit, which can be purchased from the NookStop.

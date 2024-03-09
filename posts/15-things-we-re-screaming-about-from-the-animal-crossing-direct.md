@@ -1,10 +1,11 @@
 ---
 author: The Crossing Board
-date: 2021-10-17T19:03:00Z
+date: 2021-10-17T19:03:00.000Z
 draft: false
 title: 15 Things We're SCREAMING About from the Animal Crossing Direct
-
+_template: blog_post
 ---
+
 ![](/images/news/brewster.png)
 
 The speculation has gone for months now that Animal Crossing: New Horizons 2.0 was, well, on the horizon. Now, we’ve got confirmation of that after today’s Animal Crossing Direct. (An entire direct solely for Animal Crossing? #Blessed). Here are 15 of the announcements that had us jumping up and down with excitement.

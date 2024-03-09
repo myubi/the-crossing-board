@@ -1,10 +1,11 @@
 ---
 author: The Crossing Board
-date: 2022-02-12T09:13:03Z
+date: 2022-02-12T09:13:03.000Z
 draft: false
 title: 'Blathers on Art : Detailed Painting '
-
+_template: blog_post
 ---
+
 ![](/images/news/blathers-1.png)
 
 Good Day, esteemed visitor and welcome to another edifying instalment of art history as presented by yours truly.

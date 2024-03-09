@@ -1,10 +1,11 @@
 ---
 author: The Crossing Board
-date: 2022-07-04T11:00:42Z
+date: 2022-07-04T11:00:42.000Z
 draft: false
 title: 'What Are Fortune Cookies in Animal Crossing: Pocket Camp?'
-
+_template: blog_post
 ---
+
 ![](/images/news/1-1.png)
 
 Fortune cookies in _Animal Crossing: Pocket Camp_ are special items that contain a random piece of clothing or furniture from a selection.

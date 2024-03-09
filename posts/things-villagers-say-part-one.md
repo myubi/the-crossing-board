@@ -1,10 +1,11 @@
 ---
 author: The Crossing Board
-date: 2022-03-29T13:36:34Z
+date: 2022-03-29T13:36:34.000Z
 draft: true
 title: 'Things Villagers Say - Part One '
-
+_template: blog_post
 ---
+
 ![](/images/news/tcb-mascot-600px.png)
 
 Hello Resident Reps.

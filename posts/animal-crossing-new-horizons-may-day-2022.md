@@ -1,10 +1,11 @@
 ---
 author: The Crossing Board
-date: 2022-05-01T09:51:27Z
+date: 2022-05-01T09:51:27.000Z
 draft: false
 title: 'Animal Crossing: New Horizons May Day 2022'
-
+_template: blog_post
 ---
+
 ![](/images/news/isabelle.png)
 
 Good Morning Islanders!

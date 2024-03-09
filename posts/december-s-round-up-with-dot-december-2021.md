@@ -1,10 +1,11 @@
 ---
 author: The Crossing Board
-date: 2021-12-06T11:02:28Z
+date: 2021-12-06T11:02:28.000Z
 draft: false
 title: December’s Round Up with Dot - December 2021
-
+_template: blog_post
 ---
+
 ![](/images/news/december-roundup.jpeg)
 
 Hello Resident Reps! It’s Dot here with your ACNH round up for the final month of the year. There’s plenty to look forward to in the coming weeks ahead so here are a few tips and tricks to get you started.

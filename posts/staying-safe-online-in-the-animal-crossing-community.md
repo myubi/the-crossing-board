@@ -1,10 +1,11 @@
 ---
 author: The Crossing Board
-date: 2021-07-12T20:45:46Z
+date: 2021-07-12T20:45:46.000Z
 draft: false
 title: Staying Safe Online in the Animal Crossing Community
-
+_template: blog_post
 ---
+
 ![](/images/news/untitled-design-1.png)
 
 Animal Crossing: New Horizons is a game like no other before it in the franchise. While New Leaf had online features and a healthy social media following, New Horizons has certainly eclipsed it. For the past year and a half, players have connected with friends old and new and shown off their creative talents in the form of island builds and custom designs on social media platforms from Instagram to Pinterest. Yes, at its core, New Horizons is a wholesome and friendly game for ages, but with a community in the millions and content almost everywhere you turn, it comes with risks. Let’s explore how you can safely enjoy Animal Crossing and its online world.

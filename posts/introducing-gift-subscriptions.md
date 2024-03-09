@@ -1,10 +1,11 @@
 ---
 author: The Crossing Board
-date: 2021-11-13T13:45:33.000+00:00
+date: 2021-11-13T13:45:33.000Z
 draft: false
 title: Introducing GIFT SUBSCRIPTIONS!
-
+_template: blog_post
 ---
+
 ![](/images/news/gift-subscriptions.jpg)
 
 After lots of requests from our lovely readers, we are very pleased to announce the launch of our gift subscriptions!

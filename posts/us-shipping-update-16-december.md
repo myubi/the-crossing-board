@@ -1,10 +1,11 @@
 ---
 author: The Crossing Board
-date: 2021-12-16T14:49:46Z
+date: 2021-12-16T14:49:46.000Z
 draft: false
 title: US Shipping Update | 16 December
-
+_template: blog_post
 ---
+
 ![](/images/news/dal-mail.png)
 
 _Dear readers in the United States_

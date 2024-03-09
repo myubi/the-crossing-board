@@ -1,10 +1,11 @@
 ---
 author: The Crossing Board
-date: 2022-02-19T09:17:36Z
+date: 2022-02-19T09:17:36.000Z
 draft: false
 title: 'Villager Spotlight : Baking and Chocolates with Marina'
-
+_template: blog_post
 ---
+
 ![](/images/news/79b57c24d0f14b43a74050b744217c6a.jpeg)
 
 Hello Resident Reps! Today we’ll be spotlighting everyones’ favourite, cute pink octopus villager - Marina. Marina is an affable, normal type villager who is fond of music and has a cute style aesthetic. As one can expect, pink is one of her favourite colours.

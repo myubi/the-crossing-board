@@ -1,10 +1,11 @@
 ---
 author: The Crossing Board
-date: 2021-11-19T16:38:19Z
+date: 2021-11-19T16:38:19.000Z
 draft: false
 title: Villager Spotlight - Sasha
-
+_template: blog_post
 ---
+
 ![](/images/news/img_v2_ec308380-ea2e-4d36-8486-e089c63995eh.png)
 
 **Introducing Sasha**

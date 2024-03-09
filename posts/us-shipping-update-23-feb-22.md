@@ -1,10 +1,11 @@
 ---
 author: The Crossing Board
-date: 2022-02-23T09:09:27Z
+date: 2022-02-23T09:09:27.000Z
 draft: false
 title: US Shipping Update | 23 Feb 22
-
+_template: blog_post
 ---
+
 ![](/images/news/dal-mail.png)
 
 To our US readers,

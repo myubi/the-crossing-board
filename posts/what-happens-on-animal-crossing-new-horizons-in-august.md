@@ -1,10 +1,11 @@
 ---
 author: The Crossing Board
-date: 2022-07-20T08:32:29Z
+date: 2022-07-20T08:32:29.000Z
 draft: false
 title: 'What happens on Animal Crossing: New Horizons in August?'
-
+_template: blog_post
 ---
+
 ![](/images/news/isabelle-sun-lounger.png)
 
 Here are all the fun things to get up to in Animal Crossing: New Horizons in August in the Nothern hemisphere.

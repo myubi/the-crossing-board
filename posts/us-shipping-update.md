@@ -1,10 +1,11 @@
 ---
 author: The Crossing Board
-date: 2021-10-07T10:44:30Z
+date: 2021-10-07T10:44:30.000Z
 draft: false
 title: US Shipping Update
-
+_template: blog_post
 ---
+
 ![](/images/news/dal-mail.png)
 
 Hey, readers in the United States!

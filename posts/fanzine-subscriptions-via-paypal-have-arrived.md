@@ -1,9 +1,11 @@
 ---
 author: The Crossing Board
-date: 2021-06-17T15:25:23Z
+date: 2021-06-17T15:25:23.000Z
 draft: false
 title: Fanzine subscriptions via Paypal have arrived!
+_template: blog_post
 ---
+
 
 <div class="image-left">
 <img src="/images/news/img_v2_c30b42e6-b82b-487b-8b7d-1c6586ab156h.jpg" alt="" />

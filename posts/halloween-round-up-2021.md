@@ -1,10 +1,11 @@
 ---
 author: The Crossing Board
-date: 2021-11-03T18:36:40Z
+date: 2021-11-03T18:36:40.000Z
 draft: false
 title: Halloween Round Up 2021
-
+_template: blog_post
 ---
+
 ![](/images/news/jack.png)
 
 Hello Friends! 

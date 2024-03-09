@@ -1,10 +1,11 @@
 ---
 author: The Crossing Board
-date: 2021-08-23T10:48:20Z
+date: 2021-08-23T10:48:20.000Z
 draft: false
 title: Best Museum Photo Opportunities ft. Blathers
-
+_template: blog_post
 ---
+
 ![](/images/news/blathers-1.png)
 
 Hoo! August, it seems, is International Fishing Month! Of course, it would be wonderful if you chose to donate any new fish you find to your island museum in honour of this esteemed month. But might I interest you in visiting the fish section of the museum also?

@@ -1,10 +1,11 @@
 ---
 author: The Crossing Board
-date: 2022-03-13T12:19:12Z
+date: 2022-03-13T12:19:12.000Z
 draft: false
 title: 'Blathers on Art : The Basic Painting'
-
+_template: blog_post
 ---
+
 ![](/images/news/blathers-3.png)
 
 Good Day, esteemed visitor and welcome to another edifying instalment of art history as presented by yours truly.

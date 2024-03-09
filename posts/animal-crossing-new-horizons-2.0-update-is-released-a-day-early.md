@@ -1,10 +1,11 @@
 ---
 author: The Crossing Board
-date: 2021-11-04T14:43:36Z
+date: 2021-11-04T14:43:36.000Z
 draft: false
 title: 'Animal Crossing: New Horizons 2.0 Update Is Released a Day Early!'
-
+_template: blog_post
 ---
+
 ![](/images/news/brewster.png)
 
 Animal Crossing: New Horizons 2.0 update was scheduled for release on 5th November. However, a huge surprise on the morning of the 4th (or evening of the 3rd if you're a night owl like Blathers!) was awaiting us... The update was available early!

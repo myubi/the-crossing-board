@@ -1,10 +1,11 @@
 ---
 author: The Crossing Board
-date: 2021-09-16T09:22:26Z
+date: 2021-09-16T09:22:26.000Z
 draft: false
 title: '5 Things To Do After Finishing Your Animal Crossing: New Horizons Island'
-
+_template: blog_post
 ---
+
 ![Animal Crossing Timmy and Tommy](/images/news/timmy-and-tommy.png "Animal Crossing Timmy and Tommy")
 
 If you have finished decorating and terraforming your island and are looking for fun activities to do in the Animal Crossing: New Horizons game, then we have got you covered!

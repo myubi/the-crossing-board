@@ -1,10 +1,11 @@
 ---
 author: The Crossing Board
-date: 2021-11-29T11:52:53Z
+date: 2021-11-29T11:52:53.000Z
 draft: false
 title: 'Animal Crossing: New Horizons Villager Personalities'
-
+_template: blog_post
 ---
+
 ![](/images/news/chelsea.png)
 
 Each of the loveable villagers that live on our islands have their very own personality, just like each of us! These personalities influence a lot in Animal Crossing New Horizons including how the villager talks, what they wear, and even how they interact with other villagers. But what are these personalities?!

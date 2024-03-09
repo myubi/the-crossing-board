@@ -1,10 +1,11 @@
 ---
 author: The Crossing Board
-date: 2022-01-21T09:27:43Z
+date: 2022-01-21T09:27:43.000Z
 draft: false
 title: 'Villager Spotlight: A Musical Afternoon with Marshal'
-
+_template: blog_post
 ---
+
 ![](/images/news/74e274bae43e4dffa2a3915a4f794903.jpeg)
 
 Hello Resident Reps, today’s villager spotlight features everyone’s favourite fluffy-tailed, smug squirrel villager - Marshal. This adorable villager was introduced in Animal Crossing New Leaf and later in Pocket Camp and most recently, New Horizons.

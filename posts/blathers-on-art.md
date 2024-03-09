@@ -1,10 +1,11 @@
 ---
 author: The Crossing Board
-date: 2021-10-26T00:00:00Z
+date: 2021-10-26T00:00:00.000Z
 draft: false
 title: Blathers on Art
-
+_template: blog_post
 ---
+
 ![](/images/news/blathers-3.png)
 
 ’The Opulence of Nature’

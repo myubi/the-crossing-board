@@ -1,10 +1,11 @@
 ---
 author: The Crossing Board
-date: 2022-06-28T13:47:48Z
+date: 2022-06-28T13:47:48.000Z
 draft: false
 title: 'Animal Crossing: Pocket Camp - A Quick Guide'
-
+_template: blog_post
 ---
+
 ![](/images/news/3.png)
 
 _Animal Crossing: Pocket Camp_ is a free-to-play mobile app developed by Nintendo. The game was released on November 22, 2017, and requires an internet connection to play. In-app purchases are available.

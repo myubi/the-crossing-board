@@ -1,10 +1,11 @@
 ---
 author: The Crossing Board
-date: 2021-08-10T17:40:24Z
+date: 2021-08-10T17:40:24.000Z
 draft: false
 title: CJ's O-fish-al Snack Mix
-
+_template: blog_post
 ---
+
 ![](/images/news/fish-mix.jpg)
 
 Hey, seasports fan! CJ here, coming at you live from The Crossing Board. Summer is o-fish-ally coming to a close soon here in the Northern Hemisphere, and I’ve been doing fishing challenges left and right to keep my viewers happy. Nyuk! One of the best ways to stay on your game when you’re angling for a snack is to make this fishy popcorn mix, fishonista. It’s easier than reeling in an Ocean Sunfish, that’s for sure.

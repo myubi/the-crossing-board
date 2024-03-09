@@ -1,10 +1,11 @@
 ---
 author: The Crossing Board
-date: 2021-06-25T14:29:00Z
+date: 2021-06-25T14:29:00.000Z
 draft: false
 title: June’s Ice Lollies
-
+_template: blog_post
 ---
+
 ![](/images/news/img_v2_00d6a1ad-1f02-4375-b130-ae30e739d48h.png)
 
 Hi all!

@@ -1,10 +1,11 @@
 ---
 author: The Crossing Board
-date: 2022-03-02T09:13:58Z
+date: 2022-03-02T09:13:58.000Z
 draft: false
 title: Celeste’s New DIY Recipes
-
+_template: blog_post
 ---
+
 ![](/images/news/c1d1a0fcf61d4004a170b9b4ecb1c349.jpeg)
 
 Hello Sweet Souls! In case we’ve never met before - let me introduce myself! I’m Celeste, sister of Blathie and cosmic educator, ha! Most of you may know that I visit your islands sometimes when there are shooting stars to gift you with DIY recipes, so don't forget to come and say hello if you see me!

@@ -1,10 +1,11 @@
 ---
 author: The Crossing Board
-date: 2022-04-05T13:38:53Z
+date: 2022-04-05T13:38:53.000Z
 draft: false
 title: A Guide to Animal Crossing Balloons
-
+_template: blog_post
 ---
+
 ![](/images/news/balloon-present-01-red.png)
 
 It's so exciting seeing a balloon passing over your island, especially when there is a promising looking gift attached! But, what are you likely to receive from this present? And when do these balloons appear? Find out in our handy Animal Crossing Balloon Guide!

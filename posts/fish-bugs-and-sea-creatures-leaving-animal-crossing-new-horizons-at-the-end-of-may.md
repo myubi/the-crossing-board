@@ -1,11 +1,13 @@
 ---
 author: The Crossing Board
-date: 2022-05-05T10:20:15Z
+date: 2022-05-05T10:20:15.000Z
 draft: true
-title: 'Fish, Bugs and Sea Creatures leaving Animal Crossing: New Horizons at the
-  end of May'
-
+title: >-
+  Fish, Bugs and Sea Creatures leaving Animal Crossing: New Horizons at the end
+  of May
+_template: blog_post
 ---
+
 ![](/images/news/unnamed-1.jpg)
 
 Every month in Animal Crossing: New Horizons, a number of fish, bugs, and sea creatures, become available to catch, or disappear from the ocean, rivers or sky of our islands. 

@@ -1,9 +1,11 @@
 ---
 author: The Crossing Board
-date: 2021-06-04T21:11:59Z
+date: 2021-06-04T21:11:59.000Z
 draft: false
-title: "Animal Crossing: New Horizons Art Guide"
+title: 'Animal Crossing: New Horizons Art Guide'
+_template: blog_post
 ---
+
 
 <div class="image-center">
 <img class="no-border" src="/images/news/redd.png" alt="" />

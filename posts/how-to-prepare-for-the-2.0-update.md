@@ -1,10 +1,11 @@
 ---
 author: The Crossing Board
-date: 2021-10-29T14:26:39Z
+date: 2021-10-29T14:26:39.000Z
 draft: false
 title: How to Prepare for the 2.0 Update
-
+_template: blog_post
 ---
+
 
 ![](/images/news/starter-tent.png)
 

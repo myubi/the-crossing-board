@@ -1,10 +1,11 @@
 ---
 author: The Crossing Board
-date: 2021-11-01T14:15:13Z
+date: 2021-11-01T14:15:13.000Z
 draft: false
 title: How to get the new Happy Home Paradise DLC
-
+_template: blog_post
 ---
+
 ![](/images/news/coconut-tree.png)
 
 One of the most exciting announcements to come out of the recent Animal Crossing Direct is the new paid downloadable content: Happy Home Paradise.
