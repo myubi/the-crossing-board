@@ -39,7 +39,7 @@ export default function BlogTemplate({
             <h3 className="date">{reformatDate(date)}</h3>
             <div>
               <h1 className="title">{title}</h1>
-              <ReactMarkdown source={markdownBody} escapeHtml={false} />
+              <ReactMarkdown>{markdownBody}</ReactMarkdown>
             </div>
             <h1 className="article-author">{author}</h1>
           </article>

@@ -21,32 +21,35 @@ const BlogList = ({ allBlogs }) => {
         {sortedByDate.map((post) => {
           if (!post.draft) {
             return (
-              <Link key={post.slug} href={{ pathname: `/news/${post.slug}` }}>
-                <a>
-                  <div className="content-thumb">
-                    <div className="pin" />
-                    <h3> {post.title}</h3>
-                    <h4> {reformatDate(post.date)} </h4>
-                    <p>
-                      <ReactMarkdown
-                        source={truncateSummary(post.markdownBody)}
-                        escapeHtml={false}
-                      />
-                    </p>
-                  </div>
-                </a>
+              <Link
+                key={post.slug}
+                href={{ pathname: `/news/${post.slug}` }}
+                className="linky"
+              >
+                <div className="content-thumb">
+                  <div className="pin" />
+                  <h3> {post.title}</h3>
+                  <h4> {reformatDate(post.date)} </h4>
+
+                  <ReactMarkdown>
+                    {truncateSummary(post.markdownBody)}
+                  </ReactMarkdown>
+                </div>
               </Link>
             );
           }
         })}
       </div>
-      <style jsx>
+      <style jsx global>
         {`
           a {
             text-decoration: none;
             color: #165940;
           }
-
+        `}
+      </style>
+      <style jsx>
+        {`
           .notice-board {
             margin-top: 50px;
             display: flex;
@@ -62,6 +65,11 @@ const BlogList = ({ allBlogs }) => {
             position: relative;
             margin: 10px;
             height: 90%;
+          }
+
+          .content-thumb a {
+            text-decoration: none;
+            color: #165940;
           }
 
           .magazine {
@@ -93,8 +101,7 @@ const BlogList = ({ allBlogs }) => {
             border-radius: 10px;
           }
 
-          a:hover > .content-thumb,
-          a:hover > .move-banner {
+          .content-thumb:hover {
             animation: pulse 1.5s infinite;
             animation-timing-function: linear;
           }

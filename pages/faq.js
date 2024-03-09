@@ -12,7 +12,7 @@ export default function FAQ({ frontmatter, markdownBody }) {
       <Layout>
         <div className="faq-wrapper">
           <h2>{frontmatter.title}</h2>
-          <ReactMarkdown source={markdownBody} />
+          <ReactMarkdown>{markdownBody}</ReactMarkdown>
         </div>
         <style jsx>{`
           .faq-wrapper {

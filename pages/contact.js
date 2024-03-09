@@ -99,7 +99,7 @@ export default function Info({ frontmatter, markdownBody, profiles }) {
             <p>Many thanks for your understanding and patience.</p>
           </div>
           <div className="contact-info">
-            <ReactMarkdown source={aboutBody} />
+            <ReactMarkdown>{aboutBody}</ReactMarkdown>
           </div>
           <form onSubmit={handleOnSubmit} className="form">
             <div>

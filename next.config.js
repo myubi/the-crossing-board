@@ -23,5 +23,5 @@ module.exports = {
 
     return routes;
   },
-  exportTrailingSlash: true,
+  trailingSlash: true,
 };

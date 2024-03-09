@@ -38,27 +38,25 @@ export default function Header(props) {
             src="/images/logo2.png"
             alt="The Crossing Board"
           />
-          <Link href="/" prefetch={false}>
+          <Link href="/" prefetch={false} legacyBehavior>
             <a className={router.pathname == "/" ? "active" : ""}>News</a>
           </Link>
           <a href="https://shop.thecrossingboard.com">Shop</a>
-          <Link href="/quiz" prefetch={false}>
+          <Link href="/quiz" prefetch={false} legacyBehavior>
             <a className={router.pathname == "/quiz" ? "active" : ""}>
               Quizzes
             </a>
           </Link>
-          <Link href="/about" prefetch={false}>
+          <Link href="/about" prefetch={false} legacyBehavior>
             <a className={router.pathname == "/about" ? "active" : ""}>About</a>
           </Link>
-          <Link href="/jointheteam" prefetch={false}>
+          <Link href="/jointheteam" prefetch={false} legacyBehavior>
             <a className={router.pathname == "/jointheteam" ? "active" : ""}>
               Join the team
             </a>
           </Link>
-            <a href="https://shop.thecrossingboard.com/a/faq">FAQ</a>  
-            <a href="https://shop.thecrossingboard.com/pages/contact">
-              Contact
-            </a>
+          <a href="https://shop.thecrossingboard.com/a/faq">FAQ</a>
+          <a href="https://shop.thecrossingboard.com/pages/contact">Contact</a>
         </div>
       </nav>
 

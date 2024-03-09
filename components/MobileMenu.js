@@ -3,24 +3,22 @@ import Link from "next/link";
 export default ({ close }) => (
   <div className="nav-wrapper-mobile">
     <Link href="/" onClick={close} prefetch={false}>
-      <a>News</a>
+      News
     </Link>
     <a href="https://shop.thecrossingboard.com">Shop</a>
     <Link href="/quiz" onClick={close} prefetch={false}>
-      <a>Quizzes</a>
+      Quizzes
     </Link>
     <Link href="/about" onClick={close} prefetch={false}>
-      <a>About</a>
+      About
     </Link>
     <Link href="/jointheteam" onClick={close} prefetch={false}>
-      <a>Join the team</a>
+      Join the team
     </Link>
     <Link href="/faq" onClick={close} prefetch={false}>
-      <a>FAQ</a>
+      FAQ
     </Link>
-     <a href="https://shop.thecrossingboard.com/pages/contact">
-         Contact
-      </a>
+    <a href="https://shop.thecrossingboard.com/pages/contact">Contact</a>
     <style jsx>
       {`
         .nav-wrapper-mobile {

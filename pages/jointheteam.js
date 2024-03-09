@@ -12,7 +12,7 @@ export default function Jobs({ frontmatter, markdownBody }) {
       <Layout>
         <div className="jobs-wrapper">
           <h2>{frontmatter.title}</h2>
-          <ReactMarkdown source={markdownBody} />
+          <ReactMarkdown>{markdownBody}</ReactMarkdown>
         </div>
         <style jsx>{`
           .jobs-wrapper {

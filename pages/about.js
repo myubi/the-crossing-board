@@ -20,14 +20,20 @@ export default function Info({ frontmatter, markdownBody, profiles }) {
     <div>
       <Head>
         <title>The Crossing Board - About</title>
-         <meta property="og:description" content="The team behind the Animal Crossing fan-made monthly fanzine!" /> 
-         <meta name="description" content="The team behind the Animal Crossing fan-made monthly fanzine!" />
+        <meta
+          property="og:description"
+          content="The team behind the Animal Crossing fan-made monthly fanzine!"
+        />
+        <meta
+          name="description"
+          content="The team behind the Animal Crossing fan-made monthly fanzine!"
+        />
       </Head>
       <Layout>
         <div className="about-section">
           <div className="about-wrapper">
             <h2>{aboutFrontmatter.title}</h2>
-            <ReactMarkdown source={aboutBody} />
+            <ReactMarkdown>{aboutBody}</ReactMarkdown>
           </div>
           <div className="founder">
             <div className="member-of-the-month-text">Mascot</div>
