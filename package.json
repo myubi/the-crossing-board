@@ -10,6 +10,7 @@
     "forestry-preview": "next start -p 8080 -H 0.0.0.0"
   },
   "dependencies": {
+    "@hyvor/hyvor-talk-react": "^0.0.2",
     "emailjs-com": "^2.6.3",
     "gray-matter": "^4.0.2",
     "hyvor-talk-react": "^2.0.1",
@@ -28,7 +29,8 @@
     "react-youtube": "^7.11.3",
     "reactjs-popup": "^2.0.6",
     "serve": "^14.2.1",
-    "tinacms": "^1.6.0"
+    "tinacms": "^1.6.0",
+    "typescript": "^5.4.2"
   },
   "devDependencies": {
     "@tinacms/cli": "^1.5.42",

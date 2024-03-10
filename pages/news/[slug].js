@@ -1,7 +1,7 @@
 import * as React from "react";
 import matter from "gray-matter";
 import ReactMarkdown from "react-markdown";
-import HyvorTalk from "hyvor-talk-react";
+import { Comments } from "@hyvor/hyvor-talk-react";
 import Head from "next/head";
 import glob from "glob";
 
@@ -44,7 +44,7 @@ export default function BlogTemplate({
             <h1 className="article-author">{author}</h1>
           </article>
           <div>
-            <HyvorTalk.Embed websiteId={1011} />
+            <Comments website-id={1011} page-id="" />
           </div>
           <style jsx>
             {`
