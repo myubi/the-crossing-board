@@ -1,4 +1,5 @@
 module.exports = {
+  output: "export",
   webpack: function (config, { isServer }) {
     if (isServer) {
       require("./scripts/generate-podcast-xml");
