@@ -16,8 +16,6 @@ module.exports = {
       "/about": { page: "/about" },
       "/quiz": { page: "/quiz" },
       "/magazine": { page: "/magazine" },
-      "/success": { page: "/success" },
-      "/sold-out": { page: "/sold-out" },
       "/DIYBottleRecipe": { page: "/DIYBottleRecipe" },
       "/dressupgloria": { page: "/dressupgloria" },
     };
