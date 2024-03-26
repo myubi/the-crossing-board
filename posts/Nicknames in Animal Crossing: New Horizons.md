@@ -2,7 +2,7 @@
 title: 'Nicknames in Animal Crossing: New Horizons'
 author: ''
 date: 2024-02-26T00:00:00.000Z
-draft: false
+draft: true
 ---
 
 In Animal Crossing: New Horizons, the bonds between players and their villagers go beyond mere interactions – they extend to the cute and sometimes hilarious practice of nicknaming. Nicknames are not just a form of address; they represent a term of affection (mostly!) between islanders and the player.
@@ -102,5 +102,3 @@ Here's a list of the generic and personalised nicknames that villagers may use:
 * Iron X
 * Kid X
 * DJ XYZ
-
-
